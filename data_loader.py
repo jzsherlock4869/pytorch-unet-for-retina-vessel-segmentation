@@ -15,6 +15,15 @@ from glob import glob
 
 def load_dataset(rel_path='.'):
     
+    if os.path.exists("datasets/training/image.npy") and \
+        os.path.exists("datasets/training/label.npy") and \
+        os.path.exists("datasets/training/mask.npy"):
+        
+        new_input_tensor = np.load("datasets/training/image.npy")
+        new_label_tensor = np.load("datasets/training/label.npy")
+        new_mask_tensor = np.load("datasets/training/mask.npy")
+        return new_input_tensor, new_label_tensor, new_mask_tensor
+
     train_image_files = sorted(glob(os.path.join(rel_path, 'DRIVE/training/images/*.tif')))
     train_label_files = sorted(glob(os.path.join(rel_path, 'DRIVE/training/1st_manual/*.gif')))
     train_mask_files = sorted(glob(os.path.join(rel_path, 'DRIVE/training/mask/*.gif')))
@@ -52,5 +61,9 @@ def load_dataset(rel_path='.'):
             tmp = np.expand_dims(mask, axis=0)
             mask_tensor = np.concatenate((mask_tensor, tmp), axis=0)
     new_mask_tensor = np.stack((mask_tensor[:,:,:], mask_tensor[:,:,:]), axis=1)
+    
+    np.save("datasets/training/image.npy", new_input_tensor)
+    np.save("datasets/training/label.npy", new_label_tensor)
+    np.save("datasets/training/mask.npy", new_mask_tensor)
     
     return new_input_tensor, new_label_tensor, new_mask_tensor
