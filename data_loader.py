@@ -13,23 +13,23 @@ import torch.nn.functional as F
 import os
 from glob import glob
 
-def load_dataset(rel_path='.'):
+def load_dataset(rel_path='.', mode="training"):
     
-    if os.path.exists("datasets/training/image.npy") and \
-        os.path.exists("datasets/training/label.npy") and \
-        os.path.exists("datasets/training/mask.npy"):
+    if os.path.exists("datasets/{}/image.npy".format(mode)) and \
+        os.path.exists("datasets/{}/label.npy".format(mode)) and \
+        os.path.exists("datasets/{}/mask.npy".format(mode)):
         
-        new_input_tensor = np.load("datasets/training/image.npy")
-        new_label_tensor = np.load("datasets/training/label.npy")
-        new_mask_tensor = np.load("datasets/training/mask.npy")
+        new_input_tensor = np.load("datasets/{}/image.npy".format(mode))
+        new_label_tensor = np.load("datasets/{}/label.npy".format(mode))
+        new_mask_tensor = np.load("datasets/{}/mask.npy".format(mode))
         return new_input_tensor, new_label_tensor, new_mask_tensor
 
-    train_image_files = sorted(glob(os.path.join(rel_path, 'DRIVE/training/images/*.tif')))
-    train_label_files = sorted(glob(os.path.join(rel_path, 'DRIVE/training/1st_manual/*.gif')))
-    train_mask_files = sorted(glob(os.path.join(rel_path, 'DRIVE/training/mask/*.gif')))
+    train_image_files = sorted(glob(os.path.join(rel_path, 'DRIVE/{}/images/*.tif'.format(mode))))
+    train_label_files = sorted(glob(os.path.join(rel_path, 'DRIVE/{}/1st_manual/*.gif'.format(mode))))
+    train_mask_files = sorted(glob(os.path.join(rel_path, 'DRIVE/{}/mask/*.gif'.format(mode))))
     
     for i, filename in enumerate(train_image_files):
-        print('[*] adding {}th train image : {}'.format(i + 1, filename))
+        print('[*] adding {}th {} image : {}'.format(i + 1, mode, filename))
         img = Image.open(filename)
         imgmat = np.array(img).astype('float')
         imgmat = (imgmat / 255.0 - 0.5) * 2
@@ -41,7 +41,7 @@ def load_dataset(rel_path='.'):
     new_input_tensor = np.moveaxis(input_tensor, 3, 1)
             
     for i, filename in enumerate(train_label_files):
-        print('[*] adding {}th train label : {}'.format(i + 1, filename))
+        print('[*] adding {}th {} label : {}'.format(i + 1, mode, filename))
         label = np.array(Image.open(filename))
         label = label / 255.0
         if i == 0:
@@ -52,7 +52,7 @@ def load_dataset(rel_path='.'):
     new_label_tensor = np.stack((label_tensor[:,:,:], 1 - label_tensor[:,:,:]), axis=1)
     
     for i, filename in enumerate(train_mask_files):
-        print('[*] adding {}th train mask : {}'.format(i+1, filename))
+        print('[*] adding {}th {} mask : {}'.format(i+1, mode, filename))
         mask = np.array(Image.open(filename))
         mask = mask / 255.0
         if i == 0:
@@ -62,8 +62,8 @@ def load_dataset(rel_path='.'):
             mask_tensor = np.concatenate((mask_tensor, tmp), axis=0)
     new_mask_tensor = np.stack((mask_tensor[:,:,:], mask_tensor[:,:,:]), axis=1)
     
-    np.save("datasets/training/image.npy", new_input_tensor)
-    np.save("datasets/training/label.npy", new_label_tensor)
-    np.save("datasets/training/mask.npy", new_mask_tensor)
+    np.save("datasets/{}/image.npy".format(mode), new_input_tensor)
+    np.save("datasets/{}/label.npy".format(mode), new_label_tensor)
+    np.save("datasets/{}/mask.npy".format(mode), new_mask_tensor)
     
     return new_input_tensor, new_label_tensor, new_mask_tensor

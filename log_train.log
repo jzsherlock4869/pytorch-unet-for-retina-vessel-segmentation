@@ -1,0 +1,14 @@
+[+] ====== Start training... epoch 1 ======
+[*] Epoch: 1, Iter: 1 current loss: 0.60773993
+[*] Epoch: 1, Iter: 2 current loss: 0.47243381
+[*] Epoch: 1, Iter: 3 current loss: 0.40635327
+[*] Epoch: 1, Iter: 4 current loss: 0.36204371
+[+] ====== Epoch 1 finished, avg_loss : 0.46214268 ======
+[+] ====== Start training... epoch 2 ======
+[*] Epoch: 2, Iter: 1 current loss: 0.33747378
+[*] Epoch: 2, Iter: 2 current loss: 0.33514044
+[*] Epoch: 2, Iter: 3 current loss: 0.31569377
+[*] Epoch: 2, Iter: 4 current loss: 0.30624640
+[+] ====== Epoch 2 finished, avg_loss : 0.32363860 ======
+[+] ====== Start training... epoch 3 ======
+[*] Epoch: 3, Iter: 1 current loss: 0.28473744

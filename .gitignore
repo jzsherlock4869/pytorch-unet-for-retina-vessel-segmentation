@@ -1,0 +1,5 @@
+*.npy
+checkpoint/
+DRIVE/
+__pycache__/
+

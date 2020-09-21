@@ -14,6 +14,8 @@ import os
 from glob import glob
 from data_loader import load_dataset
 from unet_model import Unet
+import warnings
+warnings.filterwarnings('ignore')
 
 def model_train(net, epochs=500, batch_size=2, lr=0.01):
     #optimizer = torch.optim.RMSprop(net.parameters(), lr=lr, weight_decay=1e-8, momentum=0.9)
@@ -43,6 +45,7 @@ def model_train(net, epochs=500, batch_size=2, lr=0.01):
                 bat_mask = torch.Tensor(m_tensor[start_id : , :, :])
             optimizer.zero_grad()
             bat_pred = net(bat_img)
+            #print(bat_pred.size(), bat_mask.size(), bat_label.size())
             loss = loss_func(bat_pred * bat_mask, bat_label * bat_mask)
             print("[*] Epoch: {}, Iter: {} current loss: {:.8f}"\
                   .format(epoch + 1, ite + 1, loss.item()))
@@ -55,11 +58,11 @@ def model_train(net, epochs=500, batch_size=2, lr=0.01):
                       .format(epoch + 1, epoch_avg_loss))
             loss.backward()
             optimizer.step()
-        torch.save(net, "./checkpoint/Unet_epoch{}_loss{:.4f}_retina.model".format(epoch + 1, epoch_avg_loss))
+        torch.save(net.state_dict(), "./checkpoint/Unet_epoch{}_loss{:.4f}_retina.model".format(epoch + 1, epoch_avg_loss))
     return net
 
 if __name__ == "__main__":
-    
+
     if not os.path.exists("./checkpoint"):
         os.mkdir("./checkpoint")
     if not os.path.exists("./datasets"):
