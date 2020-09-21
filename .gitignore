@@ -1,4 +1,6 @@
 *.npy
+*.DS_Store
+*.log
 checkpoint/
 DRIVE/
 __pycache__/
