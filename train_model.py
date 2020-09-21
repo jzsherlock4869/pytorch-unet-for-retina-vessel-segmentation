@@ -43,7 +43,6 @@ def model_train(net, epochs=500, batch_size=2, lr=0.01):
                 bat_mask = torch.Tensor(m_tensor[start_id : , :, :])
             optimizer.zero_grad()
             bat_pred = net(bat_img)
-            #print(bat_pred.size(), bat_mask.size(), bat_label.size())
             loss = loss_func(bat_pred * bat_mask, bat_label * bat_mask)
             print("[*] Epoch: {}, Iter: {} current loss: {:.8f}"\
                   .format(epoch + 1, ite + 1, loss.item()))
@@ -63,6 +62,12 @@ if __name__ == "__main__":
     
     if not os.path.exists("./checkpoint"):
         os.mkdir("./checkpoint")
+    if not os.path.exists("./datasets"):
+        os.mkdir("./datasets")
+    if not os.path.exists("./datasets/training"):
+        os.mkdir("./datasets/training")
+    if not os.path.exists("./datasets/testing"):
+        os.mkdir("./datasets/testing")
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     unet_ins = Unet(img_ch=3, K_class=2)
