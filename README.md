@@ -1,4 +1,4 @@
-# PyTorch Unet Implementation for Retina Vessel Segmentation on DRIVE dataset
+# PyTorch Unet Implementation for Segmentation of Retina Vessel on DRIVE dataset
 
 This repo is a simple and easy to follow pyTorch implementation of U-net for retina vessel segmentation. 
 
@@ -10,9 +10,9 @@ Reference for DRIVE dataset and introduction: [DRIVE: Digital Retinal Images for
 
 The versions of packages used in the experiment are as follows:
 
-torch == 1.5.1
-PIL == 5.4.1
-numpy == 1.16.2
+torch == 1.5.1 \\
+PIL == 5.4.1 \\
+numpy == 1.16.2 \\
 matplotlib == 3.0.3
 
 
