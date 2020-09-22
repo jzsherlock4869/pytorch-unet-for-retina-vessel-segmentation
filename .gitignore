@@ -1,5 +1,6 @@
 *.npy
-*.DS_Store
+*.png
+.DS_Store
 *.log
 checkpoint/
 DRIVE/

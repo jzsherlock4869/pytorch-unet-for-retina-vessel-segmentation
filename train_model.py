@@ -17,11 +17,12 @@ from unet_model import Unet
 import warnings
 warnings.filterwarnings('ignore')
 
-def model_train(net, epochs=500, batch_size=2, lr=0.01):
+def model_train(net, epochs=500, batch_size=2, lr=0.05):
     #optimizer = torch.optim.RMSprop(net.parameters(), lr=lr, weight_decay=1e-8, momentum=0.9)
-    optimizer = torch.optim.SGD(net.parameters(), lr=lr)
-    loss_func = nn.BCELoss()
-    x_tensor, y_tensor, m_tensor = load_dataset()
+    #optimizer = torch.optim.SGD(net.parameters(), lr=lr)
+    optimizer = torch.optim.Adam(net.parameters(), lr=lr)
+    loss_func = nn.CrossEntropyLoss()
+    x_tensor, y_tensor, m_tensor = load_dataset(mode="training", resize=True, resize_shape=(256, 256))
     #x_tensor, y_tensor, m_tensor = rim_padding(x_tensor), rim_padding(y_tensor), rim_padding(m_tensor)
     num_samples = x_tensor.shape[0]
     for epoch in range(epochs):
@@ -36,17 +37,21 @@ def model_train(net, epochs=500, batch_size=2, lr=0.01):
             if not ite == num_iters - 1:
                 start_id, end_id = ite * batch_size, (ite + 1) * batch_size
                 bat_img = torch.Tensor(x_tensor[start_id : end_id, :, :, :])
-                bat_label = torch.Tensor(y_tensor[start_id : end_id, :, :])
-                bat_mask = torch.Tensor(m_tensor[start_id : end_id, :, :])
+                bat_label = torch.Tensor(y_tensor[start_id : end_id, 0, :, :])
+                bat_mask_2ch = torch.Tensor(m_tensor[start_id : end_id, :, :, :])
+                bat_mask = torch.Tensor(m_tensor[start_id : end_id, 0, :, :])
             else:
                 start_id = ite * batch_size
                 bat_img = torch.Tensor(x_tensor[start_id : , :, :, :])
-                bat_label = torch.Tensor(y_tensor[start_id : , :, :])
-                bat_mask = torch.Tensor(m_tensor[start_id : , :, :])
+                bat_label = torch.Tensor(y_tensor[start_id : , 0, :, :])
+                bat_mask_2ch = torch.Tensor(m_tensor[start_id : , :, :, :])
+                bat_mask = torch.Tensor(m_tensor[start_id : , 0, :, :])
             optimizer.zero_grad()
             bat_pred = net(bat_img)
             #print(bat_pred.size(), bat_mask.size(), bat_label.size())
-            loss = loss_func(bat_pred * bat_mask, bat_label * bat_mask)
+            masked_pred = bat_pred * bat_mask_2ch
+            masked_label = bat_label * bat_mask
+            loss = loss_func(masked_pred, masked_label.long())
             print("[*] Epoch: {}, Iter: {} current loss: {:.8f}"\
                   .format(epoch + 1, ite + 1, loss.item()))
             if not ite == num_iters - 1:
@@ -69,10 +74,8 @@ if __name__ == "__main__":
         os.mkdir("./datasets")
     if not os.path.exists("./datasets/training"):
         os.mkdir("./datasets/training")
-    if not os.path.exists("./datasets/testing"):
-        os.mkdir("./datasets/testing")
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    unet_ins = Unet(img_ch=3, K_class=2)
+    unet_ins = Unet(img_ch=3, K_class=2, isDeconv=False)
     unet_ins.to(device)
     trained_unet = model_train(unet_ins, batch_size=5, epochs=50)
