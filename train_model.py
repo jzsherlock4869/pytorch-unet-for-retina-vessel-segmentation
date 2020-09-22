@@ -23,8 +23,6 @@ def model_train(net, epochs=500, batch_size=2, lr=1e-2, save_every=5, eval_every
     optimizer = torch.optim.SGD(net.parameters(), lr=lr)
     #optimizer = torch.optim.Adam(net.parameters(), lr=lr)
     #loss_func = nn.CrossEntropyLoss()
-    class_weights = torch.Tensor([1.0, 10.0])
-    loss_func = nn.BCELoss(weight=class_weights)
     x_tensor, y_tensor, m_tensor = load_dataset(mode="training", resize=True, resize_shape=(256, 256))
     #x_tensor, y_tensor, m_tensor = rim_padding(x_tensor), rim_padding(y_tensor), rim_padding(m_tensor)
     num_samples = x_tensor.shape[0]
@@ -49,12 +47,13 @@ def model_train(net, epochs=500, batch_size=2, lr=1e-2, save_every=5, eval_every
                 bat_label = torch.Tensor(y_tensor[start_id : , 0: 1, :, :])
                 # bat_mask_2ch = torch.Tensor(m_tensor[start_id : , :, :, :])
                 bat_mask = torch.Tensor(m_tensor[start_id : , 0: 1, :, :])
+            criterion = nn.BCELoss()
             optimizer.zero_grad()
             bat_pred = net(bat_img)
             # print(bat_pred.size(), bat_mask.size(), bat_label.size())
             # masked_pred = bat_pred * bat_mask
             # masked_label = bat_label * bat_mask
-            loss = loss_func(bat_pred, bat_label.float())
+            loss = criterion(bat_pred, bat_label.float())
             # loss = loss_func(masked_pred, masked_label.float())
             print("[*] Epoch: {}, Iter: {} current loss: {:.8f}"\
                   .format(epoch + 1, ite + 1, loss.item()))
