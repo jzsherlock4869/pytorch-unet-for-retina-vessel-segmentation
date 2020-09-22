@@ -59,5 +59,579 @@
 [*] adding 19th training mask : ./DRIVE/training/mask/39_training_mask.gif
 [*] adding 20th training mask : ./DRIVE/training/mask/40_training_mask.gif
 [+] ====== Start training... epoch 1 ======
-[*] Epoch: 1, Iter: 1 current loss: 0.69115114
-[*] Epoch: 1, Iter: 2 current loss: 0.69019121
+[*] Epoch: 1, Iter: 1 current loss: 0.68876630
+[*] Epoch: 1, Iter: 2 current loss: 0.68845087
+[*] Epoch: 1, Iter: 3 current loss: 0.68813413
+[+] ====== Epoch 1 finished, avg_loss : 0.68845044 ======
+[+] ====== Start training... epoch 2 ======
+[*] Epoch: 2, Iter: 1 current loss: 0.68774760
+[*] Epoch: 2, Iter: 2 current loss: 0.68760240
+[*] Epoch: 2, Iter: 3 current loss: 0.68525511
+[+] ====== Epoch 2 finished, avg_loss : 0.68686837 ======
+[+] ====== Start training... epoch 3 ======
+[*] Epoch: 3, Iter: 1 current loss: 0.68550074
+[*] Epoch: 3, Iter: 2 current loss: 0.68507761
+[*] Epoch: 3, Iter: 3 current loss: 0.68152744
+[+] ====== Epoch 3 finished, avg_loss : 0.68403526 ======
+[+] ====== Start training... epoch 4 ======
+[*] Epoch: 4, Iter: 1 current loss: 0.68397176
+[*] Epoch: 4, Iter: 2 current loss: 0.67949879
+[*] Epoch: 4, Iter: 3 current loss: 0.67810506
+[+] ====== Epoch 4 finished, avg_loss : 0.68052520 ======
+[+] ====== Start training... epoch 5 ======
+[*] Epoch: 5, Iter: 1 current loss: 0.67747778
+[*] Epoch: 5, Iter: 2 current loss: 0.67680472
+[*] Epoch: 5, Iter: 3 current loss: 0.67447501
+[+] ====== Epoch 5 finished, avg_loss : 0.67625250 ======
+[+] ====== Start training... epoch 6 ======
+[*] Epoch: 6, Iter: 1 current loss: 0.67489737
+[*] Epoch: 6, Iter: 2 current loss: 0.67348588
+[*] Epoch: 6, Iter: 3 current loss: 0.67226774
+[+] ====== Epoch 6 finished, avg_loss : 0.67355033 ======
+[+] ====== Start training... epoch 7 ======
+[*] Epoch: 7, Iter: 1 current loss: 0.66881424
+[*] Epoch: 7, Iter: 2 current loss: 0.66901368
+[*] Epoch: 7, Iter: 3 current loss: 0.67045641
+[+] ====== Epoch 7 finished, avg_loss : 0.66942811 ======
+[+] ====== Start training... epoch 8 ======
+[*] Epoch: 8, Iter: 1 current loss: 0.66762632
+[*] Epoch: 8, Iter: 2 current loss: 0.66731584
+[*] Epoch: 8, Iter: 3 current loss: 0.66624129
+[+] ====== Epoch 8 finished, avg_loss : 0.66706115 ======
+[+] ====== Start training... epoch 9 ======
+[*] Epoch: 9, Iter: 1 current loss: 0.66527534
+[*] Epoch: 9, Iter: 2 current loss: 0.66281611
+[*] Epoch: 9, Iter: 3 current loss: 0.66236609
+[+] ====== Epoch 9 finished, avg_loss : 0.66348584 ======
+[+] ====== Start training... epoch 10 ======
+[*] Epoch: 10, Iter: 1 current loss: 0.66124165
+[*] Epoch: 10, Iter: 2 current loss: 0.66060853
+[*] Epoch: 10, Iter: 3 current loss: 0.65843129
+[+] ====== Epoch 10 finished, avg_loss : 0.66009382 ======
+[+] ====== Start training... epoch 11 ======
+[*] Epoch: 11, Iter: 1 current loss: 0.65948063
+[*] Epoch: 11, Iter: 2 current loss: 0.65755314
+[*] Epoch: 11, Iter: 3 current loss: 0.65784383
+[+] ====== Epoch 11 finished, avg_loss : 0.65829253 ======
+[+] ====== Start training... epoch 12 ======
+[*] Epoch: 12, Iter: 1 current loss: 0.65730619
+[*] Epoch: 12, Iter: 2 current loss: 0.65590513
+[*] Epoch: 12, Iter: 3 current loss: 0.65618974
+[+] ====== Epoch 12 finished, avg_loss : 0.65646702 ======
+[+] ====== Start training... epoch 13 ======
+[*] Epoch: 13, Iter: 1 current loss: 0.65484750
+[*] Epoch: 13, Iter: 2 current loss: 0.65334439
+[*] Epoch: 13, Iter: 3 current loss: 0.65027678
+[+] ====== Epoch 13 finished, avg_loss : 0.65282289 ======
+[+] ====== Start training... epoch 14 ======
+[*] Epoch: 14, Iter: 1 current loss: 0.65156335
+[*] Epoch: 14, Iter: 2 current loss: 0.64895755
+[*] Epoch: 14, Iter: 3 current loss: 0.64845210
+[+] ====== Epoch 14 finished, avg_loss : 0.64965767 ======
+[+] ====== Start training... epoch 15 ======
+[*] Epoch: 15, Iter: 1 current loss: 0.64840746
+[*] Epoch: 15, Iter: 2 current loss: 0.64840472
+[*] Epoch: 15, Iter: 3 current loss: 0.64542735
+[+] ====== Epoch 15 finished, avg_loss : 0.64741317 ======
+[+] ====== Start training... epoch 16 ======
+[*] Epoch: 16, Iter: 1 current loss: 0.64743203
+[*] Epoch: 16, Iter: 2 current loss: 0.64486670
+[*] Epoch: 16, Iter: 3 current loss: 0.64221299
+[+] ====== Epoch 16 finished, avg_loss : 0.64483724 ======
+[+] ====== Start training... epoch 17 ======
+[*] Epoch: 17, Iter: 1 current loss: 0.64015973
+[*] Epoch: 17, Iter: 2 current loss: 0.63989782
+[*] Epoch: 17, Iter: 3 current loss: 0.63870919
+[+] ====== Epoch 17 finished, avg_loss : 0.63958891 ======
+[+] ====== Start training... epoch 18 ======
+[*] Epoch: 18, Iter: 1 current loss: 0.63907111
+[*] Epoch: 18, Iter: 2 current loss: 0.63559425
+[*] Epoch: 18, Iter: 3 current loss: 0.63589334
+[+] ====== Epoch 18 finished, avg_loss : 0.63685290 ======
+[+] ====== Start training... epoch 19 ======
+[*] Epoch: 19, Iter: 1 current loss: 0.63379985
+[*] Epoch: 19, Iter: 2 current loss: 0.63149768
+[*] Epoch: 19, Iter: 3 current loss: 0.63334244
+[+] ====== Epoch 19 finished, avg_loss : 0.63287999 ======
+[+] ====== Start training... epoch 20 ======
+[*] Epoch: 20, Iter: 1 current loss: 0.62980175
+[*] Epoch: 20, Iter: 2 current loss: 0.62867665
+[*] Epoch: 20, Iter: 3 current loss: 0.62954408
+[+] ====== Epoch 20 finished, avg_loss : 0.62934083 ======
+[+] ====== Start training... epoch 21 ======
+[*] Epoch: 21, Iter: 1 current loss: 0.62757075
+[*] Epoch: 21, Iter: 2 current loss: 0.62778169
+[*] Epoch: 21, Iter: 3 current loss: 0.62679851
+[+] ====== Epoch 21 finished, avg_loss : 0.62738365 ======
+[+] ====== Start training... epoch 22 ======
+[*] Epoch: 22, Iter: 1 current loss: 0.62557960
+[*] Epoch: 22, Iter: 2 current loss: 0.62604982
+[*] Epoch: 22, Iter: 3 current loss: 0.62235349
+[+] ====== Epoch 22 finished, avg_loss : 0.62466097 ======
+[+] ====== Start training... epoch 23 ======
+[*] Epoch: 23, Iter: 1 current loss: 0.62315726
+[*] Epoch: 23, Iter: 2 current loss: 0.61825812
+[*] Epoch: 23, Iter: 3 current loss: 0.61739266
+[+] ====== Epoch 23 finished, avg_loss : 0.61960268 ======
+[+] ====== Start training... epoch 24 ======
+[*] Epoch: 24, Iter: 1 current loss: 0.61429316
+[*] Epoch: 24, Iter: 2 current loss: 0.61842424
+[*] Epoch: 24, Iter: 3 current loss: 0.61222374
+[+] ====== Epoch 24 finished, avg_loss : 0.61498038 ======
+[+] ====== Start training... epoch 25 ======
+[*] Epoch: 25, Iter: 1 current loss: 0.61475378
+[*] Epoch: 25, Iter: 2 current loss: 0.61109847
+[*] Epoch: 25, Iter: 3 current loss: 0.60871631
+[+] ====== Epoch 25 finished, avg_loss : 0.61152285 ======
+[+] ====== Start training... epoch 26 ======
+[*] Epoch: 26, Iter: 1 current loss: 0.60693502
+[*] Epoch: 26, Iter: 2 current loss: 0.60712135
+[*] Epoch: 26, Iter: 3 current loss: 0.61010092
+[+] ====== Epoch 26 finished, avg_loss : 0.60805243 ======
+[+] ====== Start training... epoch 27 ======
+[*] Epoch: 27, Iter: 1 current loss: 0.60697162
+[*] Epoch: 27, Iter: 2 current loss: 0.60335767
+[*] Epoch: 27, Iter: 3 current loss: 0.60282826
+[+] ====== Epoch 27 finished, avg_loss : 0.60438585 ======
+[+] ====== Start training... epoch 28 ======
+[*] Epoch: 28, Iter: 1 current loss: 0.60209674
+[*] Epoch: 28, Iter: 2 current loss: 0.59927499
+[*] Epoch: 28, Iter: 3 current loss: 0.59892333
+[+] ====== Epoch 28 finished, avg_loss : 0.60009835 ======
+[+] ====== Start training... epoch 29 ======
+[*] Epoch: 29, Iter: 1 current loss: 0.59860730
+[*] Epoch: 29, Iter: 2 current loss: 0.59648478
+[*] Epoch: 29, Iter: 3 current loss: 0.59573078
+[+] ====== Epoch 29 finished, avg_loss : 0.59694095 ======
+[+] ====== Start training... epoch 30 ======
+[*] Epoch: 30, Iter: 1 current loss: 0.59361857
+[*] Epoch: 30, Iter: 2 current loss: 0.59338880
+[*] Epoch: 30, Iter: 3 current loss: 0.59392518
+[+] ====== Epoch 30 finished, avg_loss : 0.59364418 ======
+[+] ====== Start training... epoch 31 ======
+[*] Epoch: 31, Iter: 1 current loss: 0.58895630
+[*] Epoch: 31, Iter: 2 current loss: 0.58867717
+[*] Epoch: 31, Iter: 3 current loss: 0.58768034
+[+] ====== Epoch 31 finished, avg_loss : 0.58843793 ======
+[+] ====== Start training... epoch 32 ======
+[*] Epoch: 32, Iter: 1 current loss: 0.58613735
+[*] Epoch: 32, Iter: 2 current loss: 0.58486295
+[*] Epoch: 32, Iter: 3 current loss: 0.58321226
+[+] ====== Epoch 32 finished, avg_loss : 0.58473752 ======
+[+] ====== Start training... epoch 33 ======
+[*] Epoch: 33, Iter: 1 current loss: 0.58022809
+[*] Epoch: 33, Iter: 2 current loss: 0.58350337
+[*] Epoch: 33, Iter: 3 current loss: 0.57769614
+[+] ====== Epoch 33 finished, avg_loss : 0.58047587 ======
+[+] ====== Start training... epoch 34 ======
+[*] Epoch: 34, Iter: 1 current loss: 0.57408309
+[*] Epoch: 34, Iter: 2 current loss: 0.57663012
+[*] Epoch: 34, Iter: 3 current loss: 0.57745045
+[+] ====== Epoch 34 finished, avg_loss : 0.57605455 ======
+[+] ====== Start training... epoch 35 ======
+[*] Epoch: 35, Iter: 1 current loss: 0.57278603
+[*] Epoch: 35, Iter: 2 current loss: 0.56943202
+[*] Epoch: 35, Iter: 3 current loss: 0.56769603
+[+] ====== Epoch 35 finished, avg_loss : 0.56997136 ======
+[+] ====== Start training... epoch 36 ======
+[*] Epoch: 36, Iter: 1 current loss: 0.56820434
+[*] Epoch: 36, Iter: 2 current loss: 0.56833261
+[*] Epoch: 36, Iter: 3 current loss: 0.56145781
+[+] ====== Epoch 36 finished, avg_loss : 0.56599826 ======
+[+] ====== Start training... epoch 37 ======
+[*] Epoch: 37, Iter: 1 current loss: 0.56537616
+[*] Epoch: 37, Iter: 2 current loss: 0.55963260
+[*] Epoch: 37, Iter: 3 current loss: 0.55951071
+[+] ====== Epoch 37 finished, avg_loss : 0.56150649 ======
+[+] ====== Start training... epoch 38 ======
+[*] Epoch: 38, Iter: 1 current loss: 0.55898529
+[*] Epoch: 38, Iter: 2 current loss: 0.55581379
+[*] Epoch: 38, Iter: 3 current loss: 0.55608892
+[+] ====== Epoch 38 finished, avg_loss : 0.55696267 ======
+[+] ====== Start training... epoch 39 ======
+[*] Epoch: 39, Iter: 1 current loss: 0.55157471
+[*] Epoch: 39, Iter: 2 current loss: 0.55448622
+[*] Epoch: 39, Iter: 3 current loss: 0.54665464
+[+] ====== Epoch 39 finished, avg_loss : 0.55090519 ======
+[+] ====== Start training... epoch 40 ======
+[*] Epoch: 40, Iter: 1 current loss: 0.54769492
+[*] Epoch: 40, Iter: 2 current loss: 0.54675692
+[*] Epoch: 40, Iter: 3 current loss: 0.54717463
+[+] ====== Epoch 40 finished, avg_loss : 0.54720883 ======
+[+] ====== Start training... epoch 41 ======
+[*] Epoch: 41, Iter: 1 current loss: 0.54131931
+[*] Epoch: 41, Iter: 2 current loss: 0.54060340
+[*] Epoch: 41, Iter: 3 current loss: 0.54471719
+[+] ====== Epoch 41 finished, avg_loss : 0.54221330 ======
+[+] ====== Start training... epoch 42 ======
+[*] Epoch: 42, Iter: 1 current loss: 0.53748882
+[*] Epoch: 42, Iter: 2 current loss: 0.53905904
+[*] Epoch: 42, Iter: 3 current loss: 0.52954388
+[+] ====== Epoch 42 finished, avg_loss : 0.53536391 ======
+[+] ====== Start training... epoch 43 ======
+[*] Epoch: 43, Iter: 1 current loss: 0.52908319
+[*] Epoch: 43, Iter: 2 current loss: 0.53122604
+[*] Epoch: 43, Iter: 3 current loss: 0.53621513
+[+] ====== Epoch 43 finished, avg_loss : 0.53217479 ======
+[+] ====== Start training... epoch 44 ======
+[*] Epoch: 44, Iter: 1 current loss: 0.52883142
+[*] Epoch: 44, Iter: 2 current loss: 0.52260834
+[*] Epoch: 44, Iter: 3 current loss: 0.52751243
+[+] ====== Epoch 44 finished, avg_loss : 0.52631740 ======
+[+] ====== Start training... epoch 45 ======
+[*] Epoch: 45, Iter: 1 current loss: 0.52451587
+[*] Epoch: 45, Iter: 2 current loss: 0.51913255
+[*] Epoch: 45, Iter: 3 current loss: 0.51538646
+[+] ====== Epoch 45 finished, avg_loss : 0.51967829 ======
+[+] ====== Start training... epoch 46 ======
+[*] Epoch: 46, Iter: 1 current loss: 0.51588506
+[*] Epoch: 46, Iter: 2 current loss: 0.51652086
+[*] Epoch: 46, Iter: 3 current loss: 0.51053119
+[+] ====== Epoch 46 finished, avg_loss : 0.51431237 ======
+[+] ====== Start training... epoch 47 ======
+[*] Epoch: 47, Iter: 1 current loss: 0.51180935
+[*] Epoch: 47, Iter: 2 current loss: 0.50966144
+[*] Epoch: 47, Iter: 3 current loss: 0.50623810
+[+] ====== Epoch 47 finished, avg_loss : 0.50923630 ======
+[+] ====== Start training... epoch 48 ======
+[*] Epoch: 48, Iter: 1 current loss: 0.50554907
+[*] Epoch: 48, Iter: 2 current loss: 0.50255555
+[*] Epoch: 48, Iter: 3 current loss: 0.50569534
+[+] ====== Epoch 48 finished, avg_loss : 0.50459999 ======
+[+] ====== Start training... epoch 49 ======
+[*] Epoch: 49, Iter: 1 current loss: 0.49772862
+[*] Epoch: 49, Iter: 2 current loss: 0.50206929
+[*] Epoch: 49, Iter: 3 current loss: 0.49823669
+[+] ====== Epoch 49 finished, avg_loss : 0.49934487 ======
+[+] ====== Start training... epoch 50 ======
+[*] Epoch: 50, Iter: 1 current loss: 0.49670208
+[*] Epoch: 50, Iter: 2 current loss: 0.49489391
+[*] Epoch: 50, Iter: 3 current loss: 0.48927456
+[+] ====== Epoch 50 finished, avg_loss : 0.49362351 ======
+[+] ====== Start training... epoch 51 ======
+[*] Epoch: 51, Iter: 1 current loss: 0.48754892
+[*] Epoch: 51, Iter: 2 current loss: 0.49317890
+[*] Epoch: 51, Iter: 3 current loss: 0.48605302
+[+] ====== Epoch 51 finished, avg_loss : 0.48892695 ======
+[+] ====== Start training... epoch 52 ======
+[*] Epoch: 52, Iter: 1 current loss: 0.48449081
+[*] Epoch: 52, Iter: 2 current loss: 0.48734054
+[*] Epoch: 52, Iter: 3 current loss: 0.48174286
+[+] ====== Epoch 52 finished, avg_loss : 0.48452474 ======
+[+] ====== Start training... epoch 53 ======
+[*] Epoch: 53, Iter: 1 current loss: 0.47586161
+[*] Epoch: 53, Iter: 2 current loss: 0.48210663
+[*] Epoch: 53, Iter: 3 current loss: 0.48256460
+[+] ====== Epoch 53 finished, avg_loss : 0.48017761 ======
+[+] ====== Start training... epoch 54 ======
+[*] Epoch: 54, Iter: 1 current loss: 0.47651330
+[*] Epoch: 54, Iter: 2 current loss: 0.47738650
+[*] Epoch: 54, Iter: 3 current loss: 0.47191021
+[+] ====== Epoch 54 finished, avg_loss : 0.47527000 ======
+[+] ====== Start training... epoch 55 ======
+[*] Epoch: 55, Iter: 1 current loss: 0.47067133
+[*] Epoch: 55, Iter: 2 current loss: 0.47779331
+[*] Epoch: 55, Iter: 3 current loss: 0.46340621
+[+] ====== Epoch 55 finished, avg_loss : 0.47062361 ======
+[+] ====== Start training... epoch 56 ======
+[*] Epoch: 56, Iter: 1 current loss: 0.46467972
+[*] Epoch: 56, Iter: 2 current loss: 0.46900117
+[*] Epoch: 56, Iter: 3 current loss: 0.46929833
+[+] ====== Epoch 56 finished, avg_loss : 0.46765974 ======
+[+] ====== Start training... epoch 57 ======
+[*] Epoch: 57, Iter: 1 current loss: 0.46183243
+[*] Epoch: 57, Iter: 2 current loss: 0.46591711
+[*] Epoch: 57, Iter: 3 current loss: 0.46265447
+[+] ====== Epoch 57 finished, avg_loss : 0.46346801 ======
+[+] ====== Start training... epoch 58 ======
+[*] Epoch: 58, Iter: 1 current loss: 0.46127850
+[*] Epoch: 58, Iter: 2 current loss: 0.46300960
+[*] Epoch: 58, Iter: 3 current loss: 0.45534176
+[+] ====== Epoch 58 finished, avg_loss : 0.45987662 ======
+[+] ====== Start training... epoch 59 ======
+[*] Epoch: 59, Iter: 1 current loss: 0.45832002
+[*] Epoch: 59, Iter: 2 current loss: 0.45716086
+[*] Epoch: 59, Iter: 3 current loss: 0.45570007
+[+] ====== Epoch 59 finished, avg_loss : 0.45706032 ======
+[+] ====== Start training... epoch 60 ======
+[*] Epoch: 60, Iter: 1 current loss: 0.45486605
+[*] Epoch: 60, Iter: 2 current loss: 0.45426887
+[*] Epoch: 60, Iter: 3 current loss: 0.45128366
+[+] ====== Epoch 60 finished, avg_loss : 0.45347286 ======
+[+] ====== Start training... epoch 61 ======
+[*] Epoch: 61, Iter: 1 current loss: 0.44853544
+[*] Epoch: 61, Iter: 2 current loss: 0.45382726
+[*] Epoch: 61, Iter: 3 current loss: 0.44914031
+[+] ====== Epoch 61 finished, avg_loss : 0.45050100 ======
+[+] ====== Start training... epoch 62 ======
+[*] Epoch: 62, Iter: 1 current loss: 0.44645655
+[*] Epoch: 62, Iter: 2 current loss: 0.44680566
+[*] Epoch: 62, Iter: 3 current loss: 0.45254764
+[+] ====== Epoch 62 finished, avg_loss : 0.44860328 ======
+[+] ====== Start training... epoch 63 ======
+[*] Epoch: 63, Iter: 1 current loss: 0.44875574
+[*] Epoch: 63, Iter: 2 current loss: 0.44036928
+[*] Epoch: 63, Iter: 3 current loss: 0.44807020
+[+] ====== Epoch 63 finished, avg_loss : 0.44573174 ======
+[+] ====== Start training... epoch 64 ======
+[*] Epoch: 64, Iter: 1 current loss: 0.44405961
+[*] Epoch: 64, Iter: 2 current loss: 0.44246498
+[*] Epoch: 64, Iter: 3 current loss: 0.44370818
+[+] ====== Epoch 64 finished, avg_loss : 0.44341092 ======
+[+] ====== Start training... epoch 65 ======
+[*] Epoch: 65, Iter: 1 current loss: 0.44429415
+[*] Epoch: 65, Iter: 2 current loss: 0.43901220
+[*] Epoch: 65, Iter: 3 current loss: 0.43961331
+[+] ====== Epoch 65 finished, avg_loss : 0.44097322 ======
+[+] ====== Start training... epoch 66 ======
+[*] Epoch: 66, Iter: 1 current loss: 0.43946230
+[*] Epoch: 66, Iter: 2 current loss: 0.43846077
+[*] Epoch: 66, Iter: 3 current loss: 0.44017434
+[+] ====== Epoch 66 finished, avg_loss : 0.43936580 ======
+[+] ====== Start training... epoch 67 ======
+[*] Epoch: 67, Iter: 1 current loss: 0.43727127
+[*] Epoch: 67, Iter: 2 current loss: 0.43721253
+[*] Epoch: 67, Iter: 3 current loss: 0.43633363
+[+] ====== Epoch 67 finished, avg_loss : 0.43693914 ======
+[+] ====== Start training... epoch 68 ======
+[*] Epoch: 68, Iter: 1 current loss: 0.43672335
+[*] Epoch: 68, Iter: 2 current loss: 0.43759561
+[*] Epoch: 68, Iter: 3 current loss: 0.42771760
+[+] ====== Epoch 68 finished, avg_loss : 0.43401218 ======
+[+] ====== Start training... epoch 69 ======
+[*] Epoch: 69, Iter: 1 current loss: 0.43796596
+[*] Epoch: 69, Iter: 2 current loss: 0.42904490
+[*] Epoch: 69, Iter: 3 current loss: 0.43467391
+[+] ====== Epoch 69 finished, avg_loss : 0.43389492 ======
+[+] ====== Start training... epoch 70 ======
+[*] Epoch: 70, Iter: 1 current loss: 0.43161502
+[*] Epoch: 70, Iter: 2 current loss: 0.43316171
+[*] Epoch: 70, Iter: 3 current loss: 0.43104088
+[+] ====== Epoch 70 finished, avg_loss : 0.43193920 ======
+[+] ====== Start training... epoch 71 ======
+[*] Epoch: 71, Iter: 1 current loss: 0.42853895
+[*] Epoch: 71, Iter: 2 current loss: 0.43016008
+[*] Epoch: 71, Iter: 3 current loss: 0.43007350
+[+] ====== Epoch 71 finished, avg_loss : 0.42959084 ======
+[+] ====== Start training... epoch 72 ======
+[*] Epoch: 72, Iter: 1 current loss: 0.42822555
+[*] Epoch: 72, Iter: 2 current loss: 0.42722374
+[*] Epoch: 72, Iter: 3 current loss: 0.42945379
+[+] ====== Epoch 72 finished, avg_loss : 0.42830103 ======
+[+] ====== Start training... epoch 73 ======
+[*] Epoch: 73, Iter: 1 current loss: 0.42779985
+[*] Epoch: 73, Iter: 2 current loss: 0.43050909
+[*] Epoch: 73, Iter: 3 current loss: 0.41845405
+[+] ====== Epoch 73 finished, avg_loss : 0.42558766 ======
+[+] ====== Start training... epoch 74 ======
+[*] Epoch: 74, Iter: 1 current loss: 0.42146739
+[*] Epoch: 74, Iter: 2 current loss: 0.42981490
+[*] Epoch: 74, Iter: 3 current loss: 0.42602009
+[+] ====== Epoch 74 finished, avg_loss : 0.42576746 ======
+[+] ====== Start training... epoch 75 ======
+[*] Epoch: 75, Iter: 1 current loss: 0.42105362
+[*] Epoch: 75, Iter: 2 current loss: 0.42627746
+[*] Epoch: 75, Iter: 3 current loss: 0.42828009
+[+] ====== Epoch 75 finished, avg_loss : 0.42520372 ======
+[+] ====== Start training... epoch 76 ======
+[*] Epoch: 76, Iter: 1 current loss: 0.42613664
+[*] Epoch: 76, Iter: 2 current loss: 0.42178774
+[*] Epoch: 76, Iter: 3 current loss: 0.42090207
+[+] ====== Epoch 76 finished, avg_loss : 0.42294215 ======
+[+] ====== Start training... epoch 77 ======
+[*] Epoch: 77, Iter: 1 current loss: 0.41983786
+[*] Epoch: 77, Iter: 2 current loss: 0.42339125
+[*] Epoch: 77, Iter: 3 current loss: 0.42625451
+[+] ====== Epoch 77 finished, avg_loss : 0.42316121 ======
+[+] ====== Start training... epoch 78 ======
+[*] Epoch: 78, Iter: 1 current loss: 0.42336306
+[*] Epoch: 78, Iter: 2 current loss: 0.41768548
+[*] Epoch: 78, Iter: 3 current loss: 0.42637223
+[+] ====== Epoch 78 finished, avg_loss : 0.42247359 ======
+[+] ====== Start training... epoch 79 ======
+[*] Epoch: 79, Iter: 1 current loss: 0.41866314
+[*] Epoch: 79, Iter: 2 current loss: 0.42673486
+[*] Epoch: 79, Iter: 3 current loss: 0.41156614
+[+] ====== Epoch 79 finished, avg_loss : 0.41898805 ======
+[+] ====== Start training... epoch 80 ======
+[*] Epoch: 80, Iter: 1 current loss: 0.42063156
+[*] Epoch: 80, Iter: 2 current loss: 0.42243391
+[*] Epoch: 80, Iter: 3 current loss: 0.41241664
+[+] ====== Epoch 80 finished, avg_loss : 0.41849404 ======
+[+] ====== Start training... epoch 81 ======
+[*] Epoch: 81, Iter: 1 current loss: 0.42190802
+[*] Epoch: 81, Iter: 2 current loss: 0.41986594
+[*] Epoch: 81, Iter: 3 current loss: 0.41071701
+[+] ====== Epoch 81 finished, avg_loss : 0.41749699 ======
+[+] ====== Start training... epoch 82 ======
+[*] Epoch: 82, Iter: 1 current loss: 0.41464555
+[*] Epoch: 82, Iter: 2 current loss: 0.41704085
+[*] Epoch: 82, Iter: 3 current loss: 0.42730099
+[+] ====== Epoch 82 finished, avg_loss : 0.41966247 ======
+[+] ====== Start training... epoch 83 ======
+[*] Epoch: 83, Iter: 1 current loss: 0.41279551
+[*] Epoch: 83, Iter: 2 current loss: 0.41782579
+[*] Epoch: 83, Iter: 3 current loss: 0.42567772
+[+] ====== Epoch 83 finished, avg_loss : 0.41876634 ======
+[+] ====== Start training... epoch 84 ======
+[*] Epoch: 84, Iter: 1 current loss: 0.41136488
+[*] Epoch: 84, Iter: 2 current loss: 0.41972613
+[*] Epoch: 84, Iter: 3 current loss: 0.42161429
+[+] ====== Epoch 84 finished, avg_loss : 0.41756844 ======
+[+] ====== Start training... epoch 85 ======
+[*] Epoch: 85, Iter: 1 current loss: 0.41689306
+[*] Epoch: 85, Iter: 2 current loss: 0.41309762
+[*] Epoch: 85, Iter: 3 current loss: 0.42024508
+[+] ====== Epoch 85 finished, avg_loss : 0.41674526 ======
+[+] ====== Start training... epoch 86 ======
+[*] Epoch: 86, Iter: 1 current loss: 0.42397183
+[*] Epoch: 86, Iter: 2 current loss: 0.41006806
+[*] Epoch: 86, Iter: 3 current loss: 0.41009471
+[+] ====== Epoch 86 finished, avg_loss : 0.41471153 ======
+[+] ====== Start training... epoch 87 ======
+[*] Epoch: 87, Iter: 1 current loss: 0.41283244
+[*] Epoch: 87, Iter: 2 current loss: 0.41584209
+[*] Epoch: 87, Iter: 3 current loss: 0.41851503
+[+] ====== Epoch 87 finished, avg_loss : 0.41572985 ======
+[+] ====== Start training... epoch 88 ======
+[*] Epoch: 88, Iter: 1 current loss: 0.41652867
+[*] Epoch: 88, Iter: 2 current loss: 0.41434857
+[*] Epoch: 88, Iter: 3 current loss: 0.41152093
+[+] ====== Epoch 88 finished, avg_loss : 0.41413272 ======
+[+] ====== Start training... epoch 89 ======
+[*] Epoch: 89, Iter: 1 current loss: 0.41154391
+[*] Epoch: 89, Iter: 2 current loss: 0.41718164
+[*] Epoch: 89, Iter: 3 current loss: 0.41376635
+[+] ====== Epoch 89 finished, avg_loss : 0.41416397 ======
+[+] ====== Start training... epoch 90 ======
+[*] Epoch: 90, Iter: 1 current loss: 0.41568884
+[*] Epoch: 90, Iter: 2 current loss: 0.41389433
+[*] Epoch: 90, Iter: 3 current loss: 0.40946206
+[+] ====== Epoch 90 finished, avg_loss : 0.41301508 ======
+[+] ====== Start training... epoch 91 ======
+[*] Epoch: 91, Iter: 1 current loss: 0.41565999
+[*] Epoch: 91, Iter: 2 current loss: 0.41440046
+[*] Epoch: 91, Iter: 3 current loss: 0.40709868
+[+] ====== Epoch 91 finished, avg_loss : 0.41238638 ======
+[+] ====== Start training... epoch 92 ======
+[*] Epoch: 92, Iter: 1 current loss: 0.41351408
+[*] Epoch: 92, Iter: 2 current loss: 0.41618291
+[*] Epoch: 92, Iter: 3 current loss: 0.40494597
+[+] ====== Epoch 92 finished, avg_loss : 0.41154765 ======
+[+] ====== Start training... epoch 93 ======
+[*] Epoch: 93, Iter: 1 current loss: 0.41196632
+[*] Epoch: 93, Iter: 2 current loss: 0.41720426
+[*] Epoch: 93, Iter: 3 current loss: 0.40461996
+[+] ====== Epoch 93 finished, avg_loss : 0.41126352 ======
+[+] ====== Start training... epoch 94 ======
+[*] Epoch: 94, Iter: 1 current loss: 0.40970293
+[*] Epoch: 94, Iter: 2 current loss: 0.41725236
+[*] Epoch: 94, Iter: 3 current loss: 0.40678281
+[+] ====== Epoch 94 finished, avg_loss : 0.41124603 ======
+[+] ====== Start training... epoch 95 ======
+[*] Epoch: 95, Iter: 1 current loss: 0.41192940
+[*] Epoch: 95, Iter: 2 current loss: 0.41354144
+[*] Epoch: 95, Iter: 3 current loss: 0.40874249
+[+] ====== Epoch 95 finished, avg_loss : 0.41140444 ======
+[+] ====== Start training... epoch 96 ======
+[*] Epoch: 96, Iter: 1 current loss: 0.41194156
+[*] Epoch: 96, Iter: 2 current loss: 0.40858886
+[*] Epoch: 96, Iter: 3 current loss: 0.41597781
+[+] ====== Epoch 96 finished, avg_loss : 0.41216941 ======
+[+] ====== Start training... epoch 97 ======
+[*] Epoch: 97, Iter: 1 current loss: 0.41069597
+[*] Epoch: 97, Iter: 2 current loss: 0.40692577
+[*] Epoch: 97, Iter: 3 current loss: 0.42061511
+[+] ====== Epoch 97 finished, avg_loss : 0.41274561 ======
+[+] ====== Start training... epoch 98 ======
+[*] Epoch: 98, Iter: 1 current loss: 0.41396591
+[*] Epoch: 98, Iter: 2 current loss: 0.40610763
+[*] Epoch: 98, Iter: 3 current loss: 0.41506335
+[+] ====== Epoch 98 finished, avg_loss : 0.41171230 ======
+[+] ====== Start training... epoch 99 ======
+[*] Epoch: 99, Iter: 1 current loss: 0.40395296
+[*] Epoch: 99, Iter: 2 current loss: 0.41491881
+[*] Epoch: 99, Iter: 3 current loss: 0.41518459
+[+] ====== Epoch 99 finished, avg_loss : 0.41135212 ======
+[+] ====== Start training... epoch 100 ======
+[*] Epoch: 100, Iter: 1 current loss: 0.40891638
+[*] Epoch: 100, Iter: 2 current loss: 0.40625384
+[*] Epoch: 100, Iter: 3 current loss: 0.41949886
+[+] ====== Epoch 100 finished, avg_loss : 0.41155636 ======
+[+] ====== Start training... epoch 101 ======
+[*] Epoch: 101, Iter: 1 current loss: 0.41233829
+[*] Epoch: 101, Iter: 2 current loss: 0.40871197
+[*] Epoch: 101, Iter: 3 current loss: 0.40794042
+[+] ====== Epoch 101 finished, avg_loss : 0.40966356 ======
+[+] ====== Start training... epoch 102 ======
+[*] Epoch: 102, Iter: 1 current loss: 0.41712251
+[*] Epoch: 102, Iter: 2 current loss: 0.40349093
+[*] Epoch: 102, Iter: 3 current loss: 0.40630424
+[+] ====== Epoch 102 finished, avg_loss : 0.40897256 ======
+[+] ====== Start training... epoch 103 ======
+[*] Epoch: 103, Iter: 1 current loss: 0.40313923
+[*] Epoch: 103, Iter: 2 current loss: 0.41718829
+[*] Epoch: 103, Iter: 3 current loss: 0.40601930
+[+] ====== Epoch 103 finished, avg_loss : 0.40878227 ======
+[+] ====== Start training... epoch 104 ======
+[*] Epoch: 104, Iter: 1 current loss: 0.39989889
+[*] Epoch: 104, Iter: 2 current loss: 0.41215327
+[*] Epoch: 104, Iter: 3 current loss: 0.42148590
+[+] ====== Epoch 104 finished, avg_loss : 0.41117935 ======
+[+] ====== Start training... epoch 105 ======
+[*] Epoch: 105, Iter: 1 current loss: 0.40901715
+[*] Epoch: 105, Iter: 2 current loss: 0.40684009
+[*] Epoch: 105, Iter: 3 current loss: 0.41285428
+[+] ====== Epoch 105 finished, avg_loss : 0.40957051 ======
+[+] ====== Start training... epoch 106 ======
+[*] Epoch: 106, Iter: 1 current loss: 0.40811297
+[*] Epoch: 106, Iter: 2 current loss: 0.40842900
+[*] Epoch: 106, Iter: 3 current loss: 0.41160429
+[+] ====== Epoch 106 finished, avg_loss : 0.40938209 ======
+[+] ====== Start training... epoch 107 ======
+[*] Epoch: 107, Iter: 1 current loss: 0.40068319
+[*] Epoch: 107, Iter: 2 current loss: 0.41706261
+[*] Epoch: 107, Iter: 3 current loss: 0.40746808
+[+] ====== Epoch 107 finished, avg_loss : 0.40840463 ======
+[+] ====== Start training... epoch 108 ======
+[*] Epoch: 108, Iter: 1 current loss: 0.41523099
+[*] Epoch: 108, Iter: 2 current loss: 0.40291253
+[*] Epoch: 108, Iter: 3 current loss: 0.40612477
+[+] ====== Epoch 108 finished, avg_loss : 0.40808943 ======
+[+] ====== Start training... epoch 109 ======
+[*] Epoch: 109, Iter: 1 current loss: 0.40686783
+[*] Epoch: 109, Iter: 2 current loss: 0.40725881
+[*] Epoch: 109, Iter: 3 current loss: 0.41344196
+[+] ====== Epoch 109 finished, avg_loss : 0.40918953 ======
+[+] ====== Start training... epoch 110 ======
+[*] Epoch: 110, Iter: 1 current loss: 0.41623595
+[*] Epoch: 110, Iter: 2 current loss: 0.40023461
+[*] Epoch: 110, Iter: 3 current loss: 0.40721503
+[+] ====== Epoch 110 finished, avg_loss : 0.40789520 ======
+[+] ====== Start training... epoch 111 ======
+[*] Epoch: 111, Iter: 1 current loss: 0.40536305
+[*] Epoch: 111, Iter: 2 current loss: 0.41116706
+[*] Epoch: 111, Iter: 3 current loss: 0.40749937
+[+] ====== Epoch 111 finished, avg_loss : 0.40800983 ======
+[+] ====== Start training... epoch 112 ======
+[*] Epoch: 112, Iter: 1 current loss: 0.41161594
+[*] Epoch: 112, Iter: 2 current loss: 0.40693218
+[*] Epoch: 112, Iter: 3 current loss: 0.40201861
+[+] ====== Epoch 112 finished, avg_loss : 0.40685557 ======
+[+] ====== Start training... epoch 113 ======
+[*] Epoch: 113, Iter: 1 current loss: 0.41462877
+[*] Epoch: 113, Iter: 2 current loss: 0.40249321
+[*] Epoch: 113, Iter: 3 current loss: 0.40447900
+[+] ====== Epoch 113 finished, avg_loss : 0.40720033 ======
+[+] ====== Start training... epoch 114 ======
+[*] Epoch: 114, Iter: 1 current loss: 0.41022253
+[*] Epoch: 114, Iter: 2 current loss: 0.40283686
+[*] Epoch: 114, Iter: 3 current loss: 0.41228321
+[+] ====== Epoch 114 finished, avg_loss : 0.40844753 ======
+[+] ====== Start training... epoch 115 ======
+[*] Epoch: 115, Iter: 1 current loss: 0.40629634
+[*] Epoch: 115, Iter: 2 current loss: 0.40642706
+[*] Epoch: 115, Iter: 3 current loss: 0.41166094
+[+] ====== Epoch 115 finished, avg_loss : 0.40812811 ======
+[+] ====== Start training... epoch 116 ======
+[*] Epoch: 116, Iter: 1 current loss: 0.40766484

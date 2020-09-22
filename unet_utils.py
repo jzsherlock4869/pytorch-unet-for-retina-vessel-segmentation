@@ -21,11 +21,17 @@ class ConvBNReLU(nn.Module):
     """
     def __init__(self, in_ch, out_ch, isBN=True):
         super(ConvBNReLU, self).__init__()
-        self.convbnrelu = nn.Sequential(
-            nn.Conv2d(in_ch, out_ch, kernel_size=3, padding=1),
-            nn.BatchNorm2d(out_ch),
-            nn.ReLU(inplace=True)
-        )
+        if isBN:
+            self.convbnrelu = nn.Sequential(
+                nn.Conv2d(in_ch, out_ch, kernel_size=3, padding=1),
+                nn.BatchNorm2d(out_ch),
+                nn.ReLU(inplace=True)
+            )
+        else:
+            self.convbnrelu = nn.Sequential(
+                nn.Conv2d(in_ch, out_ch, kernel_size=3, padding=1),
+                nn.ReLU(inplace=True)
+            )
         
     def forward(self, x):
         return self.convbnrelu(x)
@@ -96,11 +102,11 @@ class ConvOut(nn.Module):
     """
     last layer for generating probability map
     """
-    def __init__(self, in_ch, K_class):
+    def __init__(self, in_ch):
         super(ConvOut, self).__init__()
         self.convout = nn.Sequential(
-            nn.Conv2d(in_ch, K_class, kernel_size=1),
-            nn.Softmax2d()
+            nn.Conv2d(in_ch, 1, kernel_size=1),
+            nn.Sigmoid()
         )
     def forward(self, x):
         #print(x.size())

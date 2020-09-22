@@ -49,7 +49,7 @@ def load_dataset(rel_path='.', mode="training", resize=False, resize_shape=(256,
             Img_label = Img_label.resize(resize_shape, Image.ANTIALIAS)
             Img_label = Img_label.convert('1')
         label = np.array(Img_label)
-        label = label / 255.0
+        label = label / 1.0
         if i == 0:
             label_tensor = np.expand_dims(label, axis=0)
         else:
@@ -64,7 +64,7 @@ def load_dataset(rel_path='.', mode="training", resize=False, resize_shape=(256,
             Img_mask = Img_mask.resize(resize_shape, Image.ANTIALIAS)
             Img_mask = Img_mask.convert('1')
         mask = np.array(Img_mask)
-        mask = mask / 255.0
+        mask = mask / 1.0
         if i == 0:
             mask_tensor = np.expand_dims(mask, axis=0)
         else:

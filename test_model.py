@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     selected_model = glob("./checkpoint/Unet_epoch*.model")[-1]
-    unet_ins = Unet(img_ch=3, K_class=2, isDeconv=False)
+    unet_ins = Unet(img_ch=3, K_class=2, isDeconv=True, isBN=False)
     unet_ins.load_state_dict(torch.load(selected_model))
     unet_ins.to(device)
     model_test(unet_ins, batch_size=2)

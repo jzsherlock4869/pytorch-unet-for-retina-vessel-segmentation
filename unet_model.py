@@ -18,7 +18,7 @@ class Unet(nn.Module):
     """
     definition of U-net for segmentation
     """
-    def __init__(self, img_ch, K_class, fch_base=64, isBN=True, isDeconv=True):
+    def __init__(self, img_ch, K_class, fch_base=16, isBN=True, isDeconv=True):
         super(Unet, self).__init__()
         
         self.blocks = nn.ModuleList()
@@ -35,7 +35,7 @@ class Unet(nn.Module):
         self.up3 = UpsampleConv(fch_base * 4, fch_base * 2 , isDeconv, isBN)
         self.up4 = UpsampleConv(fch_base * 2, fch_base, isDeconv, isBN)
         
-        self.out = ConvOut(fch_base, K_class)
+        self.out = ConvOut(fch_base)
         
         self.blocks = nn.ModuleList([self.down1, self.down2, self.down3,\
                                      self.down4, self.encoder, self.up1, self.up2,\
