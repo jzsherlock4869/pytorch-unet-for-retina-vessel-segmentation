@@ -34,7 +34,8 @@ def load_dataset(rel_path='.', mode="training", resize=False, resize_shape=(256,
         if resize:
             img = img.resize(resize_shape, Image.ANTIALIAS)
         imgmat = np.array(img).astype('float')
-        imgmat = (imgmat / 255.0 - 0.5) * 2
+        # imgmat = (imgmat / 255.0 - 0.5) * 2
+        imgmat = imgmat / 255.0
         if i == 0:
             input_tensor = np.expand_dims(imgmat, axis=0)
         else:

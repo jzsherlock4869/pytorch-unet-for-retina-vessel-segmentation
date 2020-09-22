@@ -18,7 +18,7 @@ class Unet(nn.Module):
     """
     definition of U-net for segmentation
     """
-    def __init__(self, img_ch, K_class, fch_base=16, isBN=True, isDeconv=True):
+    def __init__(self, img_ch, fch_base=16, isBN=True, isDeconv=True):
         super(Unet, self).__init__()
         
         self.blocks = nn.ModuleList()

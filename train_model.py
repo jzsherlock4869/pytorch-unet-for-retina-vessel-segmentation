@@ -14,10 +14,11 @@ import os
 from glob import glob
 from data_loader import load_dataset
 from unet_model import Unet
+from utils import eval_print_metrics
 import warnings
 warnings.filterwarnings('ignore')
 
-def model_train(net, epochs=500, batch_size=2, lr=1e-2, save_every=5):
+def model_train(net, epochs=500, batch_size=2, lr=1e-2, save_every=5, is_eval=True):
     #optimizer = torch.optim.RMSprop(net.parameters(), lr=lr, weight_decay=1e-8, momentum=0.9)
     optimizer = torch.optim.SGD(net.parameters(), lr=lr)
     #optimizer = torch.optim.Adam(net.parameters(), lr=lr)
@@ -40,21 +41,25 @@ def model_train(net, epochs=500, batch_size=2, lr=1e-2, save_every=5):
                 bat_img = torch.Tensor(x_tensor[start_id : end_id, :, :, :])
                 bat_label = torch.Tensor(y_tensor[start_id : end_id, 0: 1, :, :])
                 # bat_mask_2ch = torch.Tensor(m_tensor[start_id : end_id, :, :, :])
-                # bat_mask = torch.Tensor(m_tensor[start_id : end_id, 0, :, :])
+                bat_mask = torch.Tensor(m_tensor[start_id : end_id, 0: 1, :, :])
             else:
                 start_id = ite * batch_size
                 bat_img = torch.Tensor(x_tensor[start_id : , :, :, :])
                 bat_label = torch.Tensor(y_tensor[start_id : , 0: 1, :, :])
                 # bat_mask_2ch = torch.Tensor(m_tensor[start_id : , :, :, :])
-                # bat_mask = torch.Tensor(m_tensor[start_id : , 0, :, :])
+                bat_mask = torch.Tensor(m_tensor[start_id : , 0: 1, :, :])
             optimizer.zero_grad()
             bat_pred = net(bat_img)
             #print(bat_pred.size(), bat_mask.size(), bat_label.size())
-            #masked_pred = bat_pred * bat_mask_2ch
-            #masked_label = bat_label * bat_mask
-            loss = loss_func(bat_pred, bat_label.long())
+            # masked_pred = bat_pred * bat_mask
+            # masked_label = bat_label * bat_mask
+            loss = loss_func(bat_pred, bat_label.float())
             print("[*] Epoch: {}, Iter: {} current loss: {:.8f}"\
                   .format(epoch + 1, ite + 1, loss.item()))
+            if is_eval:
+                print("[*] ...... Eval for Epoch: {}, Iter: {} ....... ".format(epoch + 1, ite + 1))
+                eval_print_metrics(bat_label, bat_pred, bat_mask)
+
             if not ite == num_iters - 1:
                 epoch_tot_loss += loss.item()
             else:
@@ -77,7 +82,13 @@ if __name__ == "__main__":
     if not os.path.exists("./datasets/training"):
         os.mkdir("./datasets/training")
 
+    # set parameters for training
+    LR = 0.1
+    EPOCHS = 500
+    BATCH_SIZE = 8
+    SAVE_EVERY = 20
+
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    unet_ins = Unet(img_ch=3, K_class=2, isDeconv=True, isBN=False)
+    unet_ins = Unet(img_ch=3, isDeconv=True, isBN=True)
     unet_ins.to(device)
-    trained_unet = model_train(unet_ins, batch_size=8, lr=0.01, epochs=500, save_every=10)
+    trained_unet = model_train(unet_ins, batch_size=BATCH_SIZE, lr=LR, epochs=EPOCHS, save_every=SAVE_EVERY)

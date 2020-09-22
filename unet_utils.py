@@ -105,6 +105,8 @@ class ConvOut(nn.Module):
     def __init__(self, in_ch):
         super(ConvOut, self).__init__()
         self.convout = nn.Sequential(
+            nn.Conv2d(in_ch, in_ch, kernel_size=1),
+            nn.Conv2d(in_ch, in_ch, kernel_size=1),
             nn.Conv2d(in_ch, 1, kernel_size=1),
             nn.Sigmoid()
         )

@@ -1,637 +1,2329 @@
-[*] adding 1th training image : ./DRIVE/training/images/21_training.tif
-[*] adding 2th training image : ./DRIVE/training/images/22_training.tif
-[*] adding 3th training image : ./DRIVE/training/images/23_training.tif
-[*] adding 4th training image : ./DRIVE/training/images/24_training.tif
-[*] adding 5th training image : ./DRIVE/training/images/25_training.tif
-[*] adding 6th training image : ./DRIVE/training/images/26_training.tif
-[*] adding 7th training image : ./DRIVE/training/images/27_training.tif
-[*] adding 8th training image : ./DRIVE/training/images/28_training.tif
-[*] adding 9th training image : ./DRIVE/training/images/29_training.tif
-[*] adding 10th training image : ./DRIVE/training/images/30_training.tif
-[*] adding 11th training image : ./DRIVE/training/images/31_training.tif
-[*] adding 12th training image : ./DRIVE/training/images/32_training.tif
-[*] adding 13th training image : ./DRIVE/training/images/33_training.tif
-[*] adding 14th training image : ./DRIVE/training/images/34_training.tif
-[*] adding 15th training image : ./DRIVE/training/images/35_training.tif
-[*] adding 16th training image : ./DRIVE/training/images/36_training.tif
-[*] adding 17th training image : ./DRIVE/training/images/37_training.tif
-[*] adding 18th training image : ./DRIVE/training/images/38_training.tif
-[*] adding 19th training image : ./DRIVE/training/images/39_training.tif
-[*] adding 20th training image : ./DRIVE/training/images/40_training.tif
-[*] adding 1th training label : ./DRIVE/training/1st_manual/21_manual1.gif
-[*] adding 2th training label : ./DRIVE/training/1st_manual/22_manual1.gif
-[*] adding 3th training label : ./DRIVE/training/1st_manual/23_manual1.gif
-[*] adding 4th training label : ./DRIVE/training/1st_manual/24_manual1.gif
-[*] adding 5th training label : ./DRIVE/training/1st_manual/25_manual1.gif
-[*] adding 6th training label : ./DRIVE/training/1st_manual/26_manual1.gif
-[*] adding 7th training label : ./DRIVE/training/1st_manual/27_manual1.gif
-[*] adding 8th training label : ./DRIVE/training/1st_manual/28_manual1.gif
-[*] adding 9th training label : ./DRIVE/training/1st_manual/29_manual1.gif
-[*] adding 10th training label : ./DRIVE/training/1st_manual/30_manual1.gif
-[*] adding 11th training label : ./DRIVE/training/1st_manual/31_manual1.gif
-[*] adding 12th training label : ./DRIVE/training/1st_manual/32_manual1.gif
-[*] adding 13th training label : ./DRIVE/training/1st_manual/33_manual1.gif
-[*] adding 14th training label : ./DRIVE/training/1st_manual/34_manual1.gif
-[*] adding 15th training label : ./DRIVE/training/1st_manual/35_manual1.gif
-[*] adding 16th training label : ./DRIVE/training/1st_manual/36_manual1.gif
-[*] adding 17th training label : ./DRIVE/training/1st_manual/37_manual1.gif
-[*] adding 18th training label : ./DRIVE/training/1st_manual/38_manual1.gif
-[*] adding 19th training label : ./DRIVE/training/1st_manual/39_manual1.gif
-[*] adding 20th training label : ./DRIVE/training/1st_manual/40_manual1.gif
-[*] adding 1th training mask : ./DRIVE/training/mask/21_training_mask.gif
-[*] adding 2th training mask : ./DRIVE/training/mask/22_training_mask.gif
-[*] adding 3th training mask : ./DRIVE/training/mask/23_training_mask.gif
-[*] adding 4th training mask : ./DRIVE/training/mask/24_training_mask.gif
-[*] adding 5th training mask : ./DRIVE/training/mask/25_training_mask.gif
-[*] adding 6th training mask : ./DRIVE/training/mask/26_training_mask.gif
-[*] adding 7th training mask : ./DRIVE/training/mask/27_training_mask.gif
-[*] adding 8th training mask : ./DRIVE/training/mask/28_training_mask.gif
-[*] adding 9th training mask : ./DRIVE/training/mask/29_training_mask.gif
-[*] adding 10th training mask : ./DRIVE/training/mask/30_training_mask.gif
-[*] adding 11th training mask : ./DRIVE/training/mask/31_training_mask.gif
-[*] adding 12th training mask : ./DRIVE/training/mask/32_training_mask.gif
-[*] adding 13th training mask : ./DRIVE/training/mask/33_training_mask.gif
-[*] adding 14th training mask : ./DRIVE/training/mask/34_training_mask.gif
-[*] adding 15th training mask : ./DRIVE/training/mask/35_training_mask.gif
-[*] adding 16th training mask : ./DRIVE/training/mask/36_training_mask.gif
-[*] adding 17th training mask : ./DRIVE/training/mask/37_training_mask.gif
-[*] adding 18th training mask : ./DRIVE/training/mask/38_training_mask.gif
-[*] adding 19th training mask : ./DRIVE/training/mask/39_training_mask.gif
-[*] adding 20th training mask : ./DRIVE/training/mask/40_training_mask.gif
 [+] ====== Start training... epoch 1 ======
-[*] Epoch: 1, Iter: 1 current loss: 0.68876630
-[*] Epoch: 1, Iter: 2 current loss: 0.68845087
-[*] Epoch: 1, Iter: 3 current loss: 0.68813413
-[+] ====== Epoch 1 finished, avg_loss : 0.68845044 ======
+[*] ...... Eval for Epoch: 1, Iter: 1 precision: 0.0422 recall: 0.0002
+[*] Epoch: 1, Iter: 1 current loss: 0.55222547
+[*] ...... Eval for Epoch: 1, Iter: 2 precision: 0.0294 recall: 0.0000
+[*] Epoch: 1, Iter: 2 current loss: 0.52040082
+[*] ...... Eval for Epoch: 1, Iter: 3 precision: 0.0357 recall: 0.0000
+[*] Epoch: 1, Iter: 3 current loss: 0.49453065
+[+] ====== Epoch 1 finished, avg_loss : 0.52238565 ======
 [+] ====== Start training... epoch 2 ======
-[*] Epoch: 2, Iter: 1 current loss: 0.68774760
-[*] Epoch: 2, Iter: 2 current loss: 0.68760240
-[*] Epoch: 2, Iter: 3 current loss: 0.68525511
-[+] ====== Epoch 2 finished, avg_loss : 0.68686837 ======
+[*] ...... Eval for Epoch: 2, Iter: 1 precision: 0.0000 recall: 0.0000
+[*] Epoch: 2, Iter: 1 current loss: 0.46694446
+[*] ...... Eval for Epoch: 2, Iter: 2 precision: 0.0000 recall: 0.0000
+[*] Epoch: 2, Iter: 2 current loss: 0.43709189
+[*] ...... Eval for Epoch: 2, Iter: 3 precision: 0.0000 recall: 0.0000
+[*] Epoch: 2, Iter: 3 current loss: 0.40828922
+[+] ====== Epoch 2 finished, avg_loss : 0.43744186 ======
 [+] ====== Start training... epoch 3 ======
-[*] Epoch: 3, Iter: 1 current loss: 0.68550074
-[*] Epoch: 3, Iter: 2 current loss: 0.68507761
-[*] Epoch: 3, Iter: 3 current loss: 0.68152744
-[+] ====== Epoch 3 finished, avg_loss : 0.68403526 ======
+[*] ...... Eval for Epoch: 3, Iter: 1 precision: 0.0000 recall: 0.0000
+[*] Epoch: 3, Iter: 1 current loss: 0.39960983
+[*] ...... Eval for Epoch: 3, Iter: 2 precision: 0.0000 recall: 0.0000
+[*] Epoch: 3, Iter: 2 current loss: 0.37260270
+[*] ...... Eval for Epoch: 3, Iter: 3 precision: 0.0000 recall: 0.0000
+[*] Epoch: 3, Iter: 3 current loss: 0.35811538
+[+] ====== Epoch 3 finished, avg_loss : 0.37677597 ======
 [+] ====== Start training... epoch 4 ======
-[*] Epoch: 4, Iter: 1 current loss: 0.68397176
-[*] Epoch: 4, Iter: 2 current loss: 0.67949879
-[*] Epoch: 4, Iter: 3 current loss: 0.67810506
-[+] ====== Epoch 4 finished, avg_loss : 0.68052520 ======
+[*] ...... Eval for Epoch: 4, Iter: 1 precision: 0.0000 recall: 0.0000
+[*] Epoch: 4, Iter: 1 current loss: 0.34257394
+[*] ...... Eval for Epoch: 4, Iter: 2 precision: 0.0000 recall: 0.0000
+[*] Epoch: 4, Iter: 2 current loss: 0.33640632
+[*] ...... Eval for Epoch: 4, Iter: 3 precision: 0.0000 recall: 0.0000
+[*] Epoch: 4, Iter: 3 current loss: 0.32872027
+[+] ====== Epoch 4 finished, avg_loss : 0.33590018 ======
 [+] ====== Start training... epoch 5 ======
-[*] Epoch: 5, Iter: 1 current loss: 0.67747778
-[*] Epoch: 5, Iter: 2 current loss: 0.67680472
-[*] Epoch: 5, Iter: 3 current loss: 0.67447501
-[+] ====== Epoch 5 finished, avg_loss : 0.67625250 ======
+[*] ...... Eval for Epoch: 5, Iter: 1 precision: 0.0000 recall: 0.0000
+[*] Epoch: 5, Iter: 1 current loss: 0.31744611
+[*] ...... Eval for Epoch: 5, Iter: 2 precision: 0.0000 recall: 0.0000
+[*] Epoch: 5, Iter: 2 current loss: 0.30288109
+[*] ...... Eval for Epoch: 5, Iter: 3 precision: 0.0000 recall: 0.0000
+[*] Epoch: 5, Iter: 3 current loss: 0.30614224
+[+] ====== Epoch 5 finished, avg_loss : 0.30882315 ======
 [+] ====== Start training... epoch 6 ======
-[*] Epoch: 6, Iter: 1 current loss: 0.67489737
-[*] Epoch: 6, Iter: 2 current loss: 0.67348588
-[*] Epoch: 6, Iter: 3 current loss: 0.67226774
-[+] ====== Epoch 6 finished, avg_loss : 0.67355033 ======
+[*] ...... Eval for Epoch: 6, Iter: 1 precision: 0.0000 recall: 0.0000
+[*] Epoch: 6, Iter: 1 current loss: 0.28595334
+[*] ...... Eval for Epoch: 6, Iter: 2 precision: 0.0000 recall: 0.0000
+[*] Epoch: 6, Iter: 2 current loss: 0.29722208
+[*] ...... Eval for Epoch: 6, Iter: 3 precision: 0.0000 recall: 0.0000
+[*] Epoch: 6, Iter: 3 current loss: 0.29484981
+[+] ====== Epoch 6 finished, avg_loss : 0.29267508 ======
 [+] ====== Start training... epoch 7 ======
-[*] Epoch: 7, Iter: 1 current loss: 0.66881424
-[*] Epoch: 7, Iter: 2 current loss: 0.66901368
-[*] Epoch: 7, Iter: 3 current loss: 0.67045641
-[+] ====== Epoch 7 finished, avg_loss : 0.66942811 ======
+[*] ...... Eval for Epoch: 7, Iter: 1 precision: 0.0000 recall: 0.0000
+[*] Epoch: 7, Iter: 1 current loss: 0.27392167
+[*] ...... Eval for Epoch: 7, Iter: 2 precision: 0.0000 recall: 0.0000
+[*] Epoch: 7, Iter: 2 current loss: 0.28952828
+[*] ...... Eval for Epoch: 7, Iter: 3 precision: 0.0000 recall: 0.0000
+[*] Epoch: 7, Iter: 3 current loss: 0.27469137
+[+] ====== Epoch 7 finished, avg_loss : 0.27938044 ======
 [+] ====== Start training... epoch 8 ======
-[*] Epoch: 8, Iter: 1 current loss: 0.66762632
-[*] Epoch: 8, Iter: 2 current loss: 0.66731584
-[*] Epoch: 8, Iter: 3 current loss: 0.66624129
-[+] ====== Epoch 8 finished, avg_loss : 0.66706115 ======
+[*] ...... Eval for Epoch: 8, Iter: 1 precision: 0.0000 recall: 0.0000
+[*] Epoch: 8, Iter: 1 current loss: 0.27146533
+[*] ...... Eval for Epoch: 8, Iter: 2 precision: 0.0000 recall: 0.0000
+[*] Epoch: 8, Iter: 2 current loss: 0.26923531
+[*] ...... Eval for Epoch: 8, Iter: 3 precision: 0.0000 recall: 0.0000
+[*] Epoch: 8, Iter: 3 current loss: 0.27739334
+[+] ====== Epoch 8 finished, avg_loss : 0.27269800 ======
 [+] ====== Start training... epoch 9 ======
-[*] Epoch: 9, Iter: 1 current loss: 0.66527534
-[*] Epoch: 9, Iter: 2 current loss: 0.66281611
-[*] Epoch: 9, Iter: 3 current loss: 0.66236609
-[+] ====== Epoch 9 finished, avg_loss : 0.66348584 ======
+[*] ...... Eval for Epoch: 9, Iter: 1 precision: 0.0000 recall: 0.0000
+[*] Epoch: 9, Iter: 1 current loss: 0.26816690
+[*] ...... Eval for Epoch: 9, Iter: 2 precision: 0.0000 recall: 0.0000
+[*] Epoch: 9, Iter: 2 current loss: 0.25651842
+[*] ...... Eval for Epoch: 9, Iter: 3 precision: 0.0000 recall: 0.0000
+[*] Epoch: 9, Iter: 3 current loss: 0.27759284
+[+] ====== Epoch 9 finished, avg_loss : 0.26742605 ======
 [+] ====== Start training... epoch 10 ======
-[*] Epoch: 10, Iter: 1 current loss: 0.66124165
-[*] Epoch: 10, Iter: 2 current loss: 0.66060853
-[*] Epoch: 10, Iter: 3 current loss: 0.65843129
-[+] ====== Epoch 10 finished, avg_loss : 0.66009382 ======
+[*] ...... Eval for Epoch: 10, Iter: 1 precision: 0.0000 recall: 0.0000
+[*] Epoch: 10, Iter: 1 current loss: 0.26721463
+[*] ...... Eval for Epoch: 10, Iter: 2 precision: 0.0000 recall: 0.0000
+[*] Epoch: 10, Iter: 2 current loss: 0.25956258
+[*] ...... Eval for Epoch: 10, Iter: 3 precision: 0.0000 recall: 0.0000
+[*] Epoch: 10, Iter: 3 current loss: 0.25099674
+[+] ====== Epoch 10 finished, avg_loss : 0.25925798 ======
 [+] ====== Start training... epoch 11 ======
-[*] Epoch: 11, Iter: 1 current loss: 0.65948063
-[*] Epoch: 11, Iter: 2 current loss: 0.65755314
-[*] Epoch: 11, Iter: 3 current loss: 0.65784383
-[+] ====== Epoch 11 finished, avg_loss : 0.65829253 ======
+[*] ...... Eval for Epoch: 11, Iter: 1 precision: 0.0000 recall: 0.0000
+[*] Epoch: 11, Iter: 1 current loss: 0.25193331
+[*] ...... Eval for Epoch: 11, Iter: 2 precision: 0.0000 recall: 0.0000
+[*] Epoch: 11, Iter: 2 current loss: 0.26325431
+[*] ...... Eval for Epoch: 11, Iter: 3 precision: 0.0000 recall: 0.0000
+[*] Epoch: 11, Iter: 3 current loss: 0.25148323
+[+] ====== Epoch 11 finished, avg_loss : 0.25555695 ======
 [+] ====== Start training... epoch 12 ======
-[*] Epoch: 12, Iter: 1 current loss: 0.65730619
-[*] Epoch: 12, Iter: 2 current loss: 0.65590513
-[*] Epoch: 12, Iter: 3 current loss: 0.65618974
-[+] ====== Epoch 12 finished, avg_loss : 0.65646702 ======
+[*] ...... Eval for Epoch: 12, Iter: 1 precision: 0.0000 recall: 0.0000
+[*] Epoch: 12, Iter: 1 current loss: 0.25332546
+[*] ...... Eval for Epoch: 12, Iter: 2 precision: 0.0000 recall: 0.0000
+[*] Epoch: 12, Iter: 2 current loss: 0.24909620
+[*] ...... Eval for Epoch: 12, Iter: 3 precision: 0.0000 recall: 0.0000
+[*] Epoch: 12, Iter: 3 current loss: 0.24731982
+[+] ====== Epoch 12 finished, avg_loss : 0.24991383 ======
 [+] ====== Start training... epoch 13 ======
-[*] Epoch: 13, Iter: 1 current loss: 0.65484750
-[*] Epoch: 13, Iter: 2 current loss: 0.65334439
-[*] Epoch: 13, Iter: 3 current loss: 0.65027678
-[+] ====== Epoch 13 finished, avg_loss : 0.65282289 ======
+[*] ...... Eval for Epoch: 13, Iter: 1 precision: 0.0000 recall: 0.0000
+[*] Epoch: 13, Iter: 1 current loss: 0.24846241
+[*] ...... Eval for Epoch: 13, Iter: 2 precision: 0.0000 recall: 0.0000
+[*] Epoch: 13, Iter: 2 current loss: 0.23640317
+[*] ...... Eval for Epoch: 13, Iter: 3 precision: 0.8000 recall: 0.0002
+[*] Epoch: 13, Iter: 3 current loss: 0.24998362
+[+] ====== Epoch 13 finished, avg_loss : 0.24494973 ======
 [+] ====== Start training... epoch 14 ======
-[*] Epoch: 14, Iter: 1 current loss: 0.65156335
-[*] Epoch: 14, Iter: 2 current loss: 0.64895755
-[*] Epoch: 14, Iter: 3 current loss: 0.64845210
-[+] ====== Epoch 14 finished, avg_loss : 0.64965767 ======
+[*] ...... Eval for Epoch: 14, Iter: 1 precision: 0.4828 recall: 0.0003
+[*] Epoch: 14, Iter: 1 current loss: 0.23764728
+[*] ...... Eval for Epoch: 14, Iter: 2 precision: 0.8571 recall: 0.0001
+[*] Epoch: 14, Iter: 2 current loss: 0.24099873
+[*] ...... Eval for Epoch: 14, Iter: 3 precision: 0.1667 recall: 0.0001
+[*] Epoch: 14, Iter: 3 current loss: 0.24368472
+[+] ====== Epoch 14 finished, avg_loss : 0.24077691 ======
 [+] ====== Start training... epoch 15 ======
-[*] Epoch: 15, Iter: 1 current loss: 0.64840746
-[*] Epoch: 15, Iter: 2 current loss: 0.64840472
-[*] Epoch: 15, Iter: 3 current loss: 0.64542735
-[+] ====== Epoch 15 finished, avg_loss : 0.64741317 ======
+[*] ...... Eval for Epoch: 15, Iter: 1 precision: 0.7955 recall: 0.0007
+[*] Epoch: 15, Iter: 1 current loss: 0.25853822
+[*] ...... Eval for Epoch: 15, Iter: 2 precision: 0.9879 recall: 0.0068
+[*] Epoch: 15, Iter: 2 current loss: 0.23962732
+[*] ...... Eval for Epoch: 15, Iter: 3 precision: 0.7311 recall: 0.0085
+[*] Epoch: 15, Iter: 3 current loss: 0.21413565
+[+] ====== Epoch 15 finished, avg_loss : 0.23743373 ======
 [+] ====== Start training... epoch 16 ======
-[*] Epoch: 16, Iter: 1 current loss: 0.64743203
-[*] Epoch: 16, Iter: 2 current loss: 0.64486670
-[*] Epoch: 16, Iter: 3 current loss: 0.64221299
-[+] ====== Epoch 16 finished, avg_loss : 0.64483724 ======
+[*] ...... Eval for Epoch: 16, Iter: 1 precision: 0.9776 recall: 0.0119
+[*] Epoch: 16, Iter: 1 current loss: 0.23201831
+[*] ...... Eval for Epoch: 16, Iter: 2 precision: 0.8151 recall: 0.0164
+[*] Epoch: 16, Iter: 2 current loss: 0.23908217
+[*] ...... Eval for Epoch: 16, Iter: 3 precision: 0.9854 recall: 0.0120
+[*] Epoch: 16, Iter: 3 current loss: 0.22681433
+[+] ====== Epoch 16 finished, avg_loss : 0.23263827 ======
 [+] ====== Start training... epoch 17 ======
-[*] Epoch: 17, Iter: 1 current loss: 0.64015973
-[*] Epoch: 17, Iter: 2 current loss: 0.63989782
-[*] Epoch: 17, Iter: 3 current loss: 0.63870919
-[+] ====== Epoch 17 finished, avg_loss : 0.63958891 ======
+[*] ...... Eval for Epoch: 17, Iter: 1 precision: 0.9912 recall: 0.0261
+[*] Epoch: 17, Iter: 1 current loss: 0.23034127
+[*] ...... Eval for Epoch: 17, Iter: 2 precision: 0.9809 recall: 0.0444
+[*] Epoch: 17, Iter: 2 current loss: 0.23095335
+[*] ...... Eval for Epoch: 17, Iter: 3 precision: 0.9192 recall: 0.0541
+[*] Epoch: 17, Iter: 3 current loss: 0.20374691
+[+] ====== Epoch 17 finished, avg_loss : 0.22168051 ======
 [+] ====== Start training... epoch 18 ======
-[*] Epoch: 18, Iter: 1 current loss: 0.63907111
-[*] Epoch: 18, Iter: 2 current loss: 0.63559425
-[*] Epoch: 18, Iter: 3 current loss: 0.63589334
-[+] ====== Epoch 18 finished, avg_loss : 0.63685290 ======
+[*] ...... Eval for Epoch: 18, Iter: 1 precision: 0.9676 recall: 0.0887
+[*] Epoch: 18, Iter: 1 current loss: 0.20220631
+[*] ...... Eval for Epoch: 18, Iter: 2 precision: 0.9576 recall: 0.1198
+[*] Epoch: 18, Iter: 2 current loss: 0.20578748
+[*] ...... Eval for Epoch: 18, Iter: 3 precision: 0.9677 recall: 0.1194
+[*] Epoch: 18, Iter: 3 current loss: 0.22191180
+[+] ====== Epoch 18 finished, avg_loss : 0.20996853 ======
 [+] ====== Start training... epoch 19 ======
-[*] Epoch: 19, Iter: 1 current loss: 0.63379985
-[*] Epoch: 19, Iter: 2 current loss: 0.63149768
-[*] Epoch: 19, Iter: 3 current loss: 0.63334244
-[+] ====== Epoch 19 finished, avg_loss : 0.63287999 ======
+[*] ...... Eval for Epoch: 19, Iter: 1 precision: 0.9315 recall: 0.1394
+[*] Epoch: 19, Iter: 1 current loss: 0.21305819
+[*] ...... Eval for Epoch: 19, Iter: 2 precision: 0.9418 recall: 0.1650
+[*] Epoch: 19, Iter: 2 current loss: 0.20204321
+[*] ...... Eval for Epoch: 19, Iter: 3 precision: 0.9181 recall: 0.1901
+[*] Epoch: 19, Iter: 3 current loss: 0.20330550
+[+] ====== Epoch 19 finished, avg_loss : 0.20613563 ======
 [+] ====== Start training... epoch 20 ======
-[*] Epoch: 20, Iter: 1 current loss: 0.62980175
-[*] Epoch: 20, Iter: 2 current loss: 0.62867665
-[*] Epoch: 20, Iter: 3 current loss: 0.62954408
-[+] ====== Epoch 20 finished, avg_loss : 0.62934083 ======
+[*] ...... Eval for Epoch: 20, Iter: 1 precision: 0.8994 recall: 0.1956
+[*] Epoch: 20, Iter: 1 current loss: 0.19964489
+[*] ...... Eval for Epoch: 20, Iter: 2 precision: 0.9059 recall: 0.1510
+[*] Epoch: 20, Iter: 2 current loss: 0.21685334
+[*] ...... Eval for Epoch: 20, Iter: 3 precision: 0.9272 recall: 0.2332
+[*] Epoch: 20, Iter: 3 current loss: 0.19575368
+[+] ====== Epoch 20 finished, avg_loss : 0.20408397 ======
 [+] ====== Start training... epoch 21 ======
-[*] Epoch: 21, Iter: 1 current loss: 0.62757075
-[*] Epoch: 21, Iter: 2 current loss: 0.62778169
-[*] Epoch: 21, Iter: 3 current loss: 0.62679851
-[+] ====== Epoch 21 finished, avg_loss : 0.62738365 ======
+[*] ...... Eval for Epoch: 21, Iter: 1 precision: 0.9230 recall: 0.2578
+[*] Epoch: 21, Iter: 1 current loss: 0.18671879
+[*] ...... Eval for Epoch: 21, Iter: 2 precision: 0.8667 recall: 0.2466
+[*] Epoch: 21, Iter: 2 current loss: 0.19798295
+[*] ...... Eval for Epoch: 21, Iter: 3 precision: 0.9037 recall: 0.2672
+[*] Epoch: 21, Iter: 3 current loss: 0.20084177
+[+] ====== Epoch 21 finished, avg_loss : 0.19518117 ======
 [+] ====== Start training... epoch 22 ======
-[*] Epoch: 22, Iter: 1 current loss: 0.62557960
-[*] Epoch: 22, Iter: 2 current loss: 0.62604982
-[*] Epoch: 22, Iter: 3 current loss: 0.62235349
-[+] ====== Epoch 22 finished, avg_loss : 0.62466097 ======
+[*] ...... Eval for Epoch: 22, Iter: 1 precision: 0.8821 recall: 0.3104
+[*] Epoch: 22, Iter: 1 current loss: 0.18046072
+[*] ...... Eval for Epoch: 22, Iter: 2 precision: 0.9144 recall: 0.2751
+[*] Epoch: 22, Iter: 2 current loss: 0.18693142
+[*] ...... Eval for Epoch: 22, Iter: 3 precision: 0.8562 recall: 0.3227
+[*] Epoch: 22, Iter: 3 current loss: 0.19295019
+[+] ====== Epoch 22 finished, avg_loss : 0.18678078 ======
 [+] ====== Start training... epoch 23 ======
-[*] Epoch: 23, Iter: 1 current loss: 0.62315726
-[*] Epoch: 23, Iter: 2 current loss: 0.61825812
-[*] Epoch: 23, Iter: 3 current loss: 0.61739266
-[+] ====== Epoch 23 finished, avg_loss : 0.61960268 ======
+[*] ...... Eval for Epoch: 23, Iter: 1 precision: 0.7311 recall: 0.2768
+[*] Epoch: 23, Iter: 1 current loss: 0.20701775
+[*] ...... Eval for Epoch: 23, Iter: 2 precision: 0.8634 recall: 0.3178
+[*] Epoch: 23, Iter: 2 current loss: 0.19241846
+[*] ...... Eval for Epoch: 23, Iter: 3 precision: 0.8883 recall: 0.2812
+[*] Epoch: 23, Iter: 3 current loss: 0.18682446
+[+] ====== Epoch 23 finished, avg_loss : 0.19542022 ======
 [+] ====== Start training... epoch 24 ======
-[*] Epoch: 24, Iter: 1 current loss: 0.61429316
-[*] Epoch: 24, Iter: 2 current loss: 0.61842424
-[*] Epoch: 24, Iter: 3 current loss: 0.61222374
-[+] ====== Epoch 24 finished, avg_loss : 0.61498038 ======
+[*] ...... Eval for Epoch: 24, Iter: 1 precision: 0.8184 recall: 0.3532
+[*] Epoch: 24, Iter: 1 current loss: 0.17093220
+[*] ...... Eval for Epoch: 24, Iter: 2 precision: 0.8980 recall: 0.3077
+[*] Epoch: 24, Iter: 2 current loss: 0.19190466
+[*] ...... Eval for Epoch: 24, Iter: 3 precision: 0.8916 recall: 0.3653
+[*] Epoch: 24, Iter: 3 current loss: 0.17544642
+[+] ====== Epoch 24 finished, avg_loss : 0.17942776 ======
 [+] ====== Start training... epoch 25 ======
-[*] Epoch: 25, Iter: 1 current loss: 0.61475378
-[*] Epoch: 25, Iter: 2 current loss: 0.61109847
-[*] Epoch: 25, Iter: 3 current loss: 0.60871631
-[+] ====== Epoch 25 finished, avg_loss : 0.61152285 ======
+[*] ...... Eval for Epoch: 25, Iter: 1 precision: 0.8401 recall: 0.3896
+[*] Epoch: 25, Iter: 1 current loss: 0.16707724
+[*] ...... Eval for Epoch: 25, Iter: 2 precision: 0.8976 recall: 0.3963
+[*] Epoch: 25, Iter: 2 current loss: 0.16802804
+[*] ...... Eval for Epoch: 25, Iter: 3 precision: 0.7713 recall: 0.4073
+[*] Epoch: 25, Iter: 3 current loss: 0.16610208
+[+] ====== Epoch 25 finished, avg_loss : 0.16706912 ======
 [+] ====== Start training... epoch 26 ======
-[*] Epoch: 26, Iter: 1 current loss: 0.60693502
-[*] Epoch: 26, Iter: 2 current loss: 0.60712135
-[*] Epoch: 26, Iter: 3 current loss: 0.61010092
-[+] ====== Epoch 26 finished, avg_loss : 0.60805243 ======
+[*] ...... Eval for Epoch: 26, Iter: 1 precision: 0.8687 recall: 0.4089
+[*] Epoch: 26, Iter: 1 current loss: 0.16690895
+[*] ...... Eval for Epoch: 26, Iter: 2 precision: 0.8282 recall: 0.4582
+[*] Epoch: 26, Iter: 2 current loss: 0.15455800
+[*] ...... Eval for Epoch: 26, Iter: 3 precision: 0.8460 recall: 0.4423
+[*] Epoch: 26, Iter: 3 current loss: 0.16521277
+[+] ====== Epoch 26 finished, avg_loss : 0.16222657 ======
 [+] ====== Start training... epoch 27 ======
-[*] Epoch: 27, Iter: 1 current loss: 0.60697162
-[*] Epoch: 27, Iter: 2 current loss: 0.60335767
-[*] Epoch: 27, Iter: 3 current loss: 0.60282826
-[+] ====== Epoch 27 finished, avg_loss : 0.60438585 ======
+[*] ...... Eval for Epoch: 27, Iter: 1 precision: 0.7186 recall: 0.3818
+[*] Epoch: 27, Iter: 1 current loss: 0.20887583
+[*] ...... Eval for Epoch: 27, Iter: 2 precision: 0.8504 recall: 0.2823
+[*] Epoch: 27, Iter: 2 current loss: 0.20325249
+[*] ...... Eval for Epoch: 27, Iter: 3 precision: 0.9234 recall: 0.2343
+[*] Epoch: 27, Iter: 3 current loss: 0.18766838
+[+] ====== Epoch 27 finished, avg_loss : 0.19993224 ======
 [+] ====== Start training... epoch 28 ======
-[*] Epoch: 28, Iter: 1 current loss: 0.60209674
-[*] Epoch: 28, Iter: 2 current loss: 0.59927499
-[*] Epoch: 28, Iter: 3 current loss: 0.59892333
-[+] ====== Epoch 28 finished, avg_loss : 0.60009835 ======
+[*] ...... Eval for Epoch: 28, Iter: 1 precision: 0.8279 recall: 0.3466
+[*] Epoch: 28, Iter: 1 current loss: 0.17303170
+[*] ...... Eval for Epoch: 28, Iter: 2 precision: 0.8546 recall: 0.3801
+[*] Epoch: 28, Iter: 2 current loss: 0.17221643
+[*] ...... Eval for Epoch: 28, Iter: 3 precision: 0.8769 recall: 0.4345
+[*] Epoch: 28, Iter: 3 current loss: 0.16949974
+[+] ====== Epoch 28 finished, avg_loss : 0.17158262 ======
 [+] ====== Start training... epoch 29 ======
-[*] Epoch: 29, Iter: 1 current loss: 0.59860730
-[*] Epoch: 29, Iter: 2 current loss: 0.59648478
-[*] Epoch: 29, Iter: 3 current loss: 0.59573078
-[+] ====== Epoch 29 finished, avg_loss : 0.59694095 ======
+[*] ...... Eval for Epoch: 29, Iter: 1 precision: 0.8235 recall: 0.4978
+[*] Epoch: 29, Iter: 1 current loss: 0.14816009
+[*] ...... Eval for Epoch: 29, Iter: 2 precision: 0.8413 recall: 0.4594
+[*] Epoch: 29, Iter: 2 current loss: 0.15700918
+[*] ...... Eval for Epoch: 29, Iter: 3 precision: 0.8198 recall: 0.4717
+[*] Epoch: 29, Iter: 3 current loss: 0.16812614
+[+] ====== Epoch 29 finished, avg_loss : 0.15776514 ======
 [+] ====== Start training... epoch 30 ======
-[*] Epoch: 30, Iter: 1 current loss: 0.59361857
-[*] Epoch: 30, Iter: 2 current loss: 0.59338880
-[*] Epoch: 30, Iter: 3 current loss: 0.59392518
-[+] ====== Epoch 30 finished, avg_loss : 0.59364418 ======
+[*] ...... Eval for Epoch: 30, Iter: 1 precision: 0.7811 recall: 0.5011
+[*] Epoch: 30, Iter: 1 current loss: 0.15229121
+[*] ...... Eval for Epoch: 30, Iter: 2 precision: 0.8234 recall: 0.4891
+[*] Epoch: 30, Iter: 2 current loss: 0.15316305
+[*] ...... Eval for Epoch: 30, Iter: 3 precision: 0.8844 recall: 0.4929
+[*] Epoch: 30, Iter: 3 current loss: 0.16262673
+[+] ====== Epoch 30 finished, avg_loss : 0.15602699 ======
 [+] ====== Start training... epoch 31 ======
-[*] Epoch: 31, Iter: 1 current loss: 0.58895630
-[*] Epoch: 31, Iter: 2 current loss: 0.58867717
-[*] Epoch: 31, Iter: 3 current loss: 0.58768034
-[+] ====== Epoch 31 finished, avg_loss : 0.58843793 ======
+[*] ...... Eval for Epoch: 31, Iter: 1 precision: 0.7931 recall: 0.5376
+[*] Epoch: 31, Iter: 1 current loss: 0.14680141
+[*] ...... Eval for Epoch: 31, Iter: 2 precision: 0.8109 recall: 0.5103
+[*] Epoch: 31, Iter: 2 current loss: 0.14824742
+[*] ...... Eval for Epoch: 31, Iter: 3 precision: 0.8684 recall: 0.5024
+[*] Epoch: 31, Iter: 3 current loss: 0.16049896
+[+] ====== Epoch 31 finished, avg_loss : 0.15184926 ======
 [+] ====== Start training... epoch 32 ======
-[*] Epoch: 32, Iter: 1 current loss: 0.58613735
-[*] Epoch: 32, Iter: 2 current loss: 0.58486295
-[*] Epoch: 32, Iter: 3 current loss: 0.58321226
-[+] ====== Epoch 32 finished, avg_loss : 0.58473752 ======
+[*] ...... Eval for Epoch: 32, Iter: 1 precision: 0.7630 recall: 0.5698
+[*] Epoch: 32, Iter: 1 current loss: 0.14165542
+[*] ...... Eval for Epoch: 32, Iter: 2 precision: 0.8243 recall: 0.5219
+[*] Epoch: 32, Iter: 2 current loss: 0.14945465
+[*] ...... Eval for Epoch: 32, Iter: 3 precision: 0.8604 recall: 0.4939
+[*] Epoch: 32, Iter: 3 current loss: 0.15933800
+[+] ====== Epoch 32 finished, avg_loss : 0.15014936 ======
 [+] ====== Start training... epoch 33 ======
-[*] Epoch: 33, Iter: 1 current loss: 0.58022809
-[*] Epoch: 33, Iter: 2 current loss: 0.58350337
-[*] Epoch: 33, Iter: 3 current loss: 0.57769614
-[+] ====== Epoch 33 finished, avg_loss : 0.58047587 ======
+[*] ...... Eval for Epoch: 33, Iter: 1 precision: 0.7840 recall: 0.5455
+[*] Epoch: 33, Iter: 1 current loss: 0.14884634
+[*] ...... Eval for Epoch: 33, Iter: 2 precision: 0.8273 recall: 0.5495
+[*] Epoch: 33, Iter: 2 current loss: 0.14041257
+[*] ...... Eval for Epoch: 33, Iter: 3 precision: 0.7891 recall: 0.5284
+[*] Epoch: 33, Iter: 3 current loss: 0.15875050
+[+] ====== Epoch 33 finished, avg_loss : 0.14933647 ======
 [+] ====== Start training... epoch 34 ======
-[*] Epoch: 34, Iter: 1 current loss: 0.57408309
-[*] Epoch: 34, Iter: 2 current loss: 0.57663012
-[*] Epoch: 34, Iter: 3 current loss: 0.57745045
-[+] ====== Epoch 34 finished, avg_loss : 0.57605455 ======
+[*] ...... Eval for Epoch: 34, Iter: 1 precision: 0.8228 recall: 0.5310
+[*] Epoch: 34, Iter: 1 current loss: 0.15031505
+[*] ...... Eval for Epoch: 34, Iter: 2 precision: 0.7665 recall: 0.5586
+[*] Epoch: 34, Iter: 2 current loss: 0.14544833
+[*] ...... Eval for Epoch: 34, Iter: 3 precision: 0.8352 recall: 0.5539
+[*] Epoch: 34, Iter: 3 current loss: 0.13602358
+[+] ====== Epoch 34 finished, avg_loss : 0.14392898 ======
 [+] ====== Start training... epoch 35 ======
-[*] Epoch: 35, Iter: 1 current loss: 0.57278603
-[*] Epoch: 35, Iter: 2 current loss: 0.56943202
-[*] Epoch: 35, Iter: 3 current loss: 0.56769603
-[+] ====== Epoch 35 finished, avg_loss : 0.56997136 ======
+[*] ...... Eval for Epoch: 35, Iter: 1 precision: 0.8445 recall: 0.5284
+[*] Epoch: 35, Iter: 1 current loss: 0.15577841
+[*] ...... Eval for Epoch: 35, Iter: 2 precision: 0.7728 recall: 0.5801
+[*] Epoch: 35, Iter: 2 current loss: 0.13652965
+[*] ...... Eval for Epoch: 35, Iter: 3 precision: 0.7645 recall: 0.5988
+[*] Epoch: 35, Iter: 3 current loss: 0.13254997
+[+] ====== Epoch 35 finished, avg_loss : 0.14161934 ======
 [+] ====== Start training... epoch 36 ======
-[*] Epoch: 36, Iter: 1 current loss: 0.56820434
-[*] Epoch: 36, Iter: 2 current loss: 0.56833261
-[*] Epoch: 36, Iter: 3 current loss: 0.56145781
-[+] ====== Epoch 36 finished, avg_loss : 0.56599826 ======
+[*] ...... Eval for Epoch: 36, Iter: 1 precision: 0.8249 recall: 0.5331
+[*] Epoch: 36, Iter: 1 current loss: 0.14701156
+[*] ...... Eval for Epoch: 36, Iter: 2 precision: 0.8071 recall: 0.5712
+[*] Epoch: 36, Iter: 2 current loss: 0.13490613
+[*] ...... Eval for Epoch: 36, Iter: 3 precision: 0.8329 recall: 0.5693
+[*] Epoch: 36, Iter: 3 current loss: 0.14108498
+[+] ====== Epoch 36 finished, avg_loss : 0.14100089 ======
 [+] ====== Start training... epoch 37 ======
-[*] Epoch: 37, Iter: 1 current loss: 0.56537616
-[*] Epoch: 37, Iter: 2 current loss: 0.55963260
-[*] Epoch: 37, Iter: 3 current loss: 0.55951071
-[+] ====== Epoch 37 finished, avg_loss : 0.56150649 ======
+[*] ...... Eval for Epoch: 37, Iter: 1 precision: 0.7965 recall: 0.5862
+[*] Epoch: 37, Iter: 1 current loss: 0.13475725
+[*] ...... Eval for Epoch: 37, Iter: 2 precision: 0.8103 recall: 0.5632
+[*] Epoch: 37, Iter: 2 current loss: 0.14116661
+[*] ...... Eval for Epoch: 37, Iter: 3 precision: 0.8582 recall: 0.5760
+[*] Epoch: 37, Iter: 3 current loss: 0.13926545
+[+] ====== Epoch 37 finished, avg_loss : 0.13839644 ======
 [+] ====== Start training... epoch 38 ======
-[*] Epoch: 38, Iter: 1 current loss: 0.55898529
-[*] Epoch: 38, Iter: 2 current loss: 0.55581379
-[*] Epoch: 38, Iter: 3 current loss: 0.55608892
-[+] ====== Epoch 38 finished, avg_loss : 0.55696267 ======
+[*] ...... Eval for Epoch: 38, Iter: 1 precision: 0.8179 recall: 0.5439
+[*] Epoch: 38, Iter: 1 current loss: 0.15186289
+[*] ...... Eval for Epoch: 38, Iter: 2 precision: 0.8016 recall: 0.6164
+[*] Epoch: 38, Iter: 2 current loss: 0.13050173
+[*] ...... Eval for Epoch: 38, Iter: 3 precision: 0.7573 recall: 0.6023
+[*] Epoch: 38, Iter: 3 current loss: 0.13259916
+[+] ====== Epoch 38 finished, avg_loss : 0.13832126 ======
 [+] ====== Start training... epoch 39 ======
-[*] Epoch: 39, Iter: 1 current loss: 0.55157471
-[*] Epoch: 39, Iter: 2 current loss: 0.55448622
-[*] Epoch: 39, Iter: 3 current loss: 0.54665464
-[+] ====== Epoch 39 finished, avg_loss : 0.55090519 ======
+[*] ...... Eval for Epoch: 39, Iter: 1 precision: 0.8149 recall: 0.5589
+[*] Epoch: 39, Iter: 1 current loss: 0.14310648
+[*] ...... Eval for Epoch: 39, Iter: 2 precision: 0.7699 recall: 0.5540
+[*] Epoch: 39, Iter: 2 current loss: 0.14821488
+[*] ...... Eval for Epoch: 39, Iter: 3 precision: 0.8591 recall: 0.5285
+[*] Epoch: 39, Iter: 3 current loss: 0.14747661
+[+] ====== Epoch 39 finished, avg_loss : 0.14626599 ======
 [+] ====== Start training... epoch 40 ======
-[*] Epoch: 40, Iter: 1 current loss: 0.54769492
-[*] Epoch: 40, Iter: 2 current loss: 0.54675692
-[*] Epoch: 40, Iter: 3 current loss: 0.54717463
-[+] ====== Epoch 40 finished, avg_loss : 0.54720883 ======
+[*] ...... Eval for Epoch: 40, Iter: 1 precision: 0.8142 recall: 0.5777
+[*] Epoch: 40, Iter: 1 current loss: 0.13701180
+[*] ...... Eval for Epoch: 40, Iter: 2 precision: 0.8322 recall: 0.5526
+[*] Epoch: 40, Iter: 2 current loss: 0.14058921
+[*] ...... Eval for Epoch: 40, Iter: 3 precision: 0.7431 recall: 0.5482
+[*] Epoch: 40, Iter: 3 current loss: 0.16144300
+[+] ====== Epoch 40 finished, avg_loss : 0.14634800 ======
 [+] ====== Start training... epoch 41 ======
-[*] Epoch: 41, Iter: 1 current loss: 0.54131931
-[*] Epoch: 41, Iter: 2 current loss: 0.54060340
-[*] Epoch: 41, Iter: 3 current loss: 0.54471719
-[+] ====== Epoch 41 finished, avg_loss : 0.54221330 ======
+[*] ...... Eval for Epoch: 41, Iter: 1 precision: 0.7684 recall: 0.5583
+[*] Epoch: 41, Iter: 1 current loss: 0.13891184
+[*] ...... Eval for Epoch: 41, Iter: 2 precision: 0.8425 recall: 0.5631
+[*] Epoch: 41, Iter: 2 current loss: 0.13609384
+[*] ...... Eval for Epoch: 41, Iter: 3 precision: 0.8413 recall: 0.5446
+[*] Epoch: 41, Iter: 3 current loss: 0.15431987
+[+] ====== Epoch 41 finished, avg_loss : 0.14310852 ======
 [+] ====== Start training... epoch 42 ======
-[*] Epoch: 42, Iter: 1 current loss: 0.53748882
-[*] Epoch: 42, Iter: 2 current loss: 0.53905904
-[*] Epoch: 42, Iter: 3 current loss: 0.52954388
-[+] ====== Epoch 42 finished, avg_loss : 0.53536391 ======
+[*] ...... Eval for Epoch: 42, Iter: 1 precision: 0.7982 recall: 0.5870
+[*] Epoch: 42, Iter: 1 current loss: 0.13590576
+[*] ...... Eval for Epoch: 42, Iter: 2 precision: 0.8417 recall: 0.5739
+[*] Epoch: 42, Iter: 2 current loss: 0.14245360
+[*] ...... Eval for Epoch: 42, Iter: 3 precision: 0.6944 recall: 0.6127
+[*] Epoch: 42, Iter: 3 current loss: 0.13361354
+[+] ====== Epoch 42 finished, avg_loss : 0.13732430 ======
 [+] ====== Start training... epoch 43 ======
-[*] Epoch: 43, Iter: 1 current loss: 0.52908319
-[*] Epoch: 43, Iter: 2 current loss: 0.53122604
-[*] Epoch: 43, Iter: 3 current loss: 0.53621513
-[+] ====== Epoch 43 finished, avg_loss : 0.53217479 ======
+[*] ...... Eval for Epoch: 43, Iter: 1 precision: 0.6623 recall: 0.4123
+[*] Epoch: 43, Iter: 1 current loss: 0.20199105
+[*] ...... Eval for Epoch: 43, Iter: 2 precision: 0.6210 recall: 0.4250
+[*] Epoch: 43, Iter: 2 current loss: 0.22767562
+[*] ...... Eval for Epoch: 43, Iter: 3 precision: 0.7021 recall: 0.3510
+[*] Epoch: 43, Iter: 3 current loss: 0.19493073
+[+] ====== Epoch 43 finished, avg_loss : 0.20819913 ======
 [+] ====== Start training... epoch 44 ======
-[*] Epoch: 44, Iter: 1 current loss: 0.52883142
-[*] Epoch: 44, Iter: 2 current loss: 0.52260834
-[*] Epoch: 44, Iter: 3 current loss: 0.52751243
-[+] ====== Epoch 44 finished, avg_loss : 0.52631740 ======
+[*] ...... Eval for Epoch: 44, Iter: 1 precision: 0.8697 recall: 0.4086
+[*] Epoch: 44, Iter: 1 current loss: 0.16661799
+[*] ...... Eval for Epoch: 44, Iter: 2 precision: 0.8203 recall: 0.4662
+[*] Epoch: 44, Iter: 2 current loss: 0.15449914
+[*] ...... Eval for Epoch: 44, Iter: 3 precision: 0.8115 recall: 0.4877
+[*] Epoch: 44, Iter: 3 current loss: 0.15767653
+[+] ====== Epoch 44 finished, avg_loss : 0.15959789 ======
 [+] ====== Start training... epoch 45 ======
-[*] Epoch: 45, Iter: 1 current loss: 0.52451587
-[*] Epoch: 45, Iter: 2 current loss: 0.51913255
-[*] Epoch: 45, Iter: 3 current loss: 0.51538646
-[+] ====== Epoch 45 finished, avg_loss : 0.51967829 ======
+[*] ...... Eval for Epoch: 45, Iter: 1 precision: 0.8415 recall: 0.5184
+[*] Epoch: 45, Iter: 1 current loss: 0.14961058
+[*] ...... Eval for Epoch: 45, Iter: 2 precision: 0.8342 recall: 0.4965
+[*] Epoch: 45, Iter: 2 current loss: 0.14946359
+[*] ...... Eval for Epoch: 45, Iter: 3 precision: 0.7946 recall: 0.5415
+[*] Epoch: 45, Iter: 3 current loss: 0.14146209
+[+] ====== Epoch 45 finished, avg_loss : 0.14684542 ======
 [+] ====== Start training... epoch 46 ======
-[*] Epoch: 46, Iter: 1 current loss: 0.51588506
-[*] Epoch: 46, Iter: 2 current loss: 0.51652086
-[*] Epoch: 46, Iter: 3 current loss: 0.51053119
-[+] ====== Epoch 46 finished, avg_loss : 0.51431237 ======
+[*] ...... Eval for Epoch: 46, Iter: 1 precision: 0.7934 recall: 0.5388
+[*] Epoch: 46, Iter: 1 current loss: 0.14635590
+[*] ...... Eval for Epoch: 46, Iter: 2 precision: 0.8165 recall: 0.5575
+[*] Epoch: 46, Iter: 2 current loss: 0.14122510
+[*] ...... Eval for Epoch: 46, Iter: 3 precision: 0.8521 recall: 0.5679
+[*] Epoch: 46, Iter: 3 current loss: 0.13158973
+[+] ====== Epoch 46 finished, avg_loss : 0.13972357 ======
 [+] ====== Start training... epoch 47 ======
-[*] Epoch: 47, Iter: 1 current loss: 0.51180935
-[*] Epoch: 47, Iter: 2 current loss: 0.50966144
-[*] Epoch: 47, Iter: 3 current loss: 0.50623810
-[+] ====== Epoch 47 finished, avg_loss : 0.50923630 ======
+[*] ...... Eval for Epoch: 47, Iter: 1 precision: 0.8144 recall: 0.5541
+[*] Epoch: 47, Iter: 1 current loss: 0.14339180
+[*] ...... Eval for Epoch: 47, Iter: 2 precision: 0.7985 recall: 0.5940
+[*] Epoch: 47, Iter: 2 current loss: 0.13409930
+[*] ...... Eval for Epoch: 47, Iter: 3 precision: 0.8099 recall: 0.5907
+[*] Epoch: 47, Iter: 3 current loss: 0.13365786
+[+] ====== Epoch 47 finished, avg_loss : 0.13704966 ======
 [+] ====== Start training... epoch 48 ======
-[*] Epoch: 48, Iter: 1 current loss: 0.50554907
-[*] Epoch: 48, Iter: 2 current loss: 0.50255555
-[*] Epoch: 48, Iter: 3 current loss: 0.50569534
-[+] ====== Epoch 48 finished, avg_loss : 0.50459999 ======
+[*] ...... Eval for Epoch: 48, Iter: 1 precision: 0.8310 recall: 0.5696
+[*] Epoch: 48, Iter: 1 current loss: 0.13988635
+[*] ...... Eval for Epoch: 48, Iter: 2 precision: 0.7854 recall: 0.5938
+[*] Epoch: 48, Iter: 2 current loss: 0.13535456
+[*] ...... Eval for Epoch: 48, Iter: 3 precision: 0.7599 recall: 0.5919
+[*] Epoch: 48, Iter: 3 current loss: 0.14195314
+[+] ====== Epoch 48 finished, avg_loss : 0.13906468 ======
 [+] ====== Start training... epoch 49 ======
-[*] Epoch: 49, Iter: 1 current loss: 0.49772862
-[*] Epoch: 49, Iter: 2 current loss: 0.50206929
-[*] Epoch: 49, Iter: 3 current loss: 0.49823669
-[+] ====== Epoch 49 finished, avg_loss : 0.49934487 ======
+[*] ...... Eval for Epoch: 49, Iter: 1 precision: 0.8015 recall: 0.5436
+[*] Epoch: 49, Iter: 1 current loss: 0.14668684
+[*] ...... Eval for Epoch: 49, Iter: 2 precision: 0.8283 recall: 0.5819
+[*] Epoch: 49, Iter: 2 current loss: 0.13462833
+[*] ...... Eval for Epoch: 49, Iter: 3 precision: 0.7782 recall: 0.5977
+[*] Epoch: 49, Iter: 3 current loss: 0.13262591
+[+] ====== Epoch 49 finished, avg_loss : 0.13798036 ======
 [+] ====== Start training... epoch 50 ======
-[*] Epoch: 50, Iter: 1 current loss: 0.49670208
-[*] Epoch: 50, Iter: 2 current loss: 0.49489391
-[*] Epoch: 50, Iter: 3 current loss: 0.48927456
-[+] ====== Epoch 50 finished, avg_loss : 0.49362351 ======
+[*] ...... Eval for Epoch: 50, Iter: 1 precision: 0.7763 recall: 0.5882
+[*] Epoch: 50, Iter: 1 current loss: 0.13476630
+[*] ...... Eval for Epoch: 50, Iter: 2 precision: 0.8360 recall: 0.5655
+[*] Epoch: 50, Iter: 2 current loss: 0.13575864
+[*] ...... Eval for Epoch: 50, Iter: 3 precision: 0.8542 recall: 0.5972
+[*] Epoch: 50, Iter: 3 current loss: 0.13411589
+[+] ====== Epoch 50 finished, avg_loss : 0.13488027 ======
 [+] ====== Start training... epoch 51 ======
-[*] Epoch: 51, Iter: 1 current loss: 0.48754892
-[*] Epoch: 51, Iter: 2 current loss: 0.49317890
-[*] Epoch: 51, Iter: 3 current loss: 0.48605302
-[+] ====== Epoch 51 finished, avg_loss : 0.48892695 ======
+[*] ...... Eval for Epoch: 51, Iter: 1 precision: 0.7933 recall: 0.6008
+[*] Epoch: 51, Iter: 1 current loss: 0.13819918
+[*] ...... Eval for Epoch: 51, Iter: 2 precision: 0.8271 recall: 0.5925
+[*] Epoch: 51, Iter: 2 current loss: 0.13477263
+[*] ...... Eval for Epoch: 51, Iter: 3 precision: 0.7400 recall: 0.6464
+[*] Epoch: 51, Iter: 3 current loss: 0.12559369
+[+] ====== Epoch 51 finished, avg_loss : 0.13285517 ======
 [+] ====== Start training... epoch 52 ======
-[*] Epoch: 52, Iter: 1 current loss: 0.48449081
-[*] Epoch: 52, Iter: 2 current loss: 0.48734054
-[*] Epoch: 52, Iter: 3 current loss: 0.48174286
-[+] ====== Epoch 52 finished, avg_loss : 0.48452474 ======
+[*] ...... Eval for Epoch: 52, Iter: 1 precision: 0.8145 recall: 0.5399
+[*] Epoch: 52, Iter: 1 current loss: 0.15029272
+[*] ...... Eval for Epoch: 52, Iter: 2 precision: 0.8144 recall: 0.6212
+[*] Epoch: 52, Iter: 2 current loss: 0.12936831
+[*] ...... Eval for Epoch: 52, Iter: 3 precision: 0.7714 recall: 0.5879
+[*] Epoch: 52, Iter: 3 current loss: 0.12921727
+[+] ====== Epoch 52 finished, avg_loss : 0.13629277 ======
 [+] ====== Start training... epoch 53 ======
-[*] Epoch: 53, Iter: 1 current loss: 0.47586161
-[*] Epoch: 53, Iter: 2 current loss: 0.48210663
-[*] Epoch: 53, Iter: 3 current loss: 0.48256460
-[+] ====== Epoch 53 finished, avg_loss : 0.48017761 ======
+[*] ...... Eval for Epoch: 53, Iter: 1 precision: 0.8292 recall: 0.5996
+[*] Epoch: 53, Iter: 1 current loss: 0.12745221
+[*] ...... Eval for Epoch: 53, Iter: 2 precision: 0.7949 recall: 0.5763
+[*] Epoch: 53, Iter: 2 current loss: 0.14052016
+[*] ...... Eval for Epoch: 53, Iter: 3 precision: 0.8338 recall: 0.5734
+[*] Epoch: 53, Iter: 3 current loss: 0.13935970
+[+] ====== Epoch 53 finished, avg_loss : 0.13577735 ======
 [+] ====== Start training... epoch 54 ======
-[*] Epoch: 54, Iter: 1 current loss: 0.47651330
-[*] Epoch: 54, Iter: 2 current loss: 0.47738650
-[*] Epoch: 54, Iter: 3 current loss: 0.47191021
-[+] ====== Epoch 54 finished, avg_loss : 0.47527000 ======
+[*] ...... Eval for Epoch: 54, Iter: 1 precision: 0.8083 recall: 0.6384
+[*] Epoch: 54, Iter: 1 current loss: 0.12231176
+[*] ...... Eval for Epoch: 54, Iter: 2 precision: 0.7986 recall: 0.5901
+[*] Epoch: 54, Iter: 2 current loss: 0.14137280
+[*] ...... Eval for Epoch: 54, Iter: 3 precision: 0.8110 recall: 0.6102
+[*] Epoch: 54, Iter: 3 current loss: 0.12727483
+[+] ====== Epoch 54 finished, avg_loss : 0.13031980 ======
 [+] ====== Start training... epoch 55 ======
-[*] Epoch: 55, Iter: 1 current loss: 0.47067133
-[*] Epoch: 55, Iter: 2 current loss: 0.47779331
-[*] Epoch: 55, Iter: 3 current loss: 0.46340621
-[+] ====== Epoch 55 finished, avg_loss : 0.47062361 ======
+[*] ...... Eval for Epoch: 55, Iter: 1 precision: 0.8231 recall: 0.5978
+[*] Epoch: 55, Iter: 1 current loss: 0.13487139
+[*] ...... Eval for Epoch: 55, Iter: 2 precision: 0.7992 recall: 0.6405
+[*] Epoch: 55, Iter: 2 current loss: 0.12069976
+[*] ...... Eval for Epoch: 55, Iter: 3 precision: 0.7878 recall: 0.5975
+[*] Epoch: 55, Iter: 3 current loss: 0.13850291
+[+] ====== Epoch 55 finished, avg_loss : 0.13135802 ======
 [+] ====== Start training... epoch 56 ======
-[*] Epoch: 56, Iter: 1 current loss: 0.46467972
-[*] Epoch: 56, Iter: 2 current loss: 0.46900117
-[*] Epoch: 56, Iter: 3 current loss: 0.46929833
-[+] ====== Epoch 56 finished, avg_loss : 0.46765974 ======
+[*] ...... Eval for Epoch: 56, Iter: 1 precision: 0.7910 recall: 0.6263
+[*] Epoch: 56, Iter: 1 current loss: 0.12143936
+[*] ...... Eval for Epoch: 56, Iter: 2 precision: 0.8446 recall: 0.5591
+[*] Epoch: 56, Iter: 2 current loss: 0.14786391
+[*] ...... Eval for Epoch: 56, Iter: 3 precision: 0.7711 recall: 0.6583
+[*] Epoch: 56, Iter: 3 current loss: 0.12193400
+[+] ====== Epoch 56 finished, avg_loss : 0.13041242 ======
 [+] ====== Start training... epoch 57 ======
-[*] Epoch: 57, Iter: 1 current loss: 0.46183243
-[*] Epoch: 57, Iter: 2 current loss: 0.46591711
-[*] Epoch: 57, Iter: 3 current loss: 0.46265447
-[+] ====== Epoch 57 finished, avg_loss : 0.46346801 ======
+[*] ...... Eval for Epoch: 57, Iter: 1 precision: 0.7963 recall: 0.6165
+[*] Epoch: 57, Iter: 1 current loss: 0.12526837
+[*] ...... Eval for Epoch: 57, Iter: 2 precision: 0.8424 recall: 0.5725
+[*] Epoch: 57, Iter: 2 current loss: 0.14018856
+[*] ...... Eval for Epoch: 57, Iter: 3 precision: 0.7965 recall: 0.6488
+[*] Epoch: 57, Iter: 3 current loss: 0.12074199
+[+] ====== Epoch 57 finished, avg_loss : 0.12873297 ======
 [+] ====== Start training... epoch 58 ======
-[*] Epoch: 58, Iter: 1 current loss: 0.46127850
-[*] Epoch: 58, Iter: 2 current loss: 0.46300960
-[*] Epoch: 58, Iter: 3 current loss: 0.45534176
-[+] ====== Epoch 58 finished, avg_loss : 0.45987662 ======
+[*] ...... Eval for Epoch: 58, Iter: 1 precision: 0.7989 recall: 0.6111
+[*] Epoch: 58, Iter: 1 current loss: 0.12694338
+[*] ...... Eval for Epoch: 58, Iter: 2 precision: 0.8148 recall: 0.6336
+[*] Epoch: 58, Iter: 2 current loss: 0.12166911
+[*] ...... Eval for Epoch: 58, Iter: 3 precision: 0.8352 recall: 0.5708
+[*] Epoch: 58, Iter: 3 current loss: 0.14829738
+[+] ====== Epoch 58 finished, avg_loss : 0.13230329 ======
 [+] ====== Start training... epoch 59 ======
-[*] Epoch: 59, Iter: 1 current loss: 0.45832002
-[*] Epoch: 59, Iter: 2 current loss: 0.45716086
-[*] Epoch: 59, Iter: 3 current loss: 0.45570007
-[+] ====== Epoch 59 finished, avg_loss : 0.45706032 ======
+[*] ...... Eval for Epoch: 59, Iter: 1 precision: 0.7830 recall: 0.6264
+[*] Epoch: 59, Iter: 1 current loss: 0.13049182
+[*] ...... Eval for Epoch: 59, Iter: 2 precision: 0.8435 recall: 0.6026
+[*] Epoch: 59, Iter: 2 current loss: 0.13181877
+[*] ...... Eval for Epoch: 59, Iter: 3 precision: 0.7448 recall: 0.6639
+[*] Epoch: 59, Iter: 3 current loss: 0.12224889
+[+] ====== Epoch 59 finished, avg_loss : 0.12818649 ======
 [+] ====== Start training... epoch 60 ======
-[*] Epoch: 60, Iter: 1 current loss: 0.45486605
-[*] Epoch: 60, Iter: 2 current loss: 0.45426887
-[*] Epoch: 60, Iter: 3 current loss: 0.45128366
-[+] ====== Epoch 60 finished, avg_loss : 0.45347286 ======
+[*] ...... Eval for Epoch: 60, Iter: 1 precision: 0.8152 recall: 0.6181
+[*] Epoch: 60, Iter: 1 current loss: 0.12457257
+[*] ...... Eval for Epoch: 60, Iter: 2 precision: 0.7964 recall: 0.5894
+[*] Epoch: 60, Iter: 2 current loss: 0.13628040
+[*] ...... Eval for Epoch: 60, Iter: 3 precision: 0.8315 recall: 0.6222
+[*] Epoch: 60, Iter: 3 current loss: 0.12723489
+[+] ====== Epoch 60 finished, avg_loss : 0.12936262 ======
 [+] ====== Start training... epoch 61 ======
-[*] Epoch: 61, Iter: 1 current loss: 0.44853544
-[*] Epoch: 61, Iter: 2 current loss: 0.45382726
-[*] Epoch: 61, Iter: 3 current loss: 0.44914031
-[+] ====== Epoch 61 finished, avg_loss : 0.45050100 ======
+[*] ...... Eval for Epoch: 61, Iter: 1 precision: 0.8135 recall: 0.6106
+[*] Epoch: 61, Iter: 1 current loss: 0.13213289
+[*] ...... Eval for Epoch: 61, Iter: 2 precision: 0.8140 recall: 0.6328
+[*] Epoch: 61, Iter: 2 current loss: 0.12385269
+[*] ...... Eval for Epoch: 61, Iter: 3 precision: 0.7873 recall: 0.6197
+[*] Epoch: 61, Iter: 3 current loss: 0.12250221
+[+] ====== Epoch 61 finished, avg_loss : 0.12616259 ======
 [+] ====== Start training... epoch 62 ======
-[*] Epoch: 62, Iter: 1 current loss: 0.44645655
-[*] Epoch: 62, Iter: 2 current loss: 0.44680566
-[*] Epoch: 62, Iter: 3 current loss: 0.45254764
-[+] ====== Epoch 62 finished, avg_loss : 0.44860328 ======
+[*] ...... Eval for Epoch: 62, Iter: 1 precision: 0.8284 recall: 0.6230
+[*] Epoch: 62, Iter: 1 current loss: 0.12443002
+[*] ...... Eval for Epoch: 62, Iter: 2 precision: 0.8204 recall: 0.6102
+[*] Epoch: 62, Iter: 2 current loss: 0.13050984
+[*] ...... Eval for Epoch: 62, Iter: 3 precision: 0.7841 recall: 0.6255
+[*] Epoch: 62, Iter: 3 current loss: 0.12603383
+[+] ====== Epoch 62 finished, avg_loss : 0.12699123 ======
 [+] ====== Start training... epoch 63 ======
-[*] Epoch: 63, Iter: 1 current loss: 0.44875574
-[*] Epoch: 63, Iter: 2 current loss: 0.44036928
-[*] Epoch: 63, Iter: 3 current loss: 0.44807020
-[+] ====== Epoch 63 finished, avg_loss : 0.44573174 ======
+[*] ...... Eval for Epoch: 63, Iter: 1 precision: 0.8073 recall: 0.6263
+[*] Epoch: 63, Iter: 1 current loss: 0.12527734
+[*] ...... Eval for Epoch: 63, Iter: 2 precision: 0.8238 recall: 0.6016
+[*] Epoch: 63, Iter: 2 current loss: 0.13520780
+[*] ...... Eval for Epoch: 63, Iter: 3 precision: 0.7866 recall: 0.6487
+[*] Epoch: 63, Iter: 3 current loss: 0.11711159
+[+] ====== Epoch 63 finished, avg_loss : 0.12586558 ======
 [+] ====== Start training... epoch 64 ======
-[*] Epoch: 64, Iter: 1 current loss: 0.44405961
-[*] Epoch: 64, Iter: 2 current loss: 0.44246498
-[*] Epoch: 64, Iter: 3 current loss: 0.44370818
-[+] ====== Epoch 64 finished, avg_loss : 0.44341092 ======
+[*] ...... Eval for Epoch: 64, Iter: 1 precision: 0.8510 recall: 0.5919
+[*] Epoch: 64, Iter: 1 current loss: 0.13084239
+[*] ...... Eval for Epoch: 64, Iter: 2 precision: 0.7820 recall: 0.6340
+[*] Epoch: 64, Iter: 2 current loss: 0.12568888
+[*] ...... Eval for Epoch: 64, Iter: 3 precision: 0.8171 recall: 0.6176
+[*] Epoch: 64, Iter: 3 current loss: 0.12533456
+[+] ====== Epoch 64 finished, avg_loss : 0.12728861 ======
 [+] ====== Start training... epoch 65 ======
-[*] Epoch: 65, Iter: 1 current loss: 0.44429415
-[*] Epoch: 65, Iter: 2 current loss: 0.43901220
-[*] Epoch: 65, Iter: 3 current loss: 0.43961331
-[+] ====== Epoch 65 finished, avg_loss : 0.44097322 ======
+[*] ...... Eval for Epoch: 65, Iter: 1 precision: 0.8243 recall: 0.6215
+[*] Epoch: 65, Iter: 1 current loss: 0.12601981
+[*] ...... Eval for Epoch: 65, Iter: 2 precision: 0.8130 recall: 0.6460
+[*] Epoch: 65, Iter: 2 current loss: 0.12160719
+[*] ...... Eval for Epoch: 65, Iter: 3 precision: 0.7764 recall: 0.6162
+[*] Epoch: 65, Iter: 3 current loss: 0.13006386
+[+] ====== Epoch 65 finished, avg_loss : 0.12589695 ======
 [+] ====== Start training... epoch 66 ======
-[*] Epoch: 66, Iter: 1 current loss: 0.43946230
-[*] Epoch: 66, Iter: 2 current loss: 0.43846077
-[*] Epoch: 66, Iter: 3 current loss: 0.44017434
-[+] ====== Epoch 66 finished, avg_loss : 0.43936580 ======
+[*] ...... Eval for Epoch: 66, Iter: 1 precision: 0.8333 recall: 0.6205
+[*] Epoch: 66, Iter: 1 current loss: 0.12383477
+[*] ...... Eval for Epoch: 66, Iter: 2 precision: 0.7865 recall: 0.6161
+[*] Epoch: 66, Iter: 2 current loss: 0.12923075
+[*] ...... Eval for Epoch: 66, Iter: 3 precision: 0.8325 recall: 0.6394
+[*] Epoch: 66, Iter: 3 current loss: 0.12327600
+[+] ====== Epoch 66 finished, avg_loss : 0.12544717 ======
 [+] ====== Start training... epoch 67 ======
-[*] Epoch: 67, Iter: 1 current loss: 0.43727127
-[*] Epoch: 67, Iter: 2 current loss: 0.43721253
-[*] Epoch: 67, Iter: 3 current loss: 0.43633363
-[+] ====== Epoch 67 finished, avg_loss : 0.43693914 ======
+[*] ...... Eval for Epoch: 67, Iter: 1 precision: 0.7772 recall: 0.6417
+[*] Epoch: 67, Iter: 1 current loss: 0.12232555
+[*] ...... Eval for Epoch: 67, Iter: 2 precision: 0.8324 recall: 0.6038
+[*] Epoch: 67, Iter: 2 current loss: 0.13166463
+[*] ...... Eval for Epoch: 67, Iter: 3 precision: 0.8441 recall: 0.6287
+[*] Epoch: 67, Iter: 3 current loss: 0.12313787
+[+] ====== Epoch 67 finished, avg_loss : 0.12570935 ======
 [+] ====== Start training... epoch 68 ======
-[*] Epoch: 68, Iter: 1 current loss: 0.43672335
-[*] Epoch: 68, Iter: 2 current loss: 0.43759561
-[*] Epoch: 68, Iter: 3 current loss: 0.42771760
-[+] ====== Epoch 68 finished, avg_loss : 0.43401218 ======
+[*] ...... Eval for Epoch: 68, Iter: 1 precision: 0.7989 recall: 0.6266
+[*] Epoch: 68, Iter: 1 current loss: 0.13110454
+[*] ...... Eval for Epoch: 68, Iter: 2 precision: 0.7844 recall: 0.6497
+[*] Epoch: 68, Iter: 2 current loss: 0.11983158
+[*] ...... Eval for Epoch: 68, Iter: 3 precision: 0.8695 recall: 0.6322
+[*] Epoch: 68, Iter: 3 current loss: 0.11909115
+[+] ====== Epoch 68 finished, avg_loss : 0.12334242 ======
 [+] ====== Start training... epoch 69 ======
-[*] Epoch: 69, Iter: 1 current loss: 0.43796596
-[*] Epoch: 69, Iter: 2 current loss: 0.42904490
-[*] Epoch: 69, Iter: 3 current loss: 0.43467391
-[+] ====== Epoch 69 finished, avg_loss : 0.43389492 ======
+[*] ...... Eval for Epoch: 69, Iter: 1 precision: 0.8025 recall: 0.6311
+[*] Epoch: 69, Iter: 1 current loss: 0.12711307
+[*] ...... Eval for Epoch: 69, Iter: 2 precision: 0.8132 recall: 0.6398
+[*] Epoch: 69, Iter: 2 current loss: 0.12271743
+[*] ...... Eval for Epoch: 69, Iter: 3 precision: 0.8070 recall: 0.6481
+[*] Epoch: 69, Iter: 3 current loss: 0.12026294
+[+] ====== Epoch 69 finished, avg_loss : 0.12336448 ======
 [+] ====== Start training... epoch 70 ======
-[*] Epoch: 70, Iter: 1 current loss: 0.43161502
-[*] Epoch: 70, Iter: 2 current loss: 0.43316171
-[*] Epoch: 70, Iter: 3 current loss: 0.43104088
-[+] ====== Epoch 70 finished, avg_loss : 0.43193920 ======
+[*] ...... Eval for Epoch: 70, Iter: 1 precision: 0.8228 recall: 0.6399
+[*] Epoch: 70, Iter: 1 current loss: 0.12114771
+[*] ...... Eval for Epoch: 70, Iter: 2 precision: 0.8337 recall: 0.6316
+[*] Epoch: 70, Iter: 2 current loss: 0.12360398
+[*] ...... Eval for Epoch: 70, Iter: 3 precision: 0.7352 recall: 0.6150
+[*] Epoch: 70, Iter: 3 current loss: 0.13377495
+[+] ====== Epoch 70 finished, avg_loss : 0.12617555 ======
 [+] ====== Start training... epoch 71 ======
-[*] Epoch: 71, Iter: 1 current loss: 0.42853895
-[*] Epoch: 71, Iter: 2 current loss: 0.43016008
-[*] Epoch: 71, Iter: 3 current loss: 0.43007350
-[+] ====== Epoch 71 finished, avg_loss : 0.42959084 ======
+[*] ...... Eval for Epoch: 71, Iter: 1 precision: 0.8150 recall: 0.6036
+[*] Epoch: 71, Iter: 1 current loss: 0.12936506
+[*] ...... Eval for Epoch: 71, Iter: 2 precision: 0.7962 recall: 0.6595
+[*] Epoch: 71, Iter: 2 current loss: 0.11742840
+[*] ...... Eval for Epoch: 71, Iter: 3 precision: 0.8733 recall: 0.5900
+[*] Epoch: 71, Iter: 3 current loss: 0.12975472
+[+] ====== Epoch 71 finished, avg_loss : 0.12551606 ======
 [+] ====== Start training... epoch 72 ======
-[*] Epoch: 72, Iter: 1 current loss: 0.42822555
-[*] Epoch: 72, Iter: 2 current loss: 0.42722374
-[*] Epoch: 72, Iter: 3 current loss: 0.42945379
-[+] ====== Epoch 72 finished, avg_loss : 0.42830103 ======
+[*] ...... Eval for Epoch: 72, Iter: 1 precision: 0.7859 recall: 0.6234
+[*] Epoch: 72, Iter: 1 current loss: 0.12890166
+[*] ...... Eval for Epoch: 72, Iter: 2 precision: 0.8236 recall: 0.6393
+[*] Epoch: 72, Iter: 2 current loss: 0.12183786
+[*] ...... Eval for Epoch: 72, Iter: 3 precision: 0.8265 recall: 0.6401
+[*] Epoch: 72, Iter: 3 current loss: 0.12158799
+[+] ====== Epoch 72 finished, avg_loss : 0.12410917 ======
 [+] ====== Start training... epoch 73 ======
-[*] Epoch: 73, Iter: 1 current loss: 0.42779985
-[*] Epoch: 73, Iter: 2 current loss: 0.43050909
-[*] Epoch: 73, Iter: 3 current loss: 0.41845405
-[+] ====== Epoch 73 finished, avg_loss : 0.42558766 ======
+[*] ...... Eval for Epoch: 73, Iter: 1 precision: 0.7717 recall: 0.6420
+[*] Epoch: 73, Iter: 1 current loss: 0.12713428
+[*] ...... Eval for Epoch: 73, Iter: 2 precision: 0.8398 recall: 0.6269
+[*] Epoch: 73, Iter: 2 current loss: 0.12108773
+[*] ...... Eval for Epoch: 73, Iter: 3 precision: 0.8203 recall: 0.6265
+[*] Epoch: 73, Iter: 3 current loss: 0.12518036
+[+] ====== Epoch 73 finished, avg_loss : 0.12446746 ======
 [+] ====== Start training... epoch 74 ======
-[*] Epoch: 74, Iter: 1 current loss: 0.42146739
-[*] Epoch: 74, Iter: 2 current loss: 0.42981490
-[*] Epoch: 74, Iter: 3 current loss: 0.42602009
-[+] ====== Epoch 74 finished, avg_loss : 0.42576746 ======
+[*] ...... Eval for Epoch: 74, Iter: 1 precision: 0.8272 recall: 0.6246
+[*] Epoch: 74, Iter: 1 current loss: 0.12694353
+[*] ...... Eval for Epoch: 74, Iter: 2 precision: 0.7754 recall: 0.6707
+[*] Epoch: 74, Iter: 2 current loss: 0.11726400
+[*] ...... Eval for Epoch: 74, Iter: 3 precision: 0.8423 recall: 0.6124
+[*] Epoch: 74, Iter: 3 current loss: 0.12837890
+[+] ====== Epoch 74 finished, avg_loss : 0.12419547 ======
 [+] ====== Start training... epoch 75 ======
-[*] Epoch: 75, Iter: 1 current loss: 0.42105362
-[*] Epoch: 75, Iter: 2 current loss: 0.42627746
-[*] Epoch: 75, Iter: 3 current loss: 0.42828009
-[+] ====== Epoch 75 finished, avg_loss : 0.42520372 ======
+[*] ...... Eval for Epoch: 75, Iter: 1 precision: 0.8011 recall: 0.6372
+[*] Epoch: 75, Iter: 1 current loss: 0.12763950
+[*] ...... Eval for Epoch: 75, Iter: 2 precision: 0.8110 recall: 0.6496
+[*] Epoch: 75, Iter: 2 current loss: 0.11760812
+[*] ...... Eval for Epoch: 75, Iter: 3 precision: 0.8285 recall: 0.6067
+[*] Epoch: 75, Iter: 3 current loss: 0.12805401
+[+] ====== Epoch 75 finished, avg_loss : 0.12443388 ======
 [+] ====== Start training... epoch 76 ======
-[*] Epoch: 76, Iter: 1 current loss: 0.42613664
-[*] Epoch: 76, Iter: 2 current loss: 0.42178774
-[*] Epoch: 76, Iter: 3 current loss: 0.42090207
-[+] ====== Epoch 76 finished, avg_loss : 0.42294215 ======
+[*] ...... Eval for Epoch: 76, Iter: 1 precision: 0.8280 recall: 0.6348
+[*] Epoch: 76, Iter: 1 current loss: 0.12254991
+[*] ...... Eval for Epoch: 76, Iter: 2 precision: 0.7836 recall: 0.6228
+[*] Epoch: 76, Iter: 2 current loss: 0.12814018
+[*] ...... Eval for Epoch: 76, Iter: 3 precision: 0.8347 recall: 0.6482
+[*] Epoch: 76, Iter: 3 current loss: 0.11976522
+[+] ====== Epoch 76 finished, avg_loss : 0.12348510 ======
 [+] ====== Start training... epoch 77 ======
-[*] Epoch: 77, Iter: 1 current loss: 0.41983786
-[*] Epoch: 77, Iter: 2 current loss: 0.42339125
-[*] Epoch: 77, Iter: 3 current loss: 0.42625451
-[+] ====== Epoch 77 finished, avg_loss : 0.42316121 ======
+[*] ...... Eval for Epoch: 77, Iter: 1 precision: 0.8090 recall: 0.6371
+[*] Epoch: 77, Iter: 1 current loss: 0.12398158
+[*] ...... Eval for Epoch: 77, Iter: 2 precision: 0.8403 recall: 0.6479
+[*] Epoch: 77, Iter: 2 current loss: 0.11479300
+[*] ...... Eval for Epoch: 77, Iter: 3 precision: 0.7757 recall: 0.6148
+[*] Epoch: 77, Iter: 3 current loss: 0.13383794
+[+] ====== Epoch 77 finished, avg_loss : 0.12420417 ======
 [+] ====== Start training... epoch 78 ======
-[*] Epoch: 78, Iter: 1 current loss: 0.42336306
-[*] Epoch: 78, Iter: 2 current loss: 0.41768548
-[*] Epoch: 78, Iter: 3 current loss: 0.42637223
-[+] ====== Epoch 78 finished, avg_loss : 0.42247359 ======
+[*] ...... Eval for Epoch: 78, Iter: 1 precision: 0.8505 recall: 0.6324
+[*] Epoch: 78, Iter: 1 current loss: 0.11905051
+[*] ...... Eval for Epoch: 78, Iter: 2 precision: 0.8125 recall: 0.6460
+[*] Epoch: 78, Iter: 2 current loss: 0.12162992
+[*] ...... Eval for Epoch: 78, Iter: 3 precision: 0.7606 recall: 0.6254
+[*] Epoch: 78, Iter: 3 current loss: 0.12949467
+[+] ====== Epoch 78 finished, avg_loss : 0.12339170 ======
 [+] ====== Start training... epoch 79 ======
-[*] Epoch: 79, Iter: 1 current loss: 0.41866314
-[*] Epoch: 79, Iter: 2 current loss: 0.42673486
-[*] Epoch: 79, Iter: 3 current loss: 0.41156614
-[+] ====== Epoch 79 finished, avg_loss : 0.41898805 ======
+[*] ...... Eval for Epoch: 79, Iter: 1 precision: 0.8418 recall: 0.6228
+[*] Epoch: 79, Iter: 1 current loss: 0.12726820
+[*] ...... Eval for Epoch: 79, Iter: 2 precision: 0.8055 recall: 0.6298
+[*] Epoch: 79, Iter: 2 current loss: 0.12283599
+[*] ...... Eval for Epoch: 79, Iter: 3 precision: 0.7825 recall: 0.6796
+[*] Epoch: 79, Iter: 3 current loss: 0.11296441
+[+] ====== Epoch 79 finished, avg_loss : 0.12102287 ======
 [+] ====== Start training... epoch 80 ======
-[*] Epoch: 80, Iter: 1 current loss: 0.42063156
-[*] Epoch: 80, Iter: 2 current loss: 0.42243391
-[*] Epoch: 80, Iter: 3 current loss: 0.41241664
-[+] ====== Epoch 80 finished, avg_loss : 0.41849404 ======
+[*] ...... Eval for Epoch: 80, Iter: 1 precision: 0.8324 recall: 0.5978
+[*] Epoch: 80, Iter: 1 current loss: 0.12974221
+[*] ...... Eval for Epoch: 80, Iter: 2 precision: 0.8294 recall: 0.6411
+[*] Epoch: 80, Iter: 2 current loss: 0.11967181
+[*] ...... Eval for Epoch: 80, Iter: 3 precision: 0.8053 recall: 0.6855
+[*] Epoch: 80, Iter: 3 current loss: 0.11103170
+[+] ====== Epoch 80 finished, avg_loss : 0.12014857 ======
 [+] ====== Start training... epoch 81 ======
-[*] Epoch: 81, Iter: 1 current loss: 0.42190802
-[*] Epoch: 81, Iter: 2 current loss: 0.41986594
-[*] Epoch: 81, Iter: 3 current loss: 0.41071701
-[+] ====== Epoch 81 finished, avg_loss : 0.41749699 ======
+[*] ...... Eval for Epoch: 81, Iter: 1 precision: 0.8403 recall: 0.6358
+[*] Epoch: 81, Iter: 1 current loss: 0.11657510
+[*] ...... Eval for Epoch: 81, Iter: 2 precision: 0.8265 recall: 0.6076
+[*] Epoch: 81, Iter: 2 current loss: 0.13276160
+[*] ...... Eval for Epoch: 81, Iter: 3 precision: 0.7835 recall: 0.6926
+[*] Epoch: 81, Iter: 3 current loss: 0.10862428
+[+] ====== Epoch 81 finished, avg_loss : 0.11932033 ======
 [+] ====== Start training... epoch 82 ======
-[*] Epoch: 82, Iter: 1 current loss: 0.41464555
-[*] Epoch: 82, Iter: 2 current loss: 0.41704085
-[*] Epoch: 82, Iter: 3 current loss: 0.42730099
-[+] ====== Epoch 82 finished, avg_loss : 0.41966247 ======
+[*] ...... Eval for Epoch: 82, Iter: 1 precision: 0.8132 recall: 0.6205
+[*] Epoch: 82, Iter: 1 current loss: 0.12516074
+[*] ...... Eval for Epoch: 82, Iter: 2 precision: 0.8200 recall: 0.6466
+[*] Epoch: 82, Iter: 2 current loss: 0.11656383
+[*] ...... Eval for Epoch: 82, Iter: 3 precision: 0.8551 recall: 0.6409
+[*] Epoch: 82, Iter: 3 current loss: 0.11785977
+[+] ====== Epoch 82 finished, avg_loss : 0.11986145 ======
 [+] ====== Start training... epoch 83 ======
-[*] Epoch: 83, Iter: 1 current loss: 0.41279551
-[*] Epoch: 83, Iter: 2 current loss: 0.41782579
-[*] Epoch: 83, Iter: 3 current loss: 0.42567772
-[+] ====== Epoch 83 finished, avg_loss : 0.41876634 ======
+[*] ...... Eval for Epoch: 83, Iter: 1 precision: 0.8181 recall: 0.6339
+[*] Epoch: 83, Iter: 1 current loss: 0.12463095
+[*] ...... Eval for Epoch: 83, Iter: 2 precision: 0.7831 recall: 0.6782
+[*] Epoch: 83, Iter: 2 current loss: 0.11040217
+[*] ...... Eval for Epoch: 83, Iter: 3 precision: 0.8720 recall: 0.5923
+[*] Epoch: 83, Iter: 3 current loss: 0.13701665
+[+] ====== Epoch 83 finished, avg_loss : 0.12401659 ======
 [+] ====== Start training... epoch 84 ======
-[*] Epoch: 84, Iter: 1 current loss: 0.41136488
-[*] Epoch: 84, Iter: 2 current loss: 0.41972613
-[*] Epoch: 84, Iter: 3 current loss: 0.42161429
-[+] ====== Epoch 84 finished, avg_loss : 0.41756844 ======
+[*] ...... Eval for Epoch: 84, Iter: 1 precision: 0.8138 recall: 0.6602
+[*] Epoch: 84, Iter: 1 current loss: 0.11793623
+[*] ...... Eval for Epoch: 84, Iter: 2 precision: 0.8116 recall: 0.6366
+[*] Epoch: 84, Iter: 2 current loss: 0.12544708
+[*] ...... Eval for Epoch: 84, Iter: 3 precision: 0.8018 recall: 0.6751
+[*] Epoch: 84, Iter: 3 current loss: 0.11302356
+[+] ====== Epoch 84 finished, avg_loss : 0.11880229 ======
 [+] ====== Start training... epoch 85 ======
-[*] Epoch: 85, Iter: 1 current loss: 0.41689306
-[*] Epoch: 85, Iter: 2 current loss: 0.41309762
-[*] Epoch: 85, Iter: 3 current loss: 0.42024508
-[+] ====== Epoch 85 finished, avg_loss : 0.41674526 ======
+[*] ...... Eval for Epoch: 85, Iter: 1 precision: 0.8282 recall: 0.6194
+[*] Epoch: 85, Iter: 1 current loss: 0.12855071
+[*] ...... Eval for Epoch: 85, Iter: 2 precision: 0.8144 recall: 0.6547
+[*] Epoch: 85, Iter: 2 current loss: 0.11749204
+[*] ...... Eval for Epoch: 85, Iter: 3 precision: 0.7997 recall: 0.6772
+[*] Epoch: 85, Iter: 3 current loss: 0.10902184
+[+] ====== Epoch 85 finished, avg_loss : 0.11835486 ======
 [+] ====== Start training... epoch 86 ======
-[*] Epoch: 86, Iter: 1 current loss: 0.42397183
-[*] Epoch: 86, Iter: 2 current loss: 0.41006806
-[*] Epoch: 86, Iter: 3 current loss: 0.41009471
-[+] ====== Epoch 86 finished, avg_loss : 0.41471153 ======
+[*] ...... Eval for Epoch: 86, Iter: 1 precision: 0.8359 recall: 0.6177
+[*] Epoch: 86, Iter: 1 current loss: 0.12394704
+[*] ...... Eval for Epoch: 86, Iter: 2 precision: 0.7975 recall: 0.6432
+[*] Epoch: 86, Iter: 2 current loss: 0.12451876
+[*] ...... Eval for Epoch: 86, Iter: 3 precision: 0.8033 recall: 0.6635
+[*] Epoch: 86, Iter: 3 current loss: 0.11667672
+[+] ====== Epoch 86 finished, avg_loss : 0.12171417 ======
 [+] ====== Start training... epoch 87 ======
-[*] Epoch: 87, Iter: 1 current loss: 0.41283244
-[*] Epoch: 87, Iter: 2 current loss: 0.41584209
-[*] Epoch: 87, Iter: 3 current loss: 0.41851503
-[+] ====== Epoch 87 finished, avg_loss : 0.41572985 ======
+[*] ...... Eval for Epoch: 87, Iter: 1 precision: 0.7852 recall: 0.6515
+[*] Epoch: 87, Iter: 1 current loss: 0.11718718
+[*] ...... Eval for Epoch: 87, Iter: 2 precision: 0.8657 recall: 0.6182
+[*] Epoch: 87, Iter: 2 current loss: 0.12374322
+[*] ...... Eval for Epoch: 87, Iter: 3 precision: 0.8259 recall: 0.6590
+[*] Epoch: 87, Iter: 3 current loss: 0.11550108
+[+] ====== Epoch 87 finished, avg_loss : 0.11881049 ======
 [+] ====== Start training... epoch 88 ======
-[*] Epoch: 88, Iter: 1 current loss: 0.41652867
-[*] Epoch: 88, Iter: 2 current loss: 0.41434857
-[*] Epoch: 88, Iter: 3 current loss: 0.41152093
-[+] ====== Epoch 88 finished, avg_loss : 0.41413272 ======
+[*] ...... Eval for Epoch: 88, Iter: 1 precision: 0.8397 recall: 0.6380
+[*] Epoch: 88, Iter: 1 current loss: 0.12208942
+[*] ...... Eval for Epoch: 88, Iter: 2 precision: 0.7886 recall: 0.6729
+[*] Epoch: 88, Iter: 2 current loss: 0.11273836
+[*] ...... Eval for Epoch: 88, Iter: 3 precision: 0.8225 recall: 0.6102
+[*] Epoch: 88, Iter: 3 current loss: 0.13126653
+[+] ====== Epoch 88 finished, avg_loss : 0.12203144 ======
 [+] ====== Start training... epoch 89 ======
-[*] Epoch: 89, Iter: 1 current loss: 0.41154391
-[*] Epoch: 89, Iter: 2 current loss: 0.41718164
-[*] Epoch: 89, Iter: 3 current loss: 0.41376635
-[+] ====== Epoch 89 finished, avg_loss : 0.41416397 ======
+[*] ...... Eval for Epoch: 89, Iter: 1 precision: 0.8046 recall: 0.6512
+[*] Epoch: 89, Iter: 1 current loss: 0.11900800
+[*] ...... Eval for Epoch: 89, Iter: 2 precision: 0.8363 recall: 0.6321
+[*] Epoch: 89, Iter: 2 current loss: 0.12260085
+[*] ...... Eval for Epoch: 89, Iter: 3 precision: 0.8117 recall: 0.6709
+[*] Epoch: 89, Iter: 3 current loss: 0.11220612
+[+] ====== Epoch 89 finished, avg_loss : 0.11793833 ======
 [+] ====== Start training... epoch 90 ======
-[*] Epoch: 90, Iter: 1 current loss: 0.41568884
-[*] Epoch: 90, Iter: 2 current loss: 0.41389433
-[*] Epoch: 90, Iter: 3 current loss: 0.40946206
-[+] ====== Epoch 90 finished, avg_loss : 0.41301508 ======
+[*] ...... Eval for Epoch: 90, Iter: 1 precision: 0.8157 recall: 0.6350
+[*] Epoch: 90, Iter: 1 current loss: 0.12354030
+[*] ...... Eval for Epoch: 90, Iter: 2 precision: 0.8246 recall: 0.6503
+[*] Epoch: 90, Iter: 2 current loss: 0.11891609
+[*] ...... Eval for Epoch: 90, Iter: 3 precision: 0.7979 recall: 0.6516
+[*] Epoch: 90, Iter: 3 current loss: 0.11600842
+[+] ====== Epoch 90 finished, avg_loss : 0.11948827 ======
 [+] ====== Start training... epoch 91 ======
-[*] Epoch: 91, Iter: 1 current loss: 0.41565999
-[*] Epoch: 91, Iter: 2 current loss: 0.41440046
-[*] Epoch: 91, Iter: 3 current loss: 0.40709868
-[+] ====== Epoch 91 finished, avg_loss : 0.41238638 ======
+[*] ...... Eval for Epoch: 91, Iter: 1 precision: 0.8250 recall: 0.6659
+[*] Epoch: 91, Iter: 1 current loss: 0.11153155
+[*] ...... Eval for Epoch: 91, Iter: 2 precision: 0.8314 recall: 0.6144
+[*] Epoch: 91, Iter: 2 current loss: 0.12859969
+[*] ...... Eval for Epoch: 91, Iter: 3 precision: 0.7893 recall: 0.6904
+[*] Epoch: 91, Iter: 3 current loss: 0.11118594
+[+] ====== Epoch 91 finished, avg_loss : 0.11710572 ======
 [+] ====== Start training... epoch 92 ======
-[*] Epoch: 92, Iter: 1 current loss: 0.41351408
-[*] Epoch: 92, Iter: 2 current loss: 0.41618291
-[*] Epoch: 92, Iter: 3 current loss: 0.40494597
-[+] ====== Epoch 92 finished, avg_loss : 0.41154765 ======
+[*] ...... Eval for Epoch: 92, Iter: 1 precision: 0.8418 recall: 0.6232
+[*] Epoch: 92, Iter: 1 current loss: 0.12158196
+[*] ...... Eval for Epoch: 92, Iter: 2 precision: 0.8010 recall: 0.6533
+[*] Epoch: 92, Iter: 2 current loss: 0.11774512
+[*] ...... Eval for Epoch: 92, Iter: 3 precision: 0.8507 recall: 0.6552
+[*] Epoch: 92, Iter: 3 current loss: 0.11310816
+[+] ====== Epoch 92 finished, avg_loss : 0.11747841 ======
 [+] ====== Start training... epoch 93 ======
-[*] Epoch: 93, Iter: 1 current loss: 0.41196632
-[*] Epoch: 93, Iter: 2 current loss: 0.41720426
-[*] Epoch: 93, Iter: 3 current loss: 0.40461996
-[+] ====== Epoch 93 finished, avg_loss : 0.41126352 ======
+[*] ...... Eval for Epoch: 93, Iter: 1 precision: 0.8094 recall: 0.6455
+[*] Epoch: 93, Iter: 1 current loss: 0.12233327
+[*] ...... Eval for Epoch: 93, Iter: 2 precision: 0.8265 recall: 0.6483
+[*] Epoch: 93, Iter: 2 current loss: 0.11543908
+[*] ...... Eval for Epoch: 93, Iter: 3 precision: 0.8265 recall: 0.6613
+[*] Epoch: 93, Iter: 3 current loss: 0.11611661
+[+] ====== Epoch 93 finished, avg_loss : 0.11796299 ======
 [+] ====== Start training... epoch 94 ======
-[*] Epoch: 94, Iter: 1 current loss: 0.40970293
-[*] Epoch: 94, Iter: 2 current loss: 0.41725236
-[*] Epoch: 94, Iter: 3 current loss: 0.40678281
-[+] ====== Epoch 94 finished, avg_loss : 0.41124603 ======
+[*] ...... Eval for Epoch: 94, Iter: 1 precision: 0.8175 recall: 0.6364
+[*] Epoch: 94, Iter: 1 current loss: 0.12258500
+[*] ...... Eval for Epoch: 94, Iter: 2 precision: 0.8354 recall: 0.6544
+[*] Epoch: 94, Iter: 2 current loss: 0.11587094
+[*] ...... Eval for Epoch: 94, Iter: 3 precision: 0.8044 recall: 0.6697
+[*] Epoch: 94, Iter: 3 current loss: 0.11167288
+[+] ====== Epoch 94 finished, avg_loss : 0.11670960 ======
 [+] ====== Start training... epoch 95 ======
-[*] Epoch: 95, Iter: 1 current loss: 0.41192940
-[*] Epoch: 95, Iter: 2 current loss: 0.41354144
-[*] Epoch: 95, Iter: 3 current loss: 0.40874249
-[+] ====== Epoch 95 finished, avg_loss : 0.41140444 ======
+[*] ...... Eval for Epoch: 95, Iter: 1 precision: 0.8313 recall: 0.6305
+[*] Epoch: 95, Iter: 1 current loss: 0.12288957
+[*] ...... Eval for Epoch: 95, Iter: 2 precision: 0.8088 recall: 0.6376
+[*] Epoch: 95, Iter: 2 current loss: 0.12468123
+[*] ...... Eval for Epoch: 95, Iter: 3 precision: 0.8346 recall: 0.6656
+[*] Epoch: 95, Iter: 3 current loss: 0.11146875
+[+] ====== Epoch 95 finished, avg_loss : 0.11967985 ======
 [+] ====== Start training... epoch 96 ======
-[*] Epoch: 96, Iter: 1 current loss: 0.41194156
-[*] Epoch: 96, Iter: 2 current loss: 0.40858886
-[*] Epoch: 96, Iter: 3 current loss: 0.41597781
-[+] ====== Epoch 96 finished, avg_loss : 0.41216941 ======
+[*] ...... Eval for Epoch: 96, Iter: 1 precision: 0.8391 recall: 0.6391
+[*] Epoch: 96, Iter: 1 current loss: 0.11916599
+[*] ...... Eval for Epoch: 96, Iter: 2 precision: 0.8063 recall: 0.6559
+[*] Epoch: 96, Iter: 2 current loss: 0.11965189
+[*] ...... Eval for Epoch: 96, Iter: 3 precision: 0.7918 recall: 0.6775
+[*] Epoch: 96, Iter: 3 current loss: 0.11154341
+[+] ====== Epoch 96 finished, avg_loss : 0.11678710 ======
 [+] ====== Start training... epoch 97 ======
-[*] Epoch: 97, Iter: 1 current loss: 0.41069597
-[*] Epoch: 97, Iter: 2 current loss: 0.40692577
-[*] Epoch: 97, Iter: 3 current loss: 0.42061511
-[+] ====== Epoch 97 finished, avg_loss : 0.41274561 ======
+[*] ...... Eval for Epoch: 97, Iter: 1 precision: 0.8290 recall: 0.6012
+[*] Epoch: 97, Iter: 1 current loss: 0.12985781
+[*] ...... Eval for Epoch: 97, Iter: 2 precision: 0.8194 recall: 0.6931
+[*] Epoch: 97, Iter: 2 current loss: 0.10746326
+[*] ...... Eval for Epoch: 97, Iter: 3 precision: 0.8384 recall: 0.6594
+[*] Epoch: 97, Iter: 3 current loss: 0.11461471
+[+] ====== Epoch 97 finished, avg_loss : 0.11731192 ======
 [+] ====== Start training... epoch 98 ======
-[*] Epoch: 98, Iter: 1 current loss: 0.41396591
-[*] Epoch: 98, Iter: 2 current loss: 0.40610763
-[*] Epoch: 98, Iter: 3 current loss: 0.41506335
-[+] ====== Epoch 98 finished, avg_loss : 0.41171230 ======
+[*] ...... Eval for Epoch: 98, Iter: 1 precision: 0.8480 recall: 0.6470
+[*] Epoch: 98, Iter: 1 current loss: 0.11966357
+[*] ...... Eval for Epoch: 98, Iter: 2 precision: 0.7880 recall: 0.6651
+[*] Epoch: 98, Iter: 2 current loss: 0.11900926
+[*] ...... Eval for Epoch: 98, Iter: 3 precision: 0.8148 recall: 0.6795
+[*] Epoch: 98, Iter: 3 current loss: 0.10745312
+[+] ====== Epoch 98 finished, avg_loss : 0.11537532 ======
 [+] ====== Start training... epoch 99 ======
-[*] Epoch: 99, Iter: 1 current loss: 0.40395296
-[*] Epoch: 99, Iter: 2 current loss: 0.41491881
-[*] Epoch: 99, Iter: 3 current loss: 0.41518459
-[+] ====== Epoch 99 finished, avg_loss : 0.41135212 ======
+[*] ...... Eval for Epoch: 99, Iter: 1 precision: 0.8335 recall: 0.6388
+[*] Epoch: 99, Iter: 1 current loss: 0.11775956
+[*] ...... Eval for Epoch: 99, Iter: 2 precision: 0.8316 recall: 0.6225
+[*] Epoch: 99, Iter: 2 current loss: 0.12487590
+[*] ...... Eval for Epoch: 99, Iter: 3 precision: 0.8063 recall: 0.6978
+[*] Epoch: 99, Iter: 3 current loss: 0.10515153
+[+] ====== Epoch 99 finished, avg_loss : 0.11592900 ======
 [+] ====== Start training... epoch 100 ======
-[*] Epoch: 100, Iter: 1 current loss: 0.40891638
-[*] Epoch: 100, Iter: 2 current loss: 0.40625384
-[*] Epoch: 100, Iter: 3 current loss: 0.41949886
-[+] ====== Epoch 100 finished, avg_loss : 0.41155636 ======
+[*] ...... Eval for Epoch: 100, Iter: 1 precision: 0.8359 recall: 0.6501
+[*] Epoch: 100, Iter: 1 current loss: 0.11892974
+[*] ...... Eval for Epoch: 100, Iter: 2 precision: 0.8090 recall: 0.6568
+[*] Epoch: 100, Iter: 2 current loss: 0.11564827
+[*] ...... Eval for Epoch: 100, Iter: 3 precision: 0.8139 recall: 0.6556
+[*] Epoch: 100, Iter: 3 current loss: 0.11740015
+[+] ====== Epoch 100 finished, avg_loss : 0.11732605 ======
 [+] ====== Start training... epoch 101 ======
-[*] Epoch: 101, Iter: 1 current loss: 0.41233829
-[*] Epoch: 101, Iter: 2 current loss: 0.40871197
-[*] Epoch: 101, Iter: 3 current loss: 0.40794042
-[+] ====== Epoch 101 finished, avg_loss : 0.40966356 ======
+[*] ...... Eval for Epoch: 101, Iter: 1 precision: 0.8422 recall: 0.6487
+[*] Epoch: 101, Iter: 1 current loss: 0.11784896
+[*] ...... Eval for Epoch: 101, Iter: 2 precision: 0.8246 recall: 0.6478
+[*] Epoch: 101, Iter: 2 current loss: 0.11904653
+[*] ...... Eval for Epoch: 101, Iter: 3 precision: 0.7616 recall: 0.6390
+[*] Epoch: 101, Iter: 3 current loss: 0.12076043
+[+] ====== Epoch 101 finished, avg_loss : 0.11921864 ======
 [+] ====== Start training... epoch 102 ======
-[*] Epoch: 102, Iter: 1 current loss: 0.41712251
-[*] Epoch: 102, Iter: 2 current loss: 0.40349093
-[*] Epoch: 102, Iter: 3 current loss: 0.40630424
-[+] ====== Epoch 102 finished, avg_loss : 0.40897256 ======
+[*] ...... Eval for Epoch: 102, Iter: 1 precision: 0.8551 recall: 0.6570
+[*] Epoch: 102, Iter: 1 current loss: 0.11326253
+[*] ...... Eval for Epoch: 102, Iter: 2 precision: 0.8063 recall: 0.6721
+[*] Epoch: 102, Iter: 2 current loss: 0.10958409
+[*] ...... Eval for Epoch: 102, Iter: 3 precision: 0.8115 recall: 0.5783
+[*] Epoch: 102, Iter: 3 current loss: 0.14147145
+[+] ====== Epoch 102 finished, avg_loss : 0.12143936 ======
 [+] ====== Start training... epoch 103 ======
-[*] Epoch: 103, Iter: 1 current loss: 0.40313923
-[*] Epoch: 103, Iter: 2 current loss: 0.41718829
-[*] Epoch: 103, Iter: 3 current loss: 0.40601930
-[+] ====== Epoch 103 finished, avg_loss : 0.40878227 ======
+[*] ...... Eval for Epoch: 103, Iter: 1 precision: 0.8049 recall: 0.6664
+[*] Epoch: 103, Iter: 1 current loss: 0.11361091
+[*] ...... Eval for Epoch: 103, Iter: 2 precision: 0.8424 recall: 0.6490
+[*] Epoch: 103, Iter: 2 current loss: 0.11845289
+[*] ...... Eval for Epoch: 103, Iter: 3 precision: 0.7839 recall: 0.6347
+[*] Epoch: 103, Iter: 3 current loss: 0.12742557
+[+] ====== Epoch 103 finished, avg_loss : 0.11982979 ======
 [+] ====== Start training... epoch 104 ======
-[*] Epoch: 104, Iter: 1 current loss: 0.39989889
-[*] Epoch: 104, Iter: 2 current loss: 0.41215327
-[*] Epoch: 104, Iter: 3 current loss: 0.42148590
-[+] ====== Epoch 104 finished, avg_loss : 0.41117935 ======
+[*] ...... Eval for Epoch: 104, Iter: 1 precision: 0.8289 recall: 0.6542
+[*] Epoch: 104, Iter: 1 current loss: 0.11607102
+[*] ...... Eval for Epoch: 104, Iter: 2 precision: 0.8337 recall: 0.6423
+[*] Epoch: 104, Iter: 2 current loss: 0.11803841
+[*] ...... Eval for Epoch: 104, Iter: 3 precision: 0.7709 recall: 0.6442
+[*] Epoch: 104, Iter: 3 current loss: 0.12219439
+[+] ====== Epoch 104 finished, avg_loss : 0.11876794 ======
 [+] ====== Start training... epoch 105 ======
-[*] Epoch: 105, Iter: 1 current loss: 0.40901715
-[*] Epoch: 105, Iter: 2 current loss: 0.40684009
-[*] Epoch: 105, Iter: 3 current loss: 0.41285428
-[+] ====== Epoch 105 finished, avg_loss : 0.40957051 ======
+[*] ...... Eval for Epoch: 105, Iter: 1 precision: 0.8075 recall: 0.6584
+[*] Epoch: 105, Iter: 1 current loss: 0.11446475
+[*] ...... Eval for Epoch: 105, Iter: 2 precision: 0.8391 recall: 0.6301
+[*] Epoch: 105, Iter: 2 current loss: 0.12085627
+[*] ...... Eval for Epoch: 105, Iter: 3 precision: 0.8538 recall: 0.6686
+[*] Epoch: 105, Iter: 3 current loss: 0.11028856
+[+] ====== Epoch 105 finished, avg_loss : 0.11520319 ======
 [+] ====== Start training... epoch 106 ======
-[*] Epoch: 106, Iter: 1 current loss: 0.40811297
-[*] Epoch: 106, Iter: 2 current loss: 0.40842900
-[*] Epoch: 106, Iter: 3 current loss: 0.41160429
-[+] ====== Epoch 106 finished, avg_loss : 0.40938209 ======
+[*] ...... Eval for Epoch: 106, Iter: 1 precision: 0.7849 recall: 0.6530
+[*] Epoch: 106, Iter: 1 current loss: 0.12147921
+[*] ...... Eval for Epoch: 106, Iter: 2 precision: 0.8465 recall: 0.6530
+[*] Epoch: 106, Iter: 2 current loss: 0.11423569
+[*] ...... Eval for Epoch: 106, Iter: 3 precision: 0.8348 recall: 0.6726
+[*] Epoch: 106, Iter: 3 current loss: 0.11106382
+[+] ====== Epoch 106 finished, avg_loss : 0.11559291 ======
 [+] ====== Start training... epoch 107 ======
-[*] Epoch: 107, Iter: 1 current loss: 0.40068319
-[*] Epoch: 107, Iter: 2 current loss: 0.41706261
-[*] Epoch: 107, Iter: 3 current loss: 0.40746808
-[+] ====== Epoch 107 finished, avg_loss : 0.40840463 ======
+[*] ...... Eval for Epoch: 107, Iter: 1 precision: 0.8311 recall: 0.6665
+[*] Epoch: 107, Iter: 1 current loss: 0.10938522
+[*] ...... Eval for Epoch: 107, Iter: 2 precision: 0.8362 recall: 0.6477
+[*] Epoch: 107, Iter: 2 current loss: 0.11906318
+[*] ...... Eval for Epoch: 107, Iter: 3 precision: 0.7845 recall: 0.6526
+[*] Epoch: 107, Iter: 3 current loss: 0.12117906
+[+] ====== Epoch 107 finished, avg_loss : 0.11654249 ======
 [+] ====== Start training... epoch 108 ======
-[*] Epoch: 108, Iter: 1 current loss: 0.41523099
-[*] Epoch: 108, Iter: 2 current loss: 0.40291253
-[*] Epoch: 108, Iter: 3 current loss: 0.40612477
-[+] ====== Epoch 108 finished, avg_loss : 0.40808943 ======
+[*] ...... Eval for Epoch: 108, Iter: 1 precision: 0.8140 recall: 0.6408
+[*] Epoch: 108, Iter: 1 current loss: 0.12237126
+[*] ...... Eval for Epoch: 108, Iter: 2 precision: 0.8286 recall: 0.6538
+[*] Epoch: 108, Iter: 2 current loss: 0.11527479
+[*] ...... Eval for Epoch: 108, Iter: 3 precision: 0.8264 recall: 0.6387
+[*] Epoch: 108, Iter: 3 current loss: 0.11776113
+[+] ====== Epoch 108 finished, avg_loss : 0.11846906 ======
 [+] ====== Start training... epoch 109 ======
-[*] Epoch: 109, Iter: 1 current loss: 0.40686783
-[*] Epoch: 109, Iter: 2 current loss: 0.40725881
-[*] Epoch: 109, Iter: 3 current loss: 0.41344196
-[+] ====== Epoch 109 finished, avg_loss : 0.40918953 ======
+[*] ...... Eval for Epoch: 109, Iter: 1 precision: 0.8435 recall: 0.6507
+[*] Epoch: 109, Iter: 1 current loss: 0.11355241
+[*] ...... Eval for Epoch: 109, Iter: 2 precision: 0.8378 recall: 0.6625
+[*] Epoch: 109, Iter: 2 current loss: 0.11532638
+[*] ...... Eval for Epoch: 109, Iter: 3 precision: 0.7417 recall: 0.6613
+[*] Epoch: 109, Iter: 3 current loss: 0.12387525
+[+] ====== Epoch 109 finished, avg_loss : 0.11758468 ======
 [+] ====== Start training... epoch 110 ======
-[*] Epoch: 110, Iter: 1 current loss: 0.41623595
-[*] Epoch: 110, Iter: 2 current loss: 0.40023461
-[*] Epoch: 110, Iter: 3 current loss: 0.40721503
-[+] ====== Epoch 110 finished, avg_loss : 0.40789520 ======
+[*] ...... Eval for Epoch: 110, Iter: 1 precision: 0.8457 recall: 0.6374
+[*] Epoch: 110, Iter: 1 current loss: 0.11514544
+[*] ...... Eval for Epoch: 110, Iter: 2 precision: 0.8091 recall: 0.6490
+[*] Epoch: 110, Iter: 2 current loss: 0.11851387
+[*] ...... Eval for Epoch: 110, Iter: 3 precision: 0.8546 recall: 0.6368
+[*] Epoch: 110, Iter: 3 current loss: 0.12252486
+[+] ====== Epoch 110 finished, avg_loss : 0.11872805 ======
 [+] ====== Start training... epoch 111 ======
-[*] Epoch: 111, Iter: 1 current loss: 0.40536305
-[*] Epoch: 111, Iter: 2 current loss: 0.41116706
-[*] Epoch: 111, Iter: 3 current loss: 0.40749937
-[+] ====== Epoch 111 finished, avg_loss : 0.40800983 ======
+[*] ...... Eval for Epoch: 111, Iter: 1 precision: 0.8170 recall: 0.6540
+[*] Epoch: 111, Iter: 1 current loss: 0.11783537
+[*] ...... Eval for Epoch: 111, Iter: 2 precision: 0.8421 recall: 0.6492
+[*] Epoch: 111, Iter: 2 current loss: 0.11785928
+[*] ...... Eval for Epoch: 111, Iter: 3 precision: 0.7854 recall: 0.7122
+[*] Epoch: 111, Iter: 3 current loss: 0.10566825
+[+] ====== Epoch 111 finished, avg_loss : 0.11378763 ======
 [+] ====== Start training... epoch 112 ======
-[*] Epoch: 112, Iter: 1 current loss: 0.41161594
-[*] Epoch: 112, Iter: 2 current loss: 0.40693218
-[*] Epoch: 112, Iter: 3 current loss: 0.40201861
-[+] ====== Epoch 112 finished, avg_loss : 0.40685557 ======
+[*] ...... Eval for Epoch: 112, Iter: 1 precision: 0.8314 recall: 0.6597
+[*] Epoch: 112, Iter: 1 current loss: 0.11175901
+[*] ...... Eval for Epoch: 112, Iter: 2 precision: 0.8233 recall: 0.6371
+[*] Epoch: 112, Iter: 2 current loss: 0.11944526
+[*] ...... Eval for Epoch: 112, Iter: 3 precision: 0.8411 recall: 0.6782
+[*] Epoch: 112, Iter: 3 current loss: 0.10895868
+[+] ====== Epoch 112 finished, avg_loss : 0.11338765 ======
 [+] ====== Start training... epoch 113 ======
-[*] Epoch: 113, Iter: 1 current loss: 0.41462877
-[*] Epoch: 113, Iter: 2 current loss: 0.40249321
-[*] Epoch: 113, Iter: 3 current loss: 0.40447900
-[+] ====== Epoch 113 finished, avg_loss : 0.40720033 ======
+[*] ...... Eval for Epoch: 113, Iter: 1 precision: 0.8255 recall: 0.6637
+[*] Epoch: 113, Iter: 1 current loss: 0.11107285
+[*] ...... Eval for Epoch: 113, Iter: 2 precision: 0.8156 recall: 0.6633
+[*] Epoch: 113, Iter: 2 current loss: 0.11434775
+[*] ...... Eval for Epoch: 113, Iter: 3 precision: 0.8583 recall: 0.6390
+[*] Epoch: 113, Iter: 3 current loss: 0.12202020
+[+] ====== Epoch 113 finished, avg_loss : 0.11581360 ======
 [+] ====== Start training... epoch 114 ======
-[*] Epoch: 114, Iter: 1 current loss: 0.41022253
-[*] Epoch: 114, Iter: 2 current loss: 0.40283686
-[*] Epoch: 114, Iter: 3 current loss: 0.41228321
-[+] ====== Epoch 114 finished, avg_loss : 0.40844753 ======
+[*] ...... Eval for Epoch: 114, Iter: 1 precision: 0.8138 recall: 0.6915
+[*] Epoch: 114, Iter: 1 current loss: 0.11088121
+[*] ...... Eval for Epoch: 114, Iter: 2 precision: 0.8229 recall: 0.6534
+[*] Epoch: 114, Iter: 2 current loss: 0.11631179
+[*] ...... Eval for Epoch: 114, Iter: 3 precision: 0.8324 recall: 0.6507
+[*] Epoch: 114, Iter: 3 current loss: 0.11675869
+[+] ====== Epoch 114 finished, avg_loss : 0.11465056 ======
 [+] ====== Start training... epoch 115 ======
-[*] Epoch: 115, Iter: 1 current loss: 0.40629634
-[*] Epoch: 115, Iter: 2 current loss: 0.40642706
-[*] Epoch: 115, Iter: 3 current loss: 0.41166094
-[+] ====== Epoch 115 finished, avg_loss : 0.40812811 ======
+[*] ...... Eval for Epoch: 115, Iter: 1 precision: 0.8139 recall: 0.6472
+[*] Epoch: 115, Iter: 1 current loss: 0.11731244
+[*] ...... Eval for Epoch: 115, Iter: 2 precision: 0.8519 recall: 0.6481
+[*] Epoch: 115, Iter: 2 current loss: 0.11905313
+[*] ...... Eval for Epoch: 115, Iter: 3 precision: 0.7597 recall: 0.7337
+[*] Epoch: 115, Iter: 3 current loss: 0.10513472
+[+] ====== Epoch 115 finished, avg_loss : 0.11383343 ======
 [+] ====== Start training... epoch 116 ======
-[*] Epoch: 116, Iter: 1 current loss: 0.40766484
+[*] ...... Eval for Epoch: 116, Iter: 1 precision: 0.8431 recall: 0.6312
+[*] Epoch: 116, Iter: 1 current loss: 0.11932327
+[*] ...... Eval for Epoch: 116, Iter: 2 precision: 0.8301 recall: 0.6625
+[*] Epoch: 116, Iter: 2 current loss: 0.11411318
+[*] ...... Eval for Epoch: 116, Iter: 3 precision: 0.7984 recall: 0.6754
+[*] Epoch: 116, Iter: 3 current loss: 0.11071956
+[+] ====== Epoch 116 finished, avg_loss : 0.11471867 ======
+[+] ====== Start training... epoch 117 ======
+[*] ...... Eval for Epoch: 117, Iter: 1 precision: 0.8107 recall: 0.6472
+[*] Epoch: 117, Iter: 1 current loss: 0.11840219
+[*] ...... Eval for Epoch: 117, Iter: 2 precision: 0.8416 recall: 0.6481
+[*] Epoch: 117, Iter: 2 current loss: 0.11743807
+[*] ...... Eval for Epoch: 117, Iter: 3 precision: 0.8417 recall: 0.6726
+[*] Epoch: 117, Iter: 3 current loss: 0.10441056
+[+] ====== Epoch 117 finished, avg_loss : 0.11341694 ======
+[+] ====== Start training... epoch 118 ======
+[*] ...... Eval for Epoch: 118, Iter: 1 precision: 0.8289 recall: 0.6926
+[*] Epoch: 118, Iter: 1 current loss: 0.10297203
+[*] ...... Eval for Epoch: 118, Iter: 2 precision: 0.8227 recall: 0.6253
+[*] Epoch: 118, Iter: 2 current loss: 0.12355319
+[*] ...... Eval for Epoch: 118, Iter: 3 precision: 0.8530 recall: 0.6579
+[*] Epoch: 118, Iter: 3 current loss: 0.11517565
+[+] ====== Epoch 118 finished, avg_loss : 0.11390029 ======
+[+] ====== Start training... epoch 119 ======
+[*] ...... Eval for Epoch: 119, Iter: 1 precision: 0.8310 recall: 0.6796
+[*] Epoch: 119, Iter: 1 current loss: 0.11087070
+[*] ...... Eval for Epoch: 119, Iter: 2 precision: 0.8005 recall: 0.6740
+[*] Epoch: 119, Iter: 2 current loss: 0.11424997
+[*] ...... Eval for Epoch: 119, Iter: 3 precision: 0.8276 recall: 0.6527
+[*] Epoch: 119, Iter: 3 current loss: 0.11797225
+[+] ====== Epoch 119 finished, avg_loss : 0.11436431 ======
+[+] ====== Start training... epoch 120 ======
+[*] ...... Eval for Epoch: 120, Iter: 1 precision: 0.8139 recall: 0.6678
+[*] Epoch: 120, Iter: 1 current loss: 0.11294439
+[*] ...... Eval for Epoch: 120, Iter: 2 precision: 0.8258 recall: 0.6537
+[*] Epoch: 120, Iter: 2 current loss: 0.11605643
+[*] ...... Eval for Epoch: 120, Iter: 3 precision: 0.8538 recall: 0.6769
+[*] Epoch: 120, Iter: 3 current loss: 0.11054733
+[+] ====== Epoch 120 finished, avg_loss : 0.11318271 ======
+[+] ====== Start training... epoch 121 ======
+[*] ...... Eval for Epoch: 121, Iter: 1 precision: 0.8012 recall: 0.6559
+[*] Epoch: 121, Iter: 1 current loss: 0.11855380
+[*] ...... Eval for Epoch: 121, Iter: 2 precision: 0.8543 recall: 0.6626
+[*] Epoch: 121, Iter: 2 current loss: 0.11252715
+[*] ...... Eval for Epoch: 121, Iter: 3 precision: 0.8090 recall: 0.7073
+[*] Epoch: 121, Iter: 3 current loss: 0.10468240
+[+] ====== Epoch 121 finished, avg_loss : 0.11192112 ======
+[+] ====== Start training... epoch 122 ======
+[*] ...... Eval for Epoch: 122, Iter: 1 precision: 0.8303 recall: 0.6479
+[*] Epoch: 122, Iter: 1 current loss: 0.11397900
+[*] ...... Eval for Epoch: 122, Iter: 2 precision: 0.8152 recall: 0.6659
+[*] Epoch: 122, Iter: 2 current loss: 0.11503389
+[*] ...... Eval for Epoch: 122, Iter: 3 precision: 0.8473 recall: 0.6782
+[*] Epoch: 122, Iter: 3 current loss: 0.11002841
+[+] ====== Epoch 122 finished, avg_loss : 0.11301377 ======
+[+] ====== Start training... epoch 123 ======
+[*] ...... Eval for Epoch: 123, Iter: 1 precision: 0.8428 recall: 0.6507
+[*] Epoch: 123, Iter: 1 current loss: 0.12107442
+[*] ...... Eval for Epoch: 123, Iter: 2 precision: 0.7910 recall: 0.6767
+[*] Epoch: 123, Iter: 2 current loss: 0.11092503
+[*] ...... Eval for Epoch: 123, Iter: 3 precision: 0.8362 recall: 0.6726
+[*] Epoch: 123, Iter: 3 current loss: 0.10767134
+[+] ====== Epoch 123 finished, avg_loss : 0.11322359 ======
+[+] ====== Start training... epoch 124 ======
+[*] ...... Eval for Epoch: 124, Iter: 1 precision: 0.8591 recall: 0.6469
+[*] Epoch: 124, Iter: 1 current loss: 0.11601681
+[*] ...... Eval for Epoch: 124, Iter: 2 precision: 0.8168 recall: 0.7017
+[*] Epoch: 124, Iter: 2 current loss: 0.10733446
+[*] ...... Eval for Epoch: 124, Iter: 3 precision: 0.7527 recall: 0.6536
+[*] Epoch: 124, Iter: 3 current loss: 0.12271544
+[+] ====== Epoch 124 finished, avg_loss : 0.11535557 ======
+[+] ====== Start training... epoch 125 ======
+[*] ...... Eval for Epoch: 125, Iter: 1 precision: 0.8432 recall: 0.6380
+[*] Epoch: 125, Iter: 1 current loss: 0.11747320
+[*] ...... Eval for Epoch: 125, Iter: 2 precision: 0.8247 recall: 0.6656
+[*] Epoch: 125, Iter: 2 current loss: 0.11281658
+[*] ...... Eval for Epoch: 125, Iter: 3 precision: 0.8116 recall: 0.6823
+[*] Epoch: 125, Iter: 3 current loss: 0.11100212
+[+] ====== Epoch 125 finished, avg_loss : 0.11376397 ======
+[+] ====== Start training... epoch 126 ======
+[*] ...... Eval for Epoch: 126, Iter: 1 precision: 0.8328 recall: 0.6635
+[*] Epoch: 126, Iter: 1 current loss: 0.11214121
+[*] ...... Eval for Epoch: 126, Iter: 2 precision: 0.8273 recall: 0.6556
+[*] Epoch: 126, Iter: 2 current loss: 0.11497290
+[*] ...... Eval for Epoch: 126, Iter: 3 precision: 0.8440 recall: 0.6823
+[*] Epoch: 126, Iter: 3 current loss: 0.10787134
+[+] ====== Epoch 126 finished, avg_loss : 0.11166182 ======
+[+] ====== Start training... epoch 127 ======
+[*] ...... Eval for Epoch: 127, Iter: 1 precision: 0.8078 recall: 0.6510
+[*] Epoch: 127, Iter: 1 current loss: 0.11774606
+[*] ...... Eval for Epoch: 127, Iter: 2 precision: 0.8667 recall: 0.6539
+[*] Epoch: 127, Iter: 2 current loss: 0.11400302
+[*] ...... Eval for Epoch: 127, Iter: 3 precision: 0.7760 recall: 0.7190
+[*] Epoch: 127, Iter: 3 current loss: 0.10383042
+[+] ====== Epoch 127 finished, avg_loss : 0.11185983 ======
+[+] ====== Start training... epoch 128 ======
+[*] ...... Eval for Epoch: 128, Iter: 1 precision: 0.8579 recall: 0.6183
+[*] Epoch: 128, Iter: 1 current loss: 0.12597300
+[*] ...... Eval for Epoch: 128, Iter: 2 precision: 0.7872 recall: 0.6981
+[*] Epoch: 128, Iter: 2 current loss: 0.10725997
+[*] ...... Eval for Epoch: 128, Iter: 3 precision: 0.8448 recall: 0.6720
+[*] Epoch: 128, Iter: 3 current loss: 0.10758096
+[+] ====== Epoch 128 finished, avg_loss : 0.11360464 ======
+[+] ====== Start training... epoch 129 ======
+[*] ...... Eval for Epoch: 129, Iter: 1 precision: 0.8313 recall: 0.6888
+[*] Epoch: 129, Iter: 1 current loss: 0.10571498
+[*] ...... Eval for Epoch: 129, Iter: 2 precision: 0.8391 recall: 0.6340
+[*] Epoch: 129, Iter: 2 current loss: 0.12211312
+[*] ...... Eval for Epoch: 129, Iter: 3 precision: 0.8016 recall: 0.7164
+[*] Epoch: 129, Iter: 3 current loss: 0.10222153
+[+] ====== Epoch 129 finished, avg_loss : 0.11001654 ======
+[+] ====== Start training... epoch 130 ======
+[*] ...... Eval for Epoch: 130, Iter: 1 precision: 0.8300 recall: 0.6335
+[*] Epoch: 130, Iter: 1 current loss: 0.11793622
+[*] ...... Eval for Epoch: 130, Iter: 2 precision: 0.8347 recall: 0.6874
+[*] Epoch: 130, Iter: 2 current loss: 0.10620907
+[*] ...... Eval for Epoch: 130, Iter: 3 precision: 0.8423 recall: 0.6902
+[*] Epoch: 130, Iter: 3 current loss: 0.10766401
+[+] ====== Epoch 130 finished, avg_loss : 0.11060310 ======
+[+] ====== Start training... epoch 131 ======
+[*] ...... Eval for Epoch: 131, Iter: 1 precision: 0.8079 recall: 0.6775
+[*] Epoch: 131, Iter: 1 current loss: 0.10892324
+[*] ...... Eval for Epoch: 131, Iter: 2 precision: 0.8333 recall: 0.6464
+[*] Epoch: 131, Iter: 2 current loss: 0.11790368
+[*] ...... Eval for Epoch: 131, Iter: 3 precision: 0.8744 recall: 0.6717
+[*] Epoch: 131, Iter: 3 current loss: 0.10876060
+[+] ====== Epoch 131 finished, avg_loss : 0.11186251 ======
+[+] ====== Start training... epoch 132 ======
+[*] ...... Eval for Epoch: 132, Iter: 1 precision: 0.8577 recall: 0.6677
+[*] Epoch: 132, Iter: 1 current loss: 0.11184496
+[*] ...... Eval for Epoch: 132, Iter: 2 precision: 0.7682 recall: 0.6964
+[*] Epoch: 132, Iter: 2 current loss: 0.11118990
+[*] ...... Eval for Epoch: 132, Iter: 3 precision: 0.8557 recall: 0.6582
+[*] Epoch: 132, Iter: 3 current loss: 0.11336832
+[+] ====== Epoch 132 finished, avg_loss : 0.11213439 ======
+[+] ====== Start training... epoch 133 ======
+[*] ...... Eval for Epoch: 133, Iter: 1 precision: 0.8332 recall: 0.6701
+[*] Epoch: 133, Iter: 1 current loss: 0.11103607
+[*] ...... Eval for Epoch: 133, Iter: 2 precision: 0.8012 recall: 0.7198
+[*] Epoch: 133, Iter: 2 current loss: 0.10081372
+[*] ...... Eval for Epoch: 133, Iter: 3 precision: 0.8760 recall: 0.6038
+[*] Epoch: 133, Iter: 3 current loss: 0.13470277
+[+] ====== Epoch 133 finished, avg_loss : 0.11551752 ======
+[+] ====== Start training... epoch 134 ======
+[*] ...... Eval for Epoch: 134, Iter: 1 precision: 0.8007 recall: 0.7029
+[*] Epoch: 134, Iter: 1 current loss: 0.10762723
+[*] ...... Eval for Epoch: 134, Iter: 2 precision: 0.8361 recall: 0.6380
+[*] Epoch: 134, Iter: 2 current loss: 0.12142054
+[*] ...... Eval for Epoch: 134, Iter: 3 precision: 0.8257 recall: 0.7150
+[*] Epoch: 134, Iter: 3 current loss: 0.10289963
+[+] ====== Epoch 134 finished, avg_loss : 0.11064913 ======
+[+] ====== Start training... epoch 135 ======
+[*] ...... Eval for Epoch: 135, Iter: 1 precision: 0.8109 recall: 0.7065
+[*] Epoch: 135, Iter: 1 current loss: 0.10178883
+[*] ...... Eval for Epoch: 135, Iter: 2 precision: 0.8308 recall: 0.6497
+[*] Epoch: 135, Iter: 2 current loss: 0.11522003
+[*] ...... Eval for Epoch: 135, Iter: 3 precision: 0.8824 recall: 0.6413
+[*] Epoch: 135, Iter: 3 current loss: 0.11989862
+[+] ====== Epoch 135 finished, avg_loss : 0.11230249 ======
+[+] ====== Start training... epoch 136 ======
+[*] ...... Eval for Epoch: 136, Iter: 1 precision: 0.8383 recall: 0.6862
+[*] Epoch: 136, Iter: 1 current loss: 0.11136204
+[*] ...... Eval for Epoch: 136, Iter: 2 precision: 0.7853 recall: 0.6982
+[*] Epoch: 136, Iter: 2 current loss: 0.10781965
+[*] ...... Eval for Epoch: 136, Iter: 3 precision: 0.8273 recall: 0.6324
+[*] Epoch: 136, Iter: 3 current loss: 0.12782928
+[+] ====== Epoch 136 finished, avg_loss : 0.11567033 ======
+[+] ====== Start training... epoch 137 ======
+[*] ...... Eval for Epoch: 137, Iter: 1 precision: 0.8607 recall: 0.6683
+[*] Epoch: 137, Iter: 1 current loss: 0.11270583
+[*] ...... Eval for Epoch: 137, Iter: 2 precision: 0.7786 recall: 0.6915
+[*] Epoch: 137, Iter: 2 current loss: 0.11370426
+[*] ...... Eval for Epoch: 137, Iter: 3 precision: 0.8102 recall: 0.7040
+[*] Epoch: 137, Iter: 3 current loss: 0.10604002
+[+] ====== Epoch 137 finished, avg_loss : 0.11081670 ======
+[+] ====== Start training... epoch 138 ======
+[*] ...... Eval for Epoch: 138, Iter: 1 precision: 0.8404 recall: 0.6873
+[*] Epoch: 138, Iter: 1 current loss: 0.10335125
+[*] ...... Eval for Epoch: 138, Iter: 2 precision: 0.8458 recall: 0.6396
+[*] Epoch: 138, Iter: 2 current loss: 0.11991220
+[*] ...... Eval for Epoch: 138, Iter: 3 precision: 0.8096 recall: 0.6852
+[*] Epoch: 138, Iter: 3 current loss: 0.10679039
+[+] ====== Epoch 138 finished, avg_loss : 0.11001795 ======
+[+] ====== Start training... epoch 139 ======
+[*] ...... Eval for Epoch: 139, Iter: 1 precision: 0.8193 recall: 0.6926
+[*] Epoch: 139, Iter: 1 current loss: 0.10135761
+[*] ...... Eval for Epoch: 139, Iter: 2 precision: 0.8610 recall: 0.6340
+[*] Epoch: 139, Iter: 2 current loss: 0.12293762
+[*] ...... Eval for Epoch: 139, Iter: 3 precision: 0.8193 recall: 0.6966
+[*] Epoch: 139, Iter: 3 current loss: 0.10590990
+[+] ====== Epoch 139 finished, avg_loss : 0.11006838 ======
+[+] ====== Start training... epoch 140 ======
+[*] ...... Eval for Epoch: 140, Iter: 1 precision: 0.8383 recall: 0.6851
+[*] Epoch: 140, Iter: 1 current loss: 0.10521492
+[*] ...... Eval for Epoch: 140, Iter: 2 precision: 0.8355 recall: 0.6670
+[*] Epoch: 140, Iter: 2 current loss: 0.11613883
+[*] ...... Eval for Epoch: 140, Iter: 3 precision: 0.7838 recall: 0.6771
+[*] Epoch: 140, Iter: 3 current loss: 0.11495806
+[+] ====== Epoch 140 finished, avg_loss : 0.11210393 ======
+[+] ====== Start training... epoch 141 ======
+[*] ...... Eval for Epoch: 141, Iter: 1 precision: 0.8094 recall: 0.6473
+[*] Epoch: 141, Iter: 1 current loss: 0.11881711
+[*] ...... Eval for Epoch: 141, Iter: 2 precision: 0.8445 recall: 0.6530
+[*] Epoch: 141, Iter: 2 current loss: 0.11660374
+[*] ...... Eval for Epoch: 141, Iter: 3 precision: 0.8222 recall: 0.7231
+[*] Epoch: 141, Iter: 3 current loss: 0.09713922
+[+] ====== Epoch 141 finished, avg_loss : 0.11085336 ======
+[+] ====== Start training... epoch 142 ======
+[*] ...... Eval for Epoch: 142, Iter: 1 precision: 0.8098 recall: 0.7190
+[*] Epoch: 142, Iter: 1 current loss: 0.09706121
+[*] ...... Eval for Epoch: 142, Iter: 2 precision: 0.8708 recall: 0.6136
+[*] Epoch: 142, Iter: 2 current loss: 0.12609243
+[*] ...... Eval for Epoch: 142, Iter: 3 precision: 0.8169 recall: 0.6928
+[*] Epoch: 142, Iter: 3 current loss: 0.10781522
+[+] ====== Epoch 142 finished, avg_loss : 0.11032295 ======
+[+] ====== Start training... epoch 143 ======
+[*] ...... Eval for Epoch: 143, Iter: 1 precision: 0.8520 recall: 0.6333
+[*] Epoch: 143, Iter: 1 current loss: 0.12377292
+[*] ...... Eval for Epoch: 143, Iter: 2 precision: 0.7903 recall: 0.7263
+[*] Epoch: 143, Iter: 2 current loss: 0.10341316
+[*] ...... Eval for Epoch: 143, Iter: 3 precision: 0.8374 recall: 0.6944
+[*] Epoch: 143, Iter: 3 current loss: 0.09950259
+[+] ====== Epoch 143 finished, avg_loss : 0.10889622 ======
+[+] ====== Start training... epoch 144 ======
+[*] ...... Eval for Epoch: 144, Iter: 1 precision: 0.8338 recall: 0.6518
+[*] Epoch: 144, Iter: 1 current loss: 0.11370318
+[*] ...... Eval for Epoch: 144, Iter: 2 precision: 0.8322 recall: 0.6830
+[*] Epoch: 144, Iter: 2 current loss: 0.10493343
+[*] ...... Eval for Epoch: 144, Iter: 3 precision: 0.8469 recall: 0.6733
+[*] Epoch: 144, Iter: 3 current loss: 0.11301042
+[+] ====== Epoch 144 finished, avg_loss : 0.11054901 ======
+[+] ====== Start training... epoch 145 ======
+[*] ...... Eval for Epoch: 145, Iter: 1 precision: 0.8350 recall: 0.6898
+[*] Epoch: 145, Iter: 1 current loss: 0.10874169
+[*] ...... Eval for Epoch: 145, Iter: 2 precision: 0.8266 recall: 0.6879
+[*] Epoch: 145, Iter: 2 current loss: 0.10864378
+[*] ...... Eval for Epoch: 145, Iter: 3 precision: 0.7789 recall: 0.6261
+[*] Epoch: 145, Iter: 3 current loss: 0.12789816
+[+] ====== Epoch 145 finished, avg_loss : 0.11509454 ======
+[+] ====== Start training... epoch 146 ======
+[*] ...... Eval for Epoch: 146, Iter: 1 precision: 0.8457 recall: 0.6576
+[*] Epoch: 146, Iter: 1 current loss: 0.11704914
+[*] ...... Eval for Epoch: 146, Iter: 2 precision: 0.8315 recall: 0.6898
+[*] Epoch: 146, Iter: 2 current loss: 0.10628153
+[*] ...... Eval for Epoch: 146, Iter: 3 precision: 0.8025 recall: 0.7116
+[*] Epoch: 146, Iter: 3 current loss: 0.09903106
+[+] ====== Epoch 146 finished, avg_loss : 0.10745391 ======
+[+] ====== Start training... epoch 147 ======
+[*] ...... Eval for Epoch: 147, Iter: 1 precision: 0.8398 recall: 0.6669
+[*] Epoch: 147, Iter: 1 current loss: 0.10798177
+[*] ...... Eval for Epoch: 147, Iter: 2 precision: 0.8533 recall: 0.6480
+[*] Epoch: 147, Iter: 2 current loss: 0.11720905
+[*] ...... Eval for Epoch: 147, Iter: 3 precision: 0.8004 recall: 0.7040
+[*] Epoch: 147, Iter: 3 current loss: 0.10202318
+[+] ====== Epoch 147 finished, avg_loss : 0.10907133 ======
+[+] ====== Start training... epoch 148 ======
+[*] ...... Eval for Epoch: 148, Iter: 1 precision: 0.8448 recall: 0.6639
+[*] Epoch: 148, Iter: 1 current loss: 0.10976388
+[*] ...... Eval for Epoch: 148, Iter: 2 precision: 0.8455 recall: 0.6324
+[*] Epoch: 148, Iter: 2 current loss: 0.12186103
+[*] ...... Eval for Epoch: 148, Iter: 3 precision: 0.8010 recall: 0.7065
+[*] Epoch: 148, Iter: 3 current loss: 0.10386728
+[+] ====== Epoch 148 finished, avg_loss : 0.11183073 ======
+[+] ====== Start training... epoch 149 ======
+[*] ...... Eval for Epoch: 149, Iter: 1 precision: 0.8526 recall: 0.6682
+[*] Epoch: 149, Iter: 1 current loss: 0.10971758
+[*] ...... Eval for Epoch: 149, Iter: 2 precision: 0.8265 recall: 0.6605
+[*] Epoch: 149, Iter: 2 current loss: 0.11456817
+[*] ...... Eval for Epoch: 149, Iter: 3 precision: 0.8063 recall: 0.6921
+[*] Epoch: 149, Iter: 3 current loss: 0.10554136
+[+] ====== Epoch 149 finished, avg_loss : 0.10994237 ======
+[+] ====== Start training... epoch 150 ======
+[*] ...... Eval for Epoch: 150, Iter: 1 precision: 0.8112 recall: 0.6843
+[*] Epoch: 150, Iter: 1 current loss: 0.10733774
+[*] ...... Eval for Epoch: 150, Iter: 2 precision: 0.8724 recall: 0.6387
+[*] Epoch: 150, Iter: 2 current loss: 0.11588557
+[*] ...... Eval for Epoch: 150, Iter: 3 precision: 0.8098 recall: 0.7036
+[*] Epoch: 150, Iter: 3 current loss: 0.10601128
+[+] ====== Epoch 150 finished, avg_loss : 0.10974486 ======
+[+] ====== Start training... epoch 151 ======
+[*] ...... Eval for Epoch: 151, Iter: 1 precision: 0.8531 recall: 0.6663
+[*] Epoch: 151, Iter: 1 current loss: 0.11001515
+[*] ...... Eval for Epoch: 151, Iter: 2 precision: 0.8397 recall: 0.6987
+[*] Epoch: 151, Iter: 2 current loss: 0.10279147
+[*] ...... Eval for Epoch: 151, Iter: 3 precision: 0.7688 recall: 0.6474
+[*] Epoch: 151, Iter: 3 current loss: 0.12372857
+[+] ====== Epoch 151 finished, avg_loss : 0.11217840 ======
+[+] ====== Start training... epoch 152 ======
+[*] ...... Eval for Epoch: 152, Iter: 1 precision: 0.8399 recall: 0.6764
+[*] Epoch: 152, Iter: 1 current loss: 0.10668010
+[*] ...... Eval for Epoch: 152, Iter: 2 precision: 0.8428 recall: 0.6659
+[*] Epoch: 152, Iter: 2 current loss: 0.11183463
+[*] ...... Eval for Epoch: 152, Iter: 3 precision: 0.8393 recall: 0.6763
+[*] Epoch: 152, Iter: 3 current loss: 0.10553291
+[+] ====== Epoch 152 finished, avg_loss : 0.10801588 ======
+[+] ====== Start training... epoch 153 ======
+[*] ...... Eval for Epoch: 153, Iter: 1 precision: 0.8360 recall: 0.6603
+[*] Epoch: 153, Iter: 1 current loss: 0.11623146
+[*] ...... Eval for Epoch: 153, Iter: 2 precision: 0.8399 recall: 0.6923
+[*] Epoch: 153, Iter: 2 current loss: 0.10376843
+[*] ...... Eval for Epoch: 153, Iter: 3 precision: 0.8100 recall: 0.7193
+[*] Epoch: 153, Iter: 3 current loss: 0.09989119
+[+] ====== Epoch 153 finished, avg_loss : 0.10663036 ======
+[+] ====== Start training... epoch 154 ======
+[*] ...... Eval for Epoch: 154, Iter: 1 precision: 0.8265 recall: 0.6696
+[*] Epoch: 154, Iter: 1 current loss: 0.10473450
+[*] ...... Eval for Epoch: 154, Iter: 2 precision: 0.8600 recall: 0.6767
+[*] Epoch: 154, Iter: 2 current loss: 0.10905440
+[*] ...... Eval for Epoch: 154, Iter: 3 precision: 0.8425 recall: 0.6602
+[*] Epoch: 154, Iter: 3 current loss: 0.11373120
+[+] ====== Epoch 154 finished, avg_loss : 0.10917337 ======
+[+] ====== Start training... epoch 155 ======
+[*] ...... Eval for Epoch: 155, Iter: 1 precision: 0.8188 recall: 0.7117
+[*] Epoch: 155, Iter: 1 current loss: 0.10021444
+[*] ...... Eval for Epoch: 155, Iter: 2 precision: 0.8109 recall: 0.6675
+[*] Epoch: 155, Iter: 2 current loss: 0.11395374
+[*] ...... Eval for Epoch: 155, Iter: 3 precision: 0.8903 recall: 0.6610
+[*] Epoch: 155, Iter: 3 current loss: 0.11497868
+[+] ====== Epoch 155 finished, avg_loss : 0.10971562 ======
+[+] ====== Start training... epoch 156 ======
+[*] ...... Eval for Epoch: 156, Iter: 1 precision: 0.8127 recall: 0.6855
+[*] Epoch: 156, Iter: 1 current loss: 0.11343452
+[*] ...... Eval for Epoch: 156, Iter: 2 precision: 0.8204 recall: 0.7059
+[*] Epoch: 156, Iter: 2 current loss: 0.10559712
+[*] ...... Eval for Epoch: 156, Iter: 3 precision: 0.8569 recall: 0.6913
+[*] Epoch: 156, Iter: 3 current loss: 0.10327073
+[+] ====== Epoch 156 finished, avg_loss : 0.10743412 ======
+[+] ====== Start training... epoch 157 ======
+[*] ...... Eval for Epoch: 157, Iter: 1 precision: 0.8391 recall: 0.6559
+[*] Epoch: 157, Iter: 1 current loss: 0.11776052
+[*] ...... Eval for Epoch: 157, Iter: 2 precision: 0.8069 recall: 0.7307
+[*] Epoch: 157, Iter: 2 current loss: 0.09970994
+[*] ...... Eval for Epoch: 157, Iter: 3 precision: 0.8398 recall: 0.6904
+[*] Epoch: 157, Iter: 3 current loss: 0.10497542
+[+] ====== Epoch 157 finished, avg_loss : 0.10748196 ======
+[+] ====== Start training... epoch 158 ======
+[*] ...... Eval for Epoch: 158, Iter: 1 precision: 0.8229 recall: 0.7064
+[*] Epoch: 158, Iter: 1 current loss: 0.10154267
+[*] ...... Eval for Epoch: 158, Iter: 2 precision: 0.8204 recall: 0.6567
+[*] Epoch: 158, Iter: 2 current loss: 0.11382721
+[*] ...... Eval for Epoch: 158, Iter: 3 precision: 0.8766 recall: 0.6759
+[*] Epoch: 158, Iter: 3 current loss: 0.10972080
+[+] ====== Epoch 158 finished, avg_loss : 0.10836356 ======
+[+] ====== Start training... epoch 159 ======
+[*] ...... Eval for Epoch: 159, Iter: 1 precision: 0.8189 recall: 0.6900
+[*] Epoch: 159, Iter: 1 current loss: 0.11177998
+[*] ...... Eval for Epoch: 159, Iter: 2 precision: 0.8200 recall: 0.6860
+[*] Epoch: 159, Iter: 2 current loss: 0.10498612
+[*] ...... Eval for Epoch: 159, Iter: 3 precision: 0.8565 recall: 0.6629
+[*] Epoch: 159, Iter: 3 current loss: 0.11545528
+[+] ====== Epoch 159 finished, avg_loss : 0.11074046 ======
+[+] ====== Start training... epoch 160 ======
+[*] ...... Eval for Epoch: 160, Iter: 1 precision: 0.8337 recall: 0.6688
+[*] Epoch: 160, Iter: 1 current loss: 0.11205366
+[*] ...... Eval for Epoch: 160, Iter: 2 precision: 0.8335 recall: 0.6917
+[*] Epoch: 160, Iter: 2 current loss: 0.10695599
+[*] ...... Eval for Epoch: 160, Iter: 3 precision: 0.8157 recall: 0.7290
+[*] Epoch: 160, Iter: 3 current loss: 0.10173044
+[+] ====== Epoch 160 finished, avg_loss : 0.10691337 ======
+[+] ====== Start training... epoch 161 ======
+[*] ...... Eval for Epoch: 161, Iter: 1 precision: 0.8606 recall: 0.6684
+[*] Epoch: 161, Iter: 1 current loss: 0.10915085
+[*] ...... Eval for Epoch: 161, Iter: 2 precision: 0.7924 recall: 0.7026
+[*] Epoch: 161, Iter: 2 current loss: 0.10916842
+[*] ...... Eval for Epoch: 161, Iter: 3 precision: 0.8615 recall: 0.6900
+[*] Epoch: 161, Iter: 3 current loss: 0.10337542
+[+] ====== Epoch 161 finished, avg_loss : 0.10723156 ======
+[+] ====== Start training... epoch 162 ======
+[*] ...... Eval for Epoch: 162, Iter: 1 precision: 0.8124 recall: 0.6840
+[*] Epoch: 162, Iter: 1 current loss: 0.10898617
+[*] ...... Eval for Epoch: 162, Iter: 2 precision: 0.8341 recall: 0.6914
+[*] Epoch: 162, Iter: 2 current loss: 0.10281517
+[*] ...... Eval for Epoch: 162, Iter: 3 precision: 0.8770 recall: 0.6699
+[*] Epoch: 162, Iter: 3 current loss: 0.11231042
+[+] ====== Epoch 162 finished, avg_loss : 0.10803725 ======
+[+] ====== Start training... epoch 163 ======
+[*] ...... Eval for Epoch: 163, Iter: 1 precision: 0.8131 recall: 0.7029
+[*] Epoch: 163, Iter: 1 current loss: 0.10285176
+[*] ...... Eval for Epoch: 163, Iter: 2 precision: 0.8552 recall: 0.6807
+[*] Epoch: 163, Iter: 2 current loss: 0.10965606
+[*] ...... Eval for Epoch: 163, Iter: 3 precision: 0.7925 recall: 0.6834
+[*] Epoch: 163, Iter: 3 current loss: 0.11735849
+[+] ====== Epoch 163 finished, avg_loss : 0.10995544 ======
+[+] ====== Start training... epoch 164 ======
+[*] ...... Eval for Epoch: 164, Iter: 1 precision: 0.8587 recall: 0.6807
+[*] Epoch: 164, Iter: 1 current loss: 0.10840404
+[*] ...... Eval for Epoch: 164, Iter: 2 precision: 0.8030 recall: 0.7001
+[*] Epoch: 164, Iter: 2 current loss: 0.10806511
+[*] ...... Eval for Epoch: 164, Iter: 3 precision: 0.8337 recall: 0.6894
+[*] Epoch: 164, Iter: 3 current loss: 0.10439734
+[+] ====== Epoch 164 finished, avg_loss : 0.10695550 ======
+[+] ====== Start training... epoch 165 ======
+[*] ...... Eval for Epoch: 165, Iter: 1 precision: 0.8252 recall: 0.6898
+[*] Epoch: 165, Iter: 1 current loss: 0.10606150
+[*] ...... Eval for Epoch: 165, Iter: 2 precision: 0.8372 recall: 0.6866
+[*] Epoch: 165, Iter: 2 current loss: 0.10594184
+[*] ...... Eval for Epoch: 165, Iter: 3 precision: 0.8640 recall: 0.6701
+[*] Epoch: 165, Iter: 3 current loss: 0.10890821
+[+] ====== Epoch 165 finished, avg_loss : 0.10697052 ======
+[+] ====== Start training... epoch 166 ======
+[*] ...... Eval for Epoch: 166, Iter: 1 precision: 0.8017 recall: 0.6991
+[*] Epoch: 166, Iter: 1 current loss: 0.10459424
+[*] ...... Eval for Epoch: 166, Iter: 2 precision: 0.8578 recall: 0.6912
+[*] Epoch: 166, Iter: 2 current loss: 0.10477671
+[*] ...... Eval for Epoch: 166, Iter: 3 precision: 0.8358 recall: 0.6739
+[*] Epoch: 166, Iter: 3 current loss: 0.11285216
+[+] ====== Epoch 166 finished, avg_loss : 0.10740770 ======
+[+] ====== Start training... epoch 167 ======
+[*] ...... Eval for Epoch: 167, Iter: 1 precision: 0.8293 recall: 0.6901
+[*] Epoch: 167, Iter: 1 current loss: 0.11036646
+[*] ...... Eval for Epoch: 167, Iter: 2 precision: 0.8214 recall: 0.7098
+[*] Epoch: 167, Iter: 2 current loss: 0.10011125
+[*] ...... Eval for Epoch: 167, Iter: 3 precision: 0.8570 recall: 0.6775
+[*] Epoch: 167, Iter: 3 current loss: 0.10705123
+[+] ====== Epoch 167 finished, avg_loss : 0.10584298 ======
+[+] ====== Start training... epoch 168 ======
+[*] ...... Eval for Epoch: 168, Iter: 1 precision: 0.8476 recall: 0.7015
+[*] Epoch: 168, Iter: 1 current loss: 0.10625692
+[*] ...... Eval for Epoch: 168, Iter: 2 precision: 0.7964 recall: 0.6945
+[*] Epoch: 168, Iter: 2 current loss: 0.11020716
+[*] ...... Eval for Epoch: 168, Iter: 3 precision: 0.8434 recall: 0.7030
+[*] Epoch: 168, Iter: 3 current loss: 0.09853287
+[+] ====== Epoch 168 finished, avg_loss : 0.10499898 ======
+[+] ====== Start training... epoch 169 ======
+[*] ...... Eval for Epoch: 169, Iter: 1 precision: 0.8269 recall: 0.6725
+[*] Epoch: 169, Iter: 1 current loss: 0.11157312
+[*] ...... Eval for Epoch: 169, Iter: 2 precision: 0.8233 recall: 0.6790
+[*] Epoch: 169, Iter: 2 current loss: 0.10890777
+[*] ...... Eval for Epoch: 169, Iter: 3 precision: 0.8633 recall: 0.6714
+[*] Epoch: 169, Iter: 3 current loss: 0.11048118
+[+] ====== Epoch 169 finished, avg_loss : 0.11032069 ======
+[+] ====== Start training... epoch 170 ======
+[*] ...... Eval for Epoch: 170, Iter: 1 precision: 0.8251 recall: 0.6901
+[*] Epoch: 170, Iter: 1 current loss: 0.10700078
+[*] ...... Eval for Epoch: 170, Iter: 2 precision: 0.8541 recall: 0.6862
+[*] Epoch: 170, Iter: 2 current loss: 0.10619697
+[*] ...... Eval for Epoch: 170, Iter: 3 precision: 0.7732 recall: 0.6932
+[*] Epoch: 170, Iter: 3 current loss: 0.11634569
+[+] ====== Epoch 170 finished, avg_loss : 0.10984781 ======
+[+] ====== Start training... epoch 171 ======
+[*] ...... Eval for Epoch: 171, Iter: 1 precision: 0.8704 recall: 0.6364
+[*] Epoch: 171, Iter: 1 current loss: 0.11910339
+[*] ...... Eval for Epoch: 171, Iter: 2 precision: 0.8016 recall: 0.7352
+[*] Epoch: 171, Iter: 2 current loss: 0.10219132
+[*] ...... Eval for Epoch: 171, Iter: 3 precision: 0.8329 recall: 0.7217
+[*] Epoch: 171, Iter: 3 current loss: 0.09440768
+[+] ====== Epoch 171 finished, avg_loss : 0.10523413 ======
+[+] ====== Start training... epoch 172 ======
+[*] ...... Eval for Epoch: 172, Iter: 1 precision: 0.8490 recall: 0.6656
+[*] Epoch: 172, Iter: 1 current loss: 0.10942630
+[*] ...... Eval for Epoch: 172, Iter: 2 precision: 0.8311 recall: 0.7154
+[*] Epoch: 172, Iter: 2 current loss: 0.09816708
+[*] ...... Eval for Epoch: 172, Iter: 3 precision: 0.8636 recall: 0.6629
+[*] Epoch: 172, Iter: 3 current loss: 0.11049837
+[+] ====== Epoch 172 finished, avg_loss : 0.10603059 ======
+[+] ====== Start training... epoch 173 ======
+[*] ...... Eval for Epoch: 173, Iter: 1 precision: 0.8581 recall: 0.6872
+[*] Epoch: 173, Iter: 1 current loss: 0.10792030
+[*] ...... Eval for Epoch: 173, Iter: 2 precision: 0.8169 recall: 0.7089
+[*] Epoch: 173, Iter: 2 current loss: 0.10180881
+[*] ...... Eval for Epoch: 173, Iter: 3 precision: 0.8007 recall: 0.7146
+[*] Epoch: 173, Iter: 3 current loss: 0.10434185
+[+] ====== Epoch 173 finished, avg_loss : 0.10469032 ======
+[+] ====== Start training... epoch 174 ======
+[*] ...... Eval for Epoch: 174, Iter: 1 precision: 0.8020 recall: 0.6667
+[*] Epoch: 174, Iter: 1 current loss: 0.11548063
+[*] ...... Eval for Epoch: 174, Iter: 2 precision: 0.8647 recall: 0.6686
+[*] Epoch: 174, Iter: 2 current loss: 0.11007560
+[*] ...... Eval for Epoch: 174, Iter: 3 precision: 0.8199 recall: 0.6880
+[*] Epoch: 174, Iter: 3 current loss: 0.10898885
+[+] ====== Epoch 174 finished, avg_loss : 0.11151503 ======
+[+] ====== Start training... epoch 175 ======
+[*] ...... Eval for Epoch: 175, Iter: 1 precision: 0.8489 recall: 0.6750
+[*] Epoch: 175, Iter: 1 current loss: 0.10965354
+[*] ...... Eval for Epoch: 175, Iter: 2 precision: 0.8321 recall: 0.6704
+[*] Epoch: 175, Iter: 2 current loss: 0.11336658
+[*] ...... Eval for Epoch: 175, Iter: 3 precision: 0.8194 recall: 0.7389
+[*] Epoch: 175, Iter: 3 current loss: 0.09148593
+[+] ====== Epoch 175 finished, avg_loss : 0.10483535 ======
+[+] ====== Start training... epoch 176 ======
+[*] ...... Eval for Epoch: 176, Iter: 1 precision: 0.8576 recall: 0.6624
+[*] Epoch: 176, Iter: 1 current loss: 0.10910504
+[*] ...... Eval for Epoch: 176, Iter: 2 precision: 0.8494 recall: 0.7006
+[*] Epoch: 176, Iter: 2 current loss: 0.09952760
+[*] ...... Eval for Epoch: 176, Iter: 3 precision: 0.8295 recall: 0.6934
+[*] Epoch: 176, Iter: 3 current loss: 0.10247006
+[+] ====== Epoch 176 finished, avg_loss : 0.10370090 ======
+[+] ====== Start training... epoch 177 ======
+[*] ...... Eval for Epoch: 177, Iter: 1 precision: 0.8222 recall: 0.7101
+[*] Epoch: 177, Iter: 1 current loss: 0.09802055
+[*] ...... Eval for Epoch: 177, Iter: 2 precision: 0.8713 recall: 0.6781
+[*] Epoch: 177, Iter: 2 current loss: 0.10324215
+[*] ...... Eval for Epoch: 177, Iter: 3 precision: 0.8268 recall: 0.6733
+[*] Epoch: 177, Iter: 3 current loss: 0.11847012
+[+] ====== Epoch 177 finished, avg_loss : 0.10657761 ======
+[+] ====== Start training... epoch 178 ======
+[*] ...... Eval for Epoch: 178, Iter: 1 precision: 0.8465 recall: 0.6930
+[*] Epoch: 178, Iter: 1 current loss: 0.10754846
+[*] ...... Eval for Epoch: 178, Iter: 2 precision: 0.8209 recall: 0.6897
+[*] Epoch: 178, Iter: 2 current loss: 0.10950615
+[*] ...... Eval for Epoch: 178, Iter: 3 precision: 0.8214 recall: 0.7141
+[*] Epoch: 178, Iter: 3 current loss: 0.10081749
+[+] ====== Epoch 178 finished, avg_loss : 0.10595737 ======
+[+] ====== Start training... epoch 179 ======
+[*] ...... Eval for Epoch: 179, Iter: 1 precision: 0.8523 recall: 0.6638
+[*] Epoch: 179, Iter: 1 current loss: 0.10902672
+[*] ...... Eval for Epoch: 179, Iter: 2 precision: 0.8195 recall: 0.7191
+[*] Epoch: 179, Iter: 2 current loss: 0.09736295
+[*] ...... Eval for Epoch: 179, Iter: 3 precision: 0.8698 recall: 0.6575
+[*] Epoch: 179, Iter: 3 current loss: 0.11480236
+[+] ====== Epoch 179 finished, avg_loss : 0.10706401 ======
+[+] ====== Start training... epoch 180 ======
+[*] ...... Eval for Epoch: 180, Iter: 1 precision: 0.8105 recall: 0.7342
+[*] Epoch: 180, Iter: 1 current loss: 0.09923953
+[*] ...... Eval for Epoch: 180, Iter: 2 precision: 0.8452 recall: 0.6977
+[*] Epoch: 180, Iter: 2 current loss: 0.10068251
+[*] ...... Eval for Epoch: 180, Iter: 3 precision: 0.8495 recall: 0.6276
+[*] Epoch: 180, Iter: 3 current loss: 0.12956578
+[+] ====== Epoch 180 finished, avg_loss : 0.10982927 ======
+[+] ====== Start training... epoch 181 ======
+[*] ...... Eval for Epoch: 181, Iter: 1 precision: 0.8447 recall: 0.6868
+[*] Epoch: 181, Iter: 1 current loss: 0.11248691
+[*] ...... Eval for Epoch: 181, Iter: 2 precision: 0.8051 recall: 0.7288
+[*] Epoch: 181, Iter: 2 current loss: 0.09958098
+[*] ...... Eval for Epoch: 181, Iter: 3 precision: 0.8299 recall: 0.7041
+[*] Epoch: 181, Iter: 3 current loss: 0.10222698
+[+] ====== Epoch 181 finished, avg_loss : 0.10476496 ======
+[+] ====== Start training... epoch 182 ======
+[*] ...... Eval for Epoch: 182, Iter: 1 precision: 0.8424 recall: 0.6977
+[*] Epoch: 182, Iter: 1 current loss: 0.10383689
+[*] ...... Eval for Epoch: 182, Iter: 2 precision: 0.8379 recall: 0.6772
+[*] Epoch: 182, Iter: 2 current loss: 0.10979975
+[*] ...... Eval for Epoch: 182, Iter: 3 precision: 0.8306 recall: 0.6872
+[*] Epoch: 182, Iter: 3 current loss: 0.10617468
+[+] ====== Epoch 182 finished, avg_loss : 0.10660377 ======
+[+] ====== Start training... epoch 183 ======
+[*] ...... Eval for Epoch: 183, Iter: 1 precision: 0.8549 recall: 0.6920
+[*] Epoch: 183, Iter: 1 current loss: 0.10734196
+[*] ...... Eval for Epoch: 183, Iter: 2 precision: 0.8239 recall: 0.6967
+[*] Epoch: 183, Iter: 2 current loss: 0.10600124
+[*] ...... Eval for Epoch: 183, Iter: 3 precision: 0.7978 recall: 0.7279
+[*] Epoch: 183, Iter: 3 current loss: 0.09942612
+[+] ====== Epoch 183 finished, avg_loss : 0.10425644 ======
+[+] ====== Start training... epoch 184 ======
+[*] ...... Eval for Epoch: 184, Iter: 1 precision: 0.8568 recall: 0.6433
+[*] Epoch: 184, Iter: 1 current loss: 0.11480723
+[*] ...... Eval for Epoch: 184, Iter: 2 precision: 0.8253 recall: 0.7192
+[*] Epoch: 184, Iter: 2 current loss: 0.10081206
+[*] ...... Eval for Epoch: 184, Iter: 3 precision: 0.8408 recall: 0.7024
+[*] Epoch: 184, Iter: 3 current loss: 0.10148674
+[+] ====== Epoch 184 finished, avg_loss : 0.10570201 ======
+[+] ====== Start training... epoch 185 ======
+[*] ...... Eval for Epoch: 185, Iter: 1 precision: 0.8396 recall: 0.7102
+[*] Epoch: 185, Iter: 1 current loss: 0.09542265
+[*] ...... Eval for Epoch: 185, Iter: 2 precision: 0.8705 recall: 0.6805
+[*] Epoch: 185, Iter: 2 current loss: 0.10455377
+[*] ...... Eval for Epoch: 185, Iter: 3 precision: 0.7915 recall: 0.6617
+[*] Epoch: 185, Iter: 3 current loss: 0.12429439
+[+] ====== Epoch 185 finished, avg_loss : 0.10809027 ======
+[+] ====== Start training... epoch 186 ======
+[*] ...... Eval for Epoch: 186, Iter: 1 precision: 0.8197 recall: 0.7004
+[*] Epoch: 186, Iter: 1 current loss: 0.10105735
+[*] ...... Eval for Epoch: 186, Iter: 2 precision: 0.8738 recall: 0.6739
+[*] Epoch: 186, Iter: 2 current loss: 0.10597405
+[*] ...... Eval for Epoch: 186, Iter: 3 precision: 0.8181 recall: 0.7026
+[*] Epoch: 186, Iter: 3 current loss: 0.10904796
+[+] ====== Epoch 186 finished, avg_loss : 0.10535979 ======
+[+] ====== Start training... epoch 187 ======
+[*] ...... Eval for Epoch: 187, Iter: 1 precision: 0.8226 recall: 0.7230
+[*] Epoch: 187, Iter: 1 current loss: 0.09912843
+[*] ...... Eval for Epoch: 187, Iter: 2 precision: 0.8754 recall: 0.6785
+[*] Epoch: 187, Iter: 2 current loss: 0.10536432
+[*] ...... Eval for Epoch: 187, Iter: 3 precision: 0.7827 recall: 0.6975
+[*] Epoch: 187, Iter: 3 current loss: 0.10967322
+[+] ====== Epoch 187 finished, avg_loss : 0.10472199 ======
+[+] ====== Start training... epoch 188 ======
+[*] ...... Eval for Epoch: 188, Iter: 1 precision: 0.8415 recall: 0.6731
+[*] Epoch: 188, Iter: 1 current loss: 0.10766105
+[*] ...... Eval for Epoch: 188, Iter: 2 precision: 0.8504 recall: 0.6921
+[*] Epoch: 188, Iter: 2 current loss: 0.10361795
+[*] ...... Eval for Epoch: 188, Iter: 3 precision: 0.8520 recall: 0.7000
+[*] Epoch: 188, Iter: 3 current loss: 0.09823942
+[+] ====== Epoch 188 finished, avg_loss : 0.10317281 ======
+[+] ====== Start training... epoch 189 ======
+[*] ...... Eval for Epoch: 189, Iter: 1 precision: 0.8347 recall: 0.7037
+[*] Epoch: 189, Iter: 1 current loss: 0.10125716
+[*] ...... Eval for Epoch: 189, Iter: 2 precision: 0.8466 recall: 0.6874
+[*] Epoch: 189, Iter: 2 current loss: 0.10820813
+[*] ...... Eval for Epoch: 189, Iter: 3 precision: 0.8400 recall: 0.7320
+[*] Epoch: 189, Iter: 3 current loss: 0.09291807
+[+] ====== Epoch 189 finished, avg_loss : 0.10079445 ======
+[+] ====== Start training... epoch 190 ======
+[*] ...... Eval for Epoch: 190, Iter: 1 precision: 0.8585 recall: 0.6978
+[*] Epoch: 190, Iter: 1 current loss: 0.10022544
+[*] ...... Eval for Epoch: 190, Iter: 2 precision: 0.8430 recall: 0.7095
+[*] Epoch: 190, Iter: 2 current loss: 0.10326881
+[*] ...... Eval for Epoch: 190, Iter: 3 precision: 0.7827 recall: 0.6874
+[*] Epoch: 190, Iter: 3 current loss: 0.10643631
+[+] ====== Epoch 190 finished, avg_loss : 0.10331019 ======
+[+] ====== Start training... epoch 191 ======
+[*] ...... Eval for Epoch: 191, Iter: 1 precision: 0.8768 recall: 0.6695
+[*] Epoch: 191, Iter: 1 current loss: 0.10852005
+[*] ...... Eval for Epoch: 191, Iter: 2 precision: 0.8189 recall: 0.7351
+[*] Epoch: 191, Iter: 2 current loss: 0.09554592
+[*] ...... Eval for Epoch: 191, Iter: 3 precision: 0.7801 recall: 0.7003
+[*] Epoch: 191, Iter: 3 current loss: 0.11247046
+[+] ====== Epoch 191 finished, avg_loss : 0.10551214 ======
+[+] ====== Start training... epoch 192 ======
+[*] ...... Eval for Epoch: 192, Iter: 1 precision: 0.8578 recall: 0.6907
+[*] Epoch: 192, Iter: 1 current loss: 0.09893022
+[*] ...... Eval for Epoch: 192, Iter: 2 precision: 0.8487 recall: 0.7057
+[*] Epoch: 192, Iter: 2 current loss: 0.10022151
+[*] ...... Eval for Epoch: 192, Iter: 3 precision: 0.8338 recall: 0.6643
+[*] Epoch: 192, Iter: 3 current loss: 0.11147507
+[+] ====== Epoch 192 finished, avg_loss : 0.10354227 ======
+[+] ====== Start training... epoch 193 ======
+[*] ...... Eval for Epoch: 193, Iter: 1 precision: 0.8235 recall: 0.7085
+[*] Epoch: 193, Iter: 1 current loss: 0.10139216
+[*] ...... Eval for Epoch: 193, Iter: 2 precision: 0.8551 recall: 0.6934
+[*] Epoch: 193, Iter: 2 current loss: 0.10294721
+[*] ...... Eval for Epoch: 193, Iter: 3 precision: 0.8502 recall: 0.6977
+[*] Epoch: 193, Iter: 3 current loss: 0.10145542
+[+] ====== Epoch 193 finished, avg_loss : 0.10193160 ======
+[+] ====== Start training... epoch 194 ======
+[*] ...... Eval for Epoch: 194, Iter: 1 precision: 0.8510 recall: 0.6957
+[*] Epoch: 194, Iter: 1 current loss: 0.10258865
+[*] ...... Eval for Epoch: 194, Iter: 2 precision: 0.8090 recall: 0.7158
+[*] Epoch: 194, Iter: 2 current loss: 0.10380776
+[*] ...... Eval for Epoch: 194, Iter: 3 precision: 0.8714 recall: 0.6930
+[*] Epoch: 194, Iter: 3 current loss: 0.10106217
+[+] ====== Epoch 194 finished, avg_loss : 0.10248620 ======
+[+] ====== Start training... epoch 195 ======
+[*] ...... Eval for Epoch: 195, Iter: 1 precision: 0.8328 recall: 0.7175
+[*] Epoch: 195, Iter: 1 current loss: 0.09952509
+[*] ...... Eval for Epoch: 195, Iter: 2 precision: 0.8487 recall: 0.6875
+[*] Epoch: 195, Iter: 2 current loss: 0.10471813
+[*] ...... Eval for Epoch: 195, Iter: 3 precision: 0.8119 recall: 0.6889
+[*] Epoch: 195, Iter: 3 current loss: 0.11347272
+[+] ====== Epoch 195 finished, avg_loss : 0.10590531 ======
+[+] ====== Start training... epoch 196 ======
+[*] ...... Eval for Epoch: 196, Iter: 1 precision: 0.8581 recall: 0.6808
+[*] Epoch: 196, Iter: 1 current loss: 0.10651184
+[*] ...... Eval for Epoch: 196, Iter: 2 precision: 0.8238 recall: 0.7172
+[*] Epoch: 196, Iter: 2 current loss: 0.10117862
+[*] ...... Eval for Epoch: 196, Iter: 3 precision: 0.8104 recall: 0.6822
+[*] Epoch: 196, Iter: 3 current loss: 0.11189908
+[+] ====== Epoch 196 finished, avg_loss : 0.10652984 ======
+[+] ====== Start training... epoch 197 ======
+[*] ...... Eval for Epoch: 197, Iter: 1 precision: 0.8436 recall: 0.7131
+[*] Epoch: 197, Iter: 1 current loss: 0.09582113
+[*] ...... Eval for Epoch: 197, Iter: 2 precision: 0.8533 recall: 0.6748
+[*] Epoch: 197, Iter: 2 current loss: 0.11033165
+[*] ...... Eval for Epoch: 197, Iter: 3 precision: 0.8295 recall: 0.7352
+[*] Epoch: 197, Iter: 3 current loss: 0.09305219
+[+] ====== Epoch 197 finished, avg_loss : 0.09973499 ======
+[+] ====== Start training... epoch 198 ======
+[*] ...... Eval for Epoch: 198, Iter: 1 precision: 0.8423 recall: 0.7109
+[*] Epoch: 198, Iter: 1 current loss: 0.09766503
+[*] ...... Eval for Epoch: 198, Iter: 2 precision: 0.8354 recall: 0.6819
+[*] Epoch: 198, Iter: 2 current loss: 0.10560212
+[*] ...... Eval for Epoch: 198, Iter: 3 precision: 0.8655 recall: 0.6770
+[*] Epoch: 198, Iter: 3 current loss: 0.10929510
+[+] ====== Epoch 198 finished, avg_loss : 0.10418741 ======
+[+] ====== Start training... epoch 199 ======
+[*] ...... Eval for Epoch: 199, Iter: 1 precision: 0.8339 recall: 0.7057
+[*] Epoch: 199, Iter: 1 current loss: 0.10439795
+[*] ...... Eval for Epoch: 199, Iter: 2 precision: 0.8295 recall: 0.7185
+[*] Epoch: 199, Iter: 2 current loss: 0.09510493
+[*] ...... Eval for Epoch: 199, Iter: 3 precision: 0.8667 recall: 0.6773
+[*] Epoch: 199, Iter: 3 current loss: 0.10911413
+[+] ====== Epoch 199 finished, avg_loss : 0.10287233 ======
+[+] ====== Start training... epoch 200 ======
+[*] ...... Eval for Epoch: 200, Iter: 1 precision: 0.8153 recall: 0.7038
+[*] Epoch: 200, Iter: 1 current loss: 0.10512415
+[*] ...... Eval for Epoch: 200, Iter: 2 precision: 0.8260 recall: 0.7191
+[*] Epoch: 200, Iter: 2 current loss: 0.09848308
+[*] ...... Eval for Epoch: 200, Iter: 3 precision: 0.8838 recall: 0.6832
+[*] Epoch: 200, Iter: 3 current loss: 0.10847342
+[+] ====== Epoch 200 finished, avg_loss : 0.10402688 ======
+[+] ====== Start training... epoch 201 ======
+[*] ...... Eval for Epoch: 201, Iter: 1 precision: 0.8296 recall: 0.7143
+[*] Epoch: 201, Iter: 1 current loss: 0.10385413
+[*] ...... Eval for Epoch: 201, Iter: 2 precision: 0.8183 recall: 0.7129
+[*] Epoch: 201, Iter: 2 current loss: 0.09938160
+[*] ...... Eval for Epoch: 201, Iter: 3 precision: 0.8650 recall: 0.7143
+[*] Epoch: 201, Iter: 3 current loss: 0.09925593
+[+] ====== Epoch 201 finished, avg_loss : 0.10083055 ======
+[+] ====== Start training... epoch 202 ======
+[*] ...... Eval for Epoch: 202, Iter: 1 precision: 0.8310 recall: 0.7227
+[*] Epoch: 202, Iter: 1 current loss: 0.09450812
+[*] ...... Eval for Epoch: 202, Iter: 2 precision: 0.8516 recall: 0.7086
+[*] Epoch: 202, Iter: 2 current loss: 0.10110460
+[*] ...... Eval for Epoch: 202, Iter: 3 precision: 0.8358 recall: 0.6925
+[*] Epoch: 202, Iter: 3 current loss: 0.10857908
+[+] ====== Epoch 202 finished, avg_loss : 0.10139727 ======
+[+] ====== Start training... epoch 203 ======
+[*] ...... Eval for Epoch: 203, Iter: 1 precision: 0.8161 recall: 0.7264
+[*] Epoch: 203, Iter: 1 current loss: 0.09724003
+[*] ...... Eval for Epoch: 203, Iter: 2 precision: 0.8388 recall: 0.6932
+[*] Epoch: 203, Iter: 2 current loss: 0.10509951
+[*] ...... Eval for Epoch: 203, Iter: 3 precision: 0.8684 recall: 0.6857
+[*] Epoch: 203, Iter: 3 current loss: 0.11162668
+[+] ====== Epoch 203 finished, avg_loss : 0.10465540 ======
+[+] ====== Start training... epoch 204 ======
+[*] ...... Eval for Epoch: 204, Iter: 1 precision: 0.8162 recall: 0.7093
+[*] Epoch: 204, Iter: 1 current loss: 0.10867053
+[*] ...... Eval for Epoch: 204, Iter: 2 precision: 0.8333 recall: 0.7205
+[*] Epoch: 204, Iter: 2 current loss: 0.09756227
+[*] ...... Eval for Epoch: 204, Iter: 3 precision: 0.8347 recall: 0.6549
+[*] Epoch: 204, Iter: 3 current loss: 0.12305263
+[+] ====== Epoch 204 finished, avg_loss : 0.10976181 ======
+[+] ====== Start training... epoch 205 ======
+[*] ...... Eval for Epoch: 205, Iter: 1 precision: 0.8457 recall: 0.7229
+[*] Epoch: 205, Iter: 1 current loss: 0.09809025
+[*] ...... Eval for Epoch: 205, Iter: 2 precision: 0.8274 recall: 0.7017
+[*] Epoch: 205, Iter: 2 current loss: 0.09957359
+[*] ...... Eval for Epoch: 205, Iter: 3 precision: 0.8736 recall: 0.6841
+[*] Epoch: 205, Iter: 3 current loss: 0.10691588
+[+] ====== Epoch 205 finished, avg_loss : 0.10152657 ======
+[+] ====== Start training... epoch 206 ======
+[*] ...... Eval for Epoch: 206, Iter: 1 precision: 0.8286 recall: 0.7360
+[*] Epoch: 206, Iter: 1 current loss: 0.09707382
+[*] ...... Eval for Epoch: 206, Iter: 2 precision: 0.8337 recall: 0.7022
+[*] Epoch: 206, Iter: 2 current loss: 0.10254204
+[*] ...... Eval for Epoch: 206, Iter: 3 precision: 0.8549 recall: 0.7158
+[*] Epoch: 206, Iter: 3 current loss: 0.09698685
+[+] ====== Epoch 206 finished, avg_loss : 0.09886757 ======
+[+] ====== Start training... epoch 207 ======
+[*] ...... Eval for Epoch: 207, Iter: 1 precision: 0.8318 recall: 0.7194
+[*] Epoch: 207, Iter: 1 current loss: 0.09795998
+[*] ...... Eval for Epoch: 207, Iter: 2 precision: 0.8683 recall: 0.6856
+[*] Epoch: 207, Iter: 2 current loss: 0.10560341
+[*] ...... Eval for Epoch: 207, Iter: 3 precision: 0.7934 recall: 0.7661
+[*] Epoch: 207, Iter: 3 current loss: 0.09371244
+[+] ====== Epoch 207 finished, avg_loss : 0.09909194 ======
+[+] ====== Start training... epoch 208 ======
+[*] ...... Eval for Epoch: 208, Iter: 1 precision: 0.8599 recall: 0.7190
+[*] Epoch: 208, Iter: 1 current loss: 0.09364396
+[*] ...... Eval for Epoch: 208, Iter: 2 precision: 0.8453 recall: 0.6978
+[*] Epoch: 208, Iter: 2 current loss: 0.10433139
+[*] ...... Eval for Epoch: 208, Iter: 3 precision: 0.8186 recall: 0.6782
+[*] Epoch: 208, Iter: 3 current loss: 0.10722618
+[+] ====== Epoch 208 finished, avg_loss : 0.10173384 ======
+[+] ====== Start training... epoch 209 ======
+[*] ...... Eval for Epoch: 209, Iter: 1 precision: 0.8100 recall: 0.7148
+[*] Epoch: 209, Iter: 1 current loss: 0.10189663
+[*] ...... Eval for Epoch: 209, Iter: 2 precision: 0.8614 recall: 0.6831
+[*] Epoch: 209, Iter: 2 current loss: 0.10427876
+[*] ...... Eval for Epoch: 209, Iter: 3 precision: 0.8545 recall: 0.7257
+[*] Epoch: 209, Iter: 3 current loss: 0.09660199
+[+] ====== Epoch 209 finished, avg_loss : 0.10092579 ======
+[+] ====== Start training... epoch 210 ======
+[*] ...... Eval for Epoch: 210, Iter: 1 precision: 0.8218 recall: 0.7161
+[*] Epoch: 210, Iter: 1 current loss: 0.09677438
+[*] ...... Eval for Epoch: 210, Iter: 2 precision: 0.8565 recall: 0.7131
+[*] Epoch: 210, Iter: 2 current loss: 0.09699078
+[*] ...... Eval for Epoch: 210, Iter: 3 precision: 0.8770 recall: 0.6722
+[*] Epoch: 210, Iter: 3 current loss: 0.11058096
+[+] ====== Epoch 210 finished, avg_loss : 0.10144870 ======
+[+] ====== Start training... epoch 211 ======
+[*] ...... Eval for Epoch: 211, Iter: 1 precision: 0.8077 recall: 0.7154
+[*] Epoch: 211, Iter: 1 current loss: 0.11093143
+[*] ...... Eval for Epoch: 211, Iter: 2 precision: 0.8446 recall: 0.7103
+[*] Epoch: 211, Iter: 2 current loss: 0.10052896
+[*] ...... Eval for Epoch: 211, Iter: 3 precision: 0.8174 recall: 0.7497
+[*] Epoch: 211, Iter: 3 current loss: 0.09156193
+[+] ====== Epoch 211 finished, avg_loss : 0.10100744 ======
+[+] ====== Start training... epoch 212 ======
+[*] ...... Eval for Epoch: 212, Iter: 1 precision: 0.8578 recall: 0.7055
+[*] Epoch: 212, Iter: 1 current loss: 0.09481542
+[*] ...... Eval for Epoch: 212, Iter: 2 precision: 0.8484 recall: 0.7055
+[*] Epoch: 212, Iter: 2 current loss: 0.09890825
+[*] ...... Eval for Epoch: 212, Iter: 3 precision: 0.8482 recall: 0.6776
+[*] Epoch: 212, Iter: 3 current loss: 0.11402898
+[+] ====== Epoch 212 finished, avg_loss : 0.10258422 ======
+[+] ====== Start training... epoch 213 ======
+[*] ...... Eval for Epoch: 213, Iter: 1 precision: 0.8387 recall: 0.7289
+[*] Epoch: 213, Iter: 1 current loss: 0.09390831
+[*] ...... Eval for Epoch: 213, Iter: 2 precision: 0.8431 recall: 0.7075
+[*] Epoch: 213, Iter: 2 current loss: 0.10275741
+[*] ...... Eval for Epoch: 213, Iter: 3 precision: 0.8398 recall: 0.7258
+[*] Epoch: 213, Iter: 3 current loss: 0.09647492
+[+] ====== Epoch 213 finished, avg_loss : 0.09771354 ======
+[+] ====== Start training... epoch 214 ======
+[*] ...... Eval for Epoch: 214, Iter: 1 precision: 0.8486 recall: 0.6964
+[*] Epoch: 214, Iter: 1 current loss: 0.10500836
+[*] ...... Eval for Epoch: 214, Iter: 2 precision: 0.7998 recall: 0.7564
+[*] Epoch: 214, Iter: 2 current loss: 0.09123479
+[*] ...... Eval for Epoch: 214, Iter: 3 precision: 0.9010 recall: 0.6540
+[*] Epoch: 214, Iter: 3 current loss: 0.11418568
+[+] ====== Epoch 214 finished, avg_loss : 0.10347627 ======
+[+] ====== Start training... epoch 215 ======
+[*] ...... Eval for Epoch: 215, Iter: 1 precision: 0.8008 recall: 0.7547
+[*] Epoch: 215, Iter: 1 current loss: 0.09303840
+[*] ...... Eval for Epoch: 215, Iter: 2 precision: 0.8500 recall: 0.6842
+[*] Epoch: 215, Iter: 2 current loss: 0.10625015
+[*] ...... Eval for Epoch: 215, Iter: 3 precision: 0.8900 recall: 0.6943
+[*] Epoch: 215, Iter: 3 current loss: 0.10381562
+[+] ====== Epoch 215 finished, avg_loss : 0.10103472 ======
+[+] ====== Start training... epoch 216 ======
+[*] ...... Eval for Epoch: 216, Iter: 1 precision: 0.8191 recall: 0.7438
+[*] Epoch: 216, Iter: 1 current loss: 0.09627968
+[*] ...... Eval for Epoch: 216, Iter: 2 precision: 0.8600 recall: 0.7028
+[*] Epoch: 216, Iter: 2 current loss: 0.09836008
+[*] ...... Eval for Epoch: 216, Iter: 3 precision: 0.8124 recall: 0.7323
+[*] Epoch: 216, Iter: 3 current loss: 0.10294429
+[+] ====== Epoch 216 finished, avg_loss : 0.09919468 ======
+[+] ====== Start training... epoch 217 ======
+[*] ...... Eval for Epoch: 217, Iter: 1 precision: 0.8583 recall: 0.6899
+[*] Epoch: 217, Iter: 1 current loss: 0.10325712
+[*] ...... Eval for Epoch: 217, Iter: 2 precision: 0.8201 recall: 0.7197
+[*] Epoch: 217, Iter: 2 current loss: 0.10111441
+[*] ...... Eval for Epoch: 217, Iter: 3 precision: 0.8461 recall: 0.7113
+[*] Epoch: 217, Iter: 3 current loss: 0.10024603
+[+] ====== Epoch 217 finished, avg_loss : 0.10153918 ======
+[+] ====== Start training... epoch 218 ======
+[*] ...... Eval for Epoch: 218, Iter: 1 precision: 0.8327 recall: 0.7154
+[*] Epoch: 218, Iter: 1 current loss: 0.09710003
+[*] ...... Eval for Epoch: 218, Iter: 2 precision: 0.8598 recall: 0.7067
+[*] Epoch: 218, Iter: 2 current loss: 0.09718159
+[*] ...... Eval for Epoch: 218, Iter: 3 precision: 0.8408 recall: 0.7237
+[*] Epoch: 218, Iter: 3 current loss: 0.09850819
+[+] ====== Epoch 218 finished, avg_loss : 0.09759660 ======
+[+] ====== Start training... epoch 219 ======
+[*] ...... Eval for Epoch: 219, Iter: 1 precision: 0.8537 recall: 0.7053
+[*] Epoch: 219, Iter: 1 current loss: 0.10163660
+[*] ...... Eval for Epoch: 219, Iter: 2 precision: 0.8229 recall: 0.7515
+[*] Epoch: 219, Iter: 2 current loss: 0.09134696
+[*] ...... Eval for Epoch: 219, Iter: 3 precision: 0.8521 recall: 0.6989
+[*] Epoch: 219, Iter: 3 current loss: 0.10050671
+[+] ====== Epoch 219 finished, avg_loss : 0.09783009 ======
+[+] ====== Start training... epoch 220 ======
+[*] ...... Eval for Epoch: 220, Iter: 1 precision: 0.8244 recall: 0.7164
+[*] Epoch: 220, Iter: 1 current loss: 0.09717317
+[*] ...... Eval for Epoch: 220, Iter: 2 precision: 0.8617 recall: 0.7248
+[*] Epoch: 220, Iter: 2 current loss: 0.09398317
+[*] ...... Eval for Epoch: 220, Iter: 3 precision: 0.8383 recall: 0.6989
+[*] Epoch: 220, Iter: 3 current loss: 0.10635874
+[+] ====== Epoch 220 finished, avg_loss : 0.09917169 ======
+[+] ====== Start training... epoch 221 ======
+[*] ...... Eval for Epoch: 221, Iter: 1 precision: 0.8378 recall: 0.7275
+[*] Epoch: 221, Iter: 1 current loss: 0.09475698
+[*] ...... Eval for Epoch: 221, Iter: 2 precision: 0.8512 recall: 0.6892
+[*] Epoch: 221, Iter: 2 current loss: 0.10777120
+[*] ...... Eval for Epoch: 221, Iter: 3 precision: 0.8126 recall: 0.6992
+[*] Epoch: 221, Iter: 3 current loss: 0.10181498
+[+] ====== Epoch 221 finished, avg_loss : 0.10144772 ======
+[+] ====== Start training... epoch 222 ======
+[*] ...... Eval for Epoch: 222, Iter: 1 precision: 0.8168 recall: 0.6693
+[*] Epoch: 222, Iter: 1 current loss: 0.11538222
+[*] ...... Eval for Epoch: 222, Iter: 2 precision: 0.8477 recall: 0.6873
+[*] Epoch: 222, Iter: 2 current loss: 0.10366483
+[*] ...... Eval for Epoch: 222, Iter: 3 precision: 0.8505 recall: 0.7297
+[*] Epoch: 222, Iter: 3 current loss: 0.09690794
+[+] ====== Epoch 222 finished, avg_loss : 0.10531833 ======
+[+] ====== Start training... epoch 223 ======
+[*] ...... Eval for Epoch: 223, Iter: 1 precision: 0.8433 recall: 0.7297
+[*] Epoch: 223, Iter: 1 current loss: 0.09416107
+[*] ...... Eval for Epoch: 223, Iter: 2 precision: 0.8333 recall: 0.7150
+[*] Epoch: 223, Iter: 2 current loss: 0.09909045
+[*] ...... Eval for Epoch: 223, Iter: 3 precision: 0.8638 recall: 0.6987
+[*] Epoch: 223, Iter: 3 current loss: 0.10034393
+[+] ====== Epoch 223 finished, avg_loss : 0.09786515 ======
+[+] ====== Start training... epoch 224 ======
+[*] ...... Eval for Epoch: 224, Iter: 1 precision: 0.8374 recall: 0.7097
+[*] Epoch: 224, Iter: 1 current loss: 0.10041137
+[*] ...... Eval for Epoch: 224, Iter: 2 precision: 0.8394 recall: 0.7503
+[*] Epoch: 224, Iter: 2 current loss: 0.09056008
+[*] ...... Eval for Epoch: 224, Iter: 3 precision: 0.8593 recall: 0.6999
+[*] Epoch: 224, Iter: 3 current loss: 0.10067703
+[+] ====== Epoch 224 finished, avg_loss : 0.09721616 ======
+[+] ====== Start training... epoch 225 ======
+[*] ...... Eval for Epoch: 225, Iter: 1 precision: 0.8208 recall: 0.7333
+[*] Epoch: 225, Iter: 1 current loss: 0.09515250
+[*] ...... Eval for Epoch: 225, Iter: 2 precision: 0.8548 recall: 0.7066
+[*] Epoch: 225, Iter: 2 current loss: 0.09983152
+[*] ...... Eval for Epoch: 225, Iter: 3 precision: 0.8468 recall: 0.7204
+[*] Epoch: 225, Iter: 3 current loss: 0.09809743
+[+] ====== Epoch 225 finished, avg_loss : 0.09769382 ======
+[+] ====== Start training... epoch 226 ======
+[*] ...... Eval for Epoch: 226, Iter: 1 precision: 0.8626 recall: 0.7043
+[*] Epoch: 226, Iter: 1 current loss: 0.10464761
+[*] ...... Eval for Epoch: 226, Iter: 2 precision: 0.8105 recall: 0.7490
+[*] Epoch: 226, Iter: 2 current loss: 0.09469332
+[*] ...... Eval for Epoch: 226, Iter: 3 precision: 0.8280 recall: 0.6735
+[*] Epoch: 226, Iter: 3 current loss: 0.10697955
+[+] ====== Epoch 226 finished, avg_loss : 0.10210682 ======
+[+] ====== Start training... epoch 227 ======
+[*] ...... Eval for Epoch: 227, Iter: 1 precision: 0.8455 recall: 0.7183
+[*] Epoch: 227, Iter: 1 current loss: 0.09694674
+[*] ...... Eval for Epoch: 227, Iter: 2 precision: 0.8527 recall: 0.6994
+[*] Epoch: 227, Iter: 2 current loss: 0.09858992
+[*] ...... Eval for Epoch: 227, Iter: 3 precision: 0.8419 recall: 0.7398
+[*] Epoch: 227, Iter: 3 current loss: 0.09299497
+[+] ====== Epoch 227 finished, avg_loss : 0.09617721 ======
+[+] ====== Start training... epoch 228 ======
+[*] ...... Eval for Epoch: 228, Iter: 1 precision: 0.8397 recall: 0.7419
+[*] Epoch: 228, Iter: 1 current loss: 0.08869617
+[*] ...... Eval for Epoch: 228, Iter: 2 precision: 0.8493 recall: 0.6983
+[*] Epoch: 228, Iter: 2 current loss: 0.10150015
+[*] ...... Eval for Epoch: 228, Iter: 3 precision: 0.8682 recall: 0.7199
+[*] Epoch: 228, Iter: 3 current loss: 0.09521001
+[+] ====== Epoch 228 finished, avg_loss : 0.09513544 ======
+[+] ====== Start training... epoch 229 ======
+[*] ...... Eval for Epoch: 229, Iter: 1 precision: 0.8189 recall: 0.7589
+[*] Epoch: 229, Iter: 1 current loss: 0.08849019
+[*] ...... Eval for Epoch: 229, Iter: 2 precision: 0.8565 recall: 0.6851
+[*] Epoch: 229, Iter: 2 current loss: 0.10445759
+[*] ...... Eval for Epoch: 229, Iter: 3 precision: 0.8544 recall: 0.7332
+[*] Epoch: 229, Iter: 3 current loss: 0.09689386
+[+] ====== Epoch 229 finished, avg_loss : 0.09661388 ======
+[+] ====== Start training... epoch 230 ======
+[*] ...... Eval for Epoch: 230, Iter: 1 precision: 0.8358 recall: 0.7349
+[*] Epoch: 230, Iter: 1 current loss: 0.08986152
+[*] ...... Eval for Epoch: 230, Iter: 2 precision: 0.8592 recall: 0.7052
+[*] Epoch: 230, Iter: 2 current loss: 0.10315607
+[*] ...... Eval for Epoch: 230, Iter: 3 precision: 0.8203 recall: 0.7523
+[*] Epoch: 230, Iter: 3 current loss: 0.09122590
+[+] ====== Epoch 230 finished, avg_loss : 0.09474783 ======
+[+] ====== Start training... epoch 231 ======
+[*] ...... Eval for Epoch: 231, Iter: 1 precision: 0.8430 recall: 0.6933
+[*] Epoch: 231, Iter: 1 current loss: 0.10336068
+[*] ...... Eval for Epoch: 231, Iter: 2 precision: 0.8352 recall: 0.7538
+[*] Epoch: 231, Iter: 2 current loss: 0.08954225
+[*] ...... Eval for Epoch: 231, Iter: 3 precision: 0.8622 recall: 0.7119
+[*] Epoch: 231, Iter: 3 current loss: 0.09798565
+[+] ====== Epoch 231 finished, avg_loss : 0.09696286 ======
+[+] ====== Start training... epoch 232 ======
+[*] ...... Eval for Epoch: 232, Iter: 1 precision: 0.8288 recall: 0.7103
+[*] Epoch: 232, Iter: 1 current loss: 0.10283291
+[*] ...... Eval for Epoch: 232, Iter: 2 precision: 0.8613 recall: 0.6889
+[*] Epoch: 232, Iter: 2 current loss: 0.10216466
+[*] ...... Eval for Epoch: 232, Iter: 3 precision: 0.8240 recall: 0.7259
+[*] Epoch: 232, Iter: 3 current loss: 0.09958734
+[+] ====== Epoch 232 finished, avg_loss : 0.10152830 ======
+[+] ====== Start training... epoch 233 ======
+[*] ...... Eval for Epoch: 233, Iter: 1 precision: 0.8517 recall: 0.7171
+[*] Epoch: 233, Iter: 1 current loss: 0.09329391
+[*] ...... Eval for Epoch: 233, Iter: 2 precision: 0.8295 recall: 0.6919
+[*] Epoch: 233, Iter: 2 current loss: 0.10765794
+[*] ...... Eval for Epoch: 233, Iter: 3 precision: 0.8575 recall: 0.7186
+[*] Epoch: 233, Iter: 3 current loss: 0.09607560
+[+] ====== Epoch 233 finished, avg_loss : 0.09900915 ======
+[+] ====== Start training... epoch 234 ======
+[*] ...... Eval for Epoch: 234, Iter: 1 precision: 0.8443 recall: 0.7229
+[*] Epoch: 234, Iter: 1 current loss: 0.09701056
+[*] ...... Eval for Epoch: 234, Iter: 2 precision: 0.8209 recall: 0.7616
+[*] Epoch: 234, Iter: 2 current loss: 0.08703090
+[*] ...... Eval for Epoch: 234, Iter: 3 precision: 0.8759 recall: 0.6607
+[*] Epoch: 234, Iter: 3 current loss: 0.11581616
+[+] ====== Epoch 234 finished, avg_loss : 0.09995254 ======
+[+] ====== Start training... epoch 235 ======
+[*] ...... Eval for Epoch: 235, Iter: 1 precision: 0.8156 recall: 0.7435
+[*] Epoch: 235, Iter: 1 current loss: 0.09698562
+[*] ...... Eval for Epoch: 235, Iter: 2 precision: 0.8455 recall: 0.7405
+[*] Epoch: 235, Iter: 2 current loss: 0.08900545
+[*] ...... Eval for Epoch: 235, Iter: 3 precision: 0.8572 recall: 0.6784
+[*] Epoch: 235, Iter: 3 current loss: 0.11273662
+[+] ====== Epoch 235 finished, avg_loss : 0.09957590 ======
+[+] ====== Start training... epoch 236 ======
+[*] ...... Eval for Epoch: 236, Iter: 1 precision: 0.8473 recall: 0.7226
+[*] Epoch: 236, Iter: 1 current loss: 0.09756406
+[*] ...... Eval for Epoch: 236, Iter: 2 precision: 0.8270 recall: 0.7367
+[*] Epoch: 236, Iter: 2 current loss: 0.09603304
+[*] ...... Eval for Epoch: 236, Iter: 3 precision: 0.8386 recall: 0.7508
+[*] Epoch: 236, Iter: 3 current loss: 0.08777978
+[+] ====== Epoch 236 finished, avg_loss : 0.09379229 ======
+[+] ====== Start training... epoch 237 ======
+[*] ...... Eval for Epoch: 237, Iter: 1 precision: 0.8428 recall: 0.7159
+[*] Epoch: 237, Iter: 1 current loss: 0.09491609
+[*] ...... Eval for Epoch: 237, Iter: 2 precision: 0.8583 recall: 0.7160
+[*] Epoch: 237, Iter: 2 current loss: 0.09409784
+[*] ...... Eval for Epoch: 237, Iter: 3 precision: 0.8364 recall: 0.7381
+[*] Epoch: 237, Iter: 3 current loss: 0.09721383
+[+] ====== Epoch 237 finished, avg_loss : 0.09540925 ======
+[+] ====== Start training... epoch 238 ======
+[*] ...... Eval for Epoch: 238, Iter: 1 precision: 0.8160 recall: 0.7271
+[*] Epoch: 238, Iter: 1 current loss: 0.09599088
+[*] ...... Eval for Epoch: 238, Iter: 2 precision: 0.8397 recall: 0.6978
+[*] Epoch: 238, Iter: 2 current loss: 0.10428926
+[*] ...... Eval for Epoch: 238, Iter: 3 precision: 0.8694 recall: 0.6921
+[*] Epoch: 238, Iter: 3 current loss: 0.10665928
+[+] ====== Epoch 238 finished, avg_loss : 0.10231314 ======
+[+] ====== Start training... epoch 239 ======
+[*] ...... Eval for Epoch: 239, Iter: 1 precision: 0.8456 recall: 0.7022
+[*] Epoch: 239, Iter: 1 current loss: 0.10701058
+[*] ...... Eval for Epoch: 239, Iter: 2 precision: 0.8201 recall: 0.7420
+[*] Epoch: 239, Iter: 2 current loss: 0.09468663
+[*] ...... Eval for Epoch: 239, Iter: 3 precision: 0.8226 recall: 0.7364
+[*] Epoch: 239, Iter: 3 current loss: 0.09590206
+[+] ====== Epoch 239 finished, avg_loss : 0.09919975 ======
+[+] ====== Start training... epoch 240 ======
+[*] ...... Eval for Epoch: 240, Iter: 1 precision: 0.8496 recall: 0.7061
+[*] Epoch: 240, Iter: 1 current loss: 0.09650787
+[*] ...... Eval for Epoch: 240, Iter: 2 precision: 0.8492 recall: 0.7023
+[*] Epoch: 240, Iter: 2 current loss: 0.09991685
+[*] ...... Eval for Epoch: 240, Iter: 3 precision: 0.8496 recall: 0.7472
+[*] Epoch: 240, Iter: 3 current loss: 0.08920655
+[+] ====== Epoch 240 finished, avg_loss : 0.09521042 ======
+[+] ====== Start training... epoch 241 ======
+[*] ...... Eval for Epoch: 241, Iter: 1 precision: 0.8408 recall: 0.7050
+[*] Epoch: 241, Iter: 1 current loss: 0.10072592
+[*] ...... Eval for Epoch: 241, Iter: 2 precision: 0.8288 recall: 0.7458
+[*] Epoch: 241, Iter: 2 current loss: 0.09046944
+[*] ...... Eval for Epoch: 241, Iter: 3 precision: 0.8819 recall: 0.7163
+[*] Epoch: 241, Iter: 3 current loss: 0.09462459
+[+] ====== Epoch 241 finished, avg_loss : 0.09527332 ======
+[+] ====== Start training... epoch 242 ======
+[*] ...... Eval for Epoch: 242, Iter: 1 precision: 0.8223 recall: 0.7294
+[*] Epoch: 242, Iter: 1 current loss: 0.09382745
+[*] ...... Eval for Epoch: 242, Iter: 2 precision: 0.8338 recall: 0.7236
+[*] Epoch: 242, Iter: 2 current loss: 0.09787412
+[*] ...... Eval for Epoch: 242, Iter: 3 precision: 0.8913 recall: 0.6989
+[*] Epoch: 242, Iter: 3 current loss: 0.10098355
+[+] ====== Epoch 242 finished, avg_loss : 0.09756170 ======
+[+] ====== Start training... epoch 243 ======
+[*] ...... Eval for Epoch: 243, Iter: 1 precision: 0.8006 recall: 0.7572
+[*] Epoch: 243, Iter: 1 current loss: 0.09385926
+[*] ...... Eval for Epoch: 243, Iter: 2 precision: 0.8695 recall: 0.6763
+[*] Epoch: 243, Iter: 2 current loss: 0.11015566
+[*] ...... Eval for Epoch: 243, Iter: 3 precision: 0.8175 recall: 0.7803
+[*] Epoch: 243, Iter: 3 current loss: 0.08717598
+[+] ====== Epoch 243 finished, avg_loss : 0.09706363 ======
+[+] ====== Start training... epoch 244 ======
+[*] ...... Eval for Epoch: 244, Iter: 1 precision: 0.8620 recall: 0.6955
+[*] Epoch: 244, Iter: 1 current loss: 0.09957416
+[*] ...... Eval for Epoch: 244, Iter: 2 precision: 0.8239 recall: 0.7616
+[*] Epoch: 244, Iter: 2 current loss: 0.08874802
+[*] ...... Eval for Epoch: 244, Iter: 3 precision: 0.8799 recall: 0.6939
+[*] Epoch: 244, Iter: 3 current loss: 0.09802063
+[+] ====== Epoch 244 finished, avg_loss : 0.09544760 ======
+[+] ====== Start training... epoch 245 ======
+[*] ...... Eval for Epoch: 245, Iter: 1 precision: 0.8150 recall: 0.7392
+[*] Epoch: 245, Iter: 1 current loss: 0.09745821
+[*] ...... Eval for Epoch: 245, Iter: 2 precision: 0.8694 recall: 0.7073
+[*] Epoch: 245, Iter: 2 current loss: 0.09509969
+[*] ...... Eval for Epoch: 245, Iter: 3 precision: 0.8349 recall: 0.7399
+[*] Epoch: 245, Iter: 3 current loss: 0.09742967
+[+] ====== Epoch 245 finished, avg_loss : 0.09666252 ======
+[+] ====== Start training... epoch 246 ======
+[*] ...... Eval for Epoch: 246, Iter: 1 precision: 0.8556 recall: 0.7186
+[*] Epoch: 246, Iter: 1 current loss: 0.09731354
+[*] ...... Eval for Epoch: 246, Iter: 2 precision: 0.8373 recall: 0.7190
+[*] Epoch: 246, Iter: 2 current loss: 0.09778999
+[*] ...... Eval for Epoch: 246, Iter: 3 precision: 0.8373 recall: 0.7321
+[*] Epoch: 246, Iter: 3 current loss: 0.09129763
+[+] ====== Epoch 246 finished, avg_loss : 0.09546705 ======
+[+] ====== Start training... epoch 247 ======
+[*] ...... Eval for Epoch: 247, Iter: 1 precision: 0.8659 recall: 0.6850
+[*] Epoch: 247, Iter: 1 current loss: 0.10643260
+[*] ...... Eval for Epoch: 247, Iter: 2 precision: 0.8129 recall: 0.7658
+[*] Epoch: 247, Iter: 2 current loss: 0.08916697
+[*] ...... Eval for Epoch: 247, Iter: 3 precision: 0.8380 recall: 0.7384
+[*] Epoch: 247, Iter: 3 current loss: 0.09017574
+[+] ====== Epoch 247 finished, avg_loss : 0.09525844 ======
+[+] ====== Start training... epoch 248 ======
+[*] ...... Eval for Epoch: 248, Iter: 1 precision: 0.8720 recall: 0.7035
+[*] Epoch: 248, Iter: 1 current loss: 0.09668314
+[*] ...... Eval for Epoch: 248, Iter: 2 precision: 0.8418 recall: 0.7461
+[*] Epoch: 248, Iter: 2 current loss: 0.09013368
+[*] ...... Eval for Epoch: 248, Iter: 3 precision: 0.7964 recall: 0.7415
+[*] Epoch: 248, Iter: 3 current loss: 0.09621209
+[+] ====== Epoch 248 finished, avg_loss : 0.09434297 ======
+[+] ====== Start training... epoch 249 ======
+[*] ...... Eval for Epoch: 249, Iter: 1 precision: 0.8533 recall: 0.7021
+[*] Epoch: 249, Iter: 1 current loss: 0.09441306
+[*] ...... Eval for Epoch: 249, Iter: 2 precision: 0.8331 recall: 0.7269
+[*] Epoch: 249, Iter: 2 current loss: 0.09475338
+[*] ...... Eval for Epoch: 249, Iter: 3 precision: 0.8809 recall: 0.6989
+[*] Epoch: 249, Iter: 3 current loss: 0.10034741
+[+] ====== Epoch 249 finished, avg_loss : 0.09650462 ======
+[+] ====== Start training... epoch 250 ======
+[*] ...... Eval for Epoch: 250, Iter: 1 precision: 0.8193 recall: 0.7313
+[*] Epoch: 250, Iter: 1 current loss: 0.09961783
+[*] ...... Eval for Epoch: 250, Iter: 2 precision: 0.8301 recall: 0.7424
+[*] Epoch: 250, Iter: 2 current loss: 0.09028906
+[*] ...... Eval for Epoch: 250, Iter: 3 precision: 0.8872 recall: 0.6938
+[*] Epoch: 250, Iter: 3 current loss: 0.10081523
+[+] ====== Epoch 250 finished, avg_loss : 0.09690737 ======
+[+] ====== Start training... epoch 251 ======
+[*] ...... Eval for Epoch: 251, Iter: 1 precision: 0.8256 recall: 0.7365
+[*] Epoch: 251, Iter: 1 current loss: 0.09867287
+[*] ...... Eval for Epoch: 251, Iter: 2 precision: 0.8369 recall: 0.7528
+[*] Epoch: 251, Iter: 2 current loss: 0.08843152
+[*] ...... Eval for Epoch: 251, Iter: 3 precision: 0.8713 recall: 0.6933
+[*] Epoch: 251, Iter: 3 current loss: 0.09929612
+[+] ====== Epoch 251 finished, avg_loss : 0.09546683 ======
+[+] ====== Start training... epoch 252 ======
+[*] ...... Eval for Epoch: 252, Iter: 1 precision: 0.8318 recall: 0.7472
+[*] Epoch: 252, Iter: 1 current loss: 0.09054995
+[*] ...... Eval for Epoch: 252, Iter: 2 precision: 0.8301 recall: 0.7257
+[*] Epoch: 252, Iter: 2 current loss: 0.09707727
+[*] ...... Eval for Epoch: 252, Iter: 3 precision: 0.8767 recall: 0.7096
+[*] Epoch: 252, Iter: 3 current loss: 0.09849189
+[+] ====== Epoch 252 finished, avg_loss : 0.09537303 ======
+[+] ====== Start training... epoch 253 ======
+[*] ...... Eval for Epoch: 253, Iter: 1 precision: 0.8527 recall: 0.7465
+[*] Epoch: 253, Iter: 1 current loss: 0.09398833
+[*] ...... Eval for Epoch: 253, Iter: 2 precision: 0.8227 recall: 0.7297
+[*] Epoch: 253, Iter: 2 current loss: 0.09823743
+[*] ...... Eval for Epoch: 253, Iter: 3 precision: 0.8248 recall: 0.7588
+[*] Epoch: 253, Iter: 3 current loss: 0.08355286
+[+] ====== Epoch 253 finished, avg_loss : 0.09192620 ======
+[+] ====== Start training... epoch 254 ======
+[*] ...... Eval for Epoch: 254, Iter: 1 precision: 0.8508 recall: 0.6949
+[*] Epoch: 254, Iter: 1 current loss: 0.10026516
+[*] ...... Eval for Epoch: 254, Iter: 2 precision: 0.8689 recall: 0.7282
+[*] Epoch: 254, Iter: 2 current loss: 0.09264058
+[*] ...... Eval for Epoch: 254, Iter: 3 precision: 0.7968 recall: 0.7826
+[*] Epoch: 254, Iter: 3 current loss: 0.08523563
+[+] ====== Epoch 254 finished, avg_loss : 0.09271379 ======
+[+] ====== Start training... epoch 255 ======
+[*] ...... Eval for Epoch: 255, Iter: 1 precision: 0.8898 recall: 0.6902
+[*] Epoch: 255, Iter: 1 current loss: 0.09384205
+[*] ...... Eval for Epoch: 255, Iter: 2 precision: 0.8290 recall: 0.7553
+[*] Epoch: 255, Iter: 2 current loss: 0.09055711
+[*] ...... Eval for Epoch: 255, Iter: 3 precision: 0.8223 recall: 0.7132
+[*] Epoch: 255, Iter: 3 current loss: 0.10272622
+[+] ====== Epoch 255 finished, avg_loss : 0.09570846 ======
+[+] ====== Start training... epoch 256 ======
+[*] ...... Eval for Epoch: 256, Iter: 1 precision: 0.8540 recall: 0.7070
+[*] Epoch: 256, Iter: 1 current loss: 0.09518604
+[*] ...... Eval for Epoch: 256, Iter: 2 precision: 0.8448 recall: 0.7350
+[*] Epoch: 256, Iter: 2 current loss: 0.09378074
+[*] ...... Eval for Epoch: 256, Iter: 3 precision: 0.8470 recall: 0.7334
+[*] Epoch: 256, Iter: 3 current loss: 0.09480178
+[+] ====== Epoch 256 finished, avg_loss : 0.09458952 ======
+[+] ====== Start training... epoch 257 ======
+[*] ...... Eval for Epoch: 257, Iter: 1 precision: 0.8490 recall: 0.7207
+[*] Epoch: 257, Iter: 1 current loss: 0.09413364
+[*] ...... Eval for Epoch: 257, Iter: 2 precision: 0.8404 recall: 0.7377
+[*] Epoch: 257, Iter: 2 current loss: 0.09084057
+[*] ...... Eval for Epoch: 257, Iter: 3 precision: 0.8467 recall: 0.6820
+[*] Epoch: 257, Iter: 3 current loss: 0.11224660
+[+] ====== Epoch 257 finished, avg_loss : 0.09907360 ======
+[+] ====== Start training... epoch 258 ======
+[*] ...... Eval for Epoch: 258, Iter: 1 precision: 0.8283 recall: 0.7622
+[*] Epoch: 258, Iter: 1 current loss: 0.08668130
+[*] ...... Eval for Epoch: 258, Iter: 2 precision: 0.8743 recall: 0.7154
+[*] Epoch: 258, Iter: 2 current loss: 0.08969041
+[*] ...... Eval for Epoch: 258, Iter: 3 precision: 0.8253 recall: 0.6877
+[*] Epoch: 258, Iter: 3 current loss: 0.11477133
+[+] ====== Epoch 258 finished, avg_loss : 0.09704768 ======
+[+] ====== Start training... epoch 259 ======
+[*] ...... Eval for Epoch: 259, Iter: 1 precision: 0.8376 recall: 0.7300
+[*] Epoch: 259, Iter: 1 current loss: 0.09887899
+[*] ...... Eval for Epoch: 259, Iter: 2 precision: 0.8320 recall: 0.7301
+[*] Epoch: 259, Iter: 2 current loss: 0.09291568
+[*] ...... Eval for Epoch: 259, Iter: 3 precision: 0.8519 recall: 0.6814
+[*] Epoch: 259, Iter: 3 current loss: 0.10838133
+[+] ====== Epoch 259 finished, avg_loss : 0.10005866 ======
+[+] ====== Start training... epoch 260 ======
+[*] ...... Eval for Epoch: 260, Iter: 1 precision: 0.8166 recall: 0.7403
+[*] Epoch: 260, Iter: 1 current loss: 0.09693318
+[*] ...... Eval for Epoch: 260, Iter: 2 precision: 0.8607 recall: 0.7141
+[*] Epoch: 260, Iter: 2 current loss: 0.09292993
+[*] ...... Eval for Epoch: 260, Iter: 3 precision: 0.8413 recall: 0.7019
+[*] Epoch: 260, Iter: 3 current loss: 0.10317209
+[+] ====== Epoch 260 finished, avg_loss : 0.09767840 ======
+[+] ====== Start training... epoch 261 ======
+[*] ...... Eval for Epoch: 261, Iter: 1 precision: 0.8486 recall: 0.7292
+[*] Epoch: 261, Iter: 1 current loss: 0.09262640
+[*] ...... Eval for Epoch: 261, Iter: 2 precision: 0.8346 recall: 0.7180
+[*] Epoch: 261, Iter: 2 current loss: 0.09845877
+[*] ...... Eval for Epoch: 261, Iter: 3 precision: 0.8618 recall: 0.7252
+[*] Epoch: 261, Iter: 3 current loss: 0.09142346
+[+] ====== Epoch 261 finished, avg_loss : 0.09416954 ======
+[+] ====== Start training... epoch 262 ======
+[*] ...... Eval for Epoch: 262, Iter: 1 precision: 0.8391 recall: 0.7296
+[*] Epoch: 262, Iter: 1 current loss: 0.09593835
+[*] ...... Eval for Epoch: 262, Iter: 2 precision: 0.8610 recall: 0.7274
+[*] Epoch: 262, Iter: 2 current loss: 0.09288280
+[*] ...... Eval for Epoch: 262, Iter: 3 precision: 0.8010 recall: 0.7840
+[*] Epoch: 262, Iter: 3 current loss: 0.08399312
+[+] ====== Epoch 262 finished, avg_loss : 0.09093809 ======
+[+] ====== Start training... epoch 263 ======
+[*] ...... Eval for Epoch: 263, Iter: 1 precision: 0.8875 recall: 0.6980
+[*] Epoch: 263, Iter: 1 current loss: 0.09318837
+[*] ...... Eval for Epoch: 263, Iter: 2 precision: 0.8139 recall: 0.7516
+[*] Epoch: 263, Iter: 2 current loss: 0.09334601
+[*] ...... Eval for Epoch: 263, Iter: 3 precision: 0.8614 recall: 0.7140
+[*] Epoch: 263, Iter: 3 current loss: 0.09571186
+[+] ====== Epoch 263 finished, avg_loss : 0.09408208 ======
+[+] ====== Start training... epoch 264 ======
+[*] ...... Eval for Epoch: 264, Iter: 1 precision: 0.8273 recall: 0.7222
+[*] Epoch: 264, Iter: 1 current loss: 0.09896560
+[*] ...... Eval for Epoch: 264, Iter: 2 precision: 0.8639 recall: 0.7165
+[*] Epoch: 264, Iter: 2 current loss: 0.09384532
+[*] ...... Eval for Epoch: 264, Iter: 3 precision: 0.8312 recall: 0.7198
+[*] Epoch: 264, Iter: 3 current loss: 0.09914429
+[+] ====== Epoch 264 finished, avg_loss : 0.09731841 ======
+[+] ====== Start training... epoch 265 ======
+[*] ...... Eval for Epoch: 265, Iter: 1 precision: 0.8484 recall: 0.7257
+[*] Epoch: 265, Iter: 1 current loss: 0.09206110
+[*] ...... Eval for Epoch: 265, Iter: 2 precision: 0.8239 recall: 0.7525
+[*] Epoch: 265, Iter: 2 current loss: 0.08815227
+[*] ...... Eval for Epoch: 265, Iter: 3 precision: 0.8954 recall: 0.6580
+[*] Epoch: 265, Iter: 3 current loss: 0.11451370
+[+] ====== Epoch 265 finished, avg_loss : 0.09824236 ======
+[+] ====== Start training... epoch 266 ======
+[*] ...... Eval for Epoch: 266, Iter: 1 precision: 0.8294 recall: 0.7523
+[*] Epoch: 266, Iter: 1 current loss: 0.09233013
+[*] ...... Eval for Epoch: 266, Iter: 2 precision: 0.8385 recall: 0.7475
+[*] Epoch: 266, Iter: 2 current loss: 0.09161101
+[*] ...... Eval for Epoch: 266, Iter: 3 precision: 0.8438 recall: 0.7009
+[*] Epoch: 266, Iter: 3 current loss: 0.10286317
+[+] ====== Epoch 266 finished, avg_loss : 0.09560143 ======
+[+] ====== Start training... epoch 267 ======
+[*] ...... Eval for Epoch: 267, Iter: 1 precision: 0.8104 recall: 0.7574
+[*] Epoch: 267, Iter: 1 current loss: 0.09277956
+[*] ...... Eval for Epoch: 267, Iter: 2 precision: 0.8565 recall: 0.7193
+[*] Epoch: 267, Iter: 2 current loss: 0.09121656
+[*] ...... Eval for Epoch: 267, Iter: 3 precision: 0.8844 recall: 0.7276
+[*] Epoch: 267, Iter: 3 current loss: 0.09332886
+[+] ====== Epoch 267 finished, avg_loss : 0.09244166 ======
+[+] ====== Start training... epoch 268 ======
+[*] ...... Eval for Epoch: 268, Iter: 1 precision: 0.8199 recall: 0.7525
+[*] Epoch: 268, Iter: 1 current loss: 0.09240271
+[*] ...... Eval for Epoch: 268, Iter: 2 precision: 0.8720 recall: 0.7303
+[*] Epoch: 268, Iter: 2 current loss: 0.09001092
+[*] ...... Eval for Epoch: 268, Iter: 3 precision: 0.8101 recall: 0.7366
+[*] Epoch: 268, Iter: 3 current loss: 0.10018723
+[+] ====== Epoch 268 finished, avg_loss : 0.09420029 ======
+[+] ====== Start training... epoch 269 ======
+[*] ...... Eval for Epoch: 269, Iter: 1 precision: 0.8495 recall: 0.7218
+[*] Epoch: 269, Iter: 1 current loss: 0.09261437
+[*] ...... Eval for Epoch: 269, Iter: 2 precision: 0.8365 recall: 0.7459
+[*] Epoch: 269, Iter: 2 current loss: 0.08967252
+[*] ...... Eval for Epoch: 269, Iter: 3 precision: 0.8765 recall: 0.6945
+[*] Epoch: 269, Iter: 3 current loss: 0.10183599
+[+] ====== Epoch 269 finished, avg_loss : 0.09470763 ======
+[+] ====== Start training... epoch 270 ======
+[*] ...... Eval for Epoch: 270, Iter: 1 precision: 0.8141 recall: 0.7515
+[*] Epoch: 270, Iter: 1 current loss: 0.09282328
+[*] ...... Eval for Epoch: 270, Iter: 2 precision: 0.8458 recall: 0.7416
+[*] Epoch: 270, Iter: 2 current loss: 0.08674785
+[*] ...... Eval for Epoch: 270, Iter: 3 precision: 0.8909 recall: 0.7152
+[*] Epoch: 270, Iter: 3 current loss: 0.09681579
+[+] ====== Epoch 270 finished, avg_loss : 0.09212897 ======
+[+] ====== Start training... epoch 271 ======
+[*] ...... Eval for Epoch: 271, Iter: 1 precision: 0.8312 recall: 0.7517
+[*] Epoch: 271, Iter: 1 current loss: 0.09273947
+[*] ...... Eval for Epoch: 271, Iter: 2 precision: 0.8415 recall: 0.7468
+[*] Epoch: 271, Iter: 2 current loss: 0.09210532
+[*] ...... Eval for Epoch: 271, Iter: 3 precision: 0.8392 recall: 0.7395
+[*] Epoch: 271, Iter: 3 current loss: 0.08661206
+[+] ====== Epoch 271 finished, avg_loss : 0.09048562 ======
+[+] ====== Start training... epoch 272 ======
+[*] ...... Eval for Epoch: 272, Iter: 1 precision: 0.8535 recall: 0.7432
+[*] Epoch: 272, Iter: 1 current loss: 0.08960718
+[*] ...... Eval for Epoch: 272, Iter: 2 precision: 0.8381 recall: 0.7396
+[*] Epoch: 272, Iter: 2 current loss: 0.08942470
+[*] ...... Eval for Epoch: 272, Iter: 3 precision: 0.8443 recall: 0.7375
+[*] Epoch: 272, Iter: 3 current loss: 0.09219653
+[+] ====== Epoch 272 finished, avg_loss : 0.09040947 ======
+[+] ====== Start training... epoch 273 ======
+[*] ...... Eval for Epoch: 273, Iter: 1 precision: 0.8497 recall: 0.7421
+[*] Epoch: 273, Iter: 1 current loss: 0.09051059
+[*] ...... Eval for Epoch: 273, Iter: 2 precision: 0.8572 recall: 0.7203
+[*] Epoch: 273, Iter: 2 current loss: 0.09302797
+[*] ...... Eval for Epoch: 273, Iter: 3 precision: 0.8222 recall: 0.7780
+[*] Epoch: 273, Iter: 3 current loss: 0.08075737
+[+] ====== Epoch 273 finished, avg_loss : 0.08809865 ======
+[+] ====== Start training... epoch 274 ======
+[*] ...... Eval for Epoch: 274, Iter: 1 precision: 0.8456 recall: 0.7458
+[*] Epoch: 274, Iter: 1 current loss: 0.08213276
+[*] ...... Eval for Epoch: 274, Iter: 2 precision: 0.8792 recall: 0.7239
+[*] Epoch: 274, Iter: 2 current loss: 0.09053978
+[*] ...... Eval for Epoch: 274, Iter: 3 precision: 0.8212 recall: 0.6988
+[*] Epoch: 274, Iter: 3 current loss: 0.10882875
+[+] ====== Epoch 274 finished, avg_loss : 0.09383377 ======
+[+] ====== Start training... epoch 275 ======
+[*] ...... Eval for Epoch: 275, Iter: 1 precision: 0.8423 recall: 0.6886
+[*] Epoch: 275, Iter: 1 current loss: 0.11226097
+[*] ...... Eval for Epoch: 275, Iter: 2 precision: 0.8117 recall: 0.7225
+[*] Epoch: 275, Iter: 2 current loss: 0.10600089
+[*] ...... Eval for Epoch: 275, Iter: 3 precision: 0.8366 recall: 0.7363
+[*] Epoch: 275, Iter: 3 current loss: 0.08629183
+[+] ====== Epoch 275 finished, avg_loss : 0.10151790 ======
+[+] ====== Start training... epoch 276 ======
+[*] ...... Eval for Epoch: 276, Iter: 1 precision: 0.8591 recall: 0.7267
+[*] Epoch: 276, Iter: 1 current loss: 0.08717968
+[*] ...... Eval for Epoch: 276, Iter: 2 precision: 0.8556 recall: 0.7184
+[*] Epoch: 276, Iter: 2 current loss: 0.09470499
+[*] ...... Eval for Epoch: 276, Iter: 3 precision: 0.8623 recall: 0.7381
+[*] Epoch: 276, Iter: 3 current loss: 0.08780265
+[+] ====== Epoch 276 finished, avg_loss : 0.08989577 ======
+[+] ====== Start training... epoch 277 ======
+[*] ...... Eval for Epoch: 277, Iter: 1 precision: 0.8369 recall: 0.7694
+[*] Epoch: 277, Iter: 1 current loss: 0.08270054
+[*] ...... Eval for Epoch: 277, Iter: 2 precision: 0.8779 recall: 0.7119
+[*] Epoch: 277, Iter: 2 current loss: 0.09559719
+[*] ...... Eval for Epoch: 277, Iter: 3 precision: 0.7912 recall: 0.7563
+[*] Epoch: 277, Iter: 3 current loss: 0.09353106
+[+] ====== Epoch 277 finished, avg_loss : 0.09060960 ======
+[+] ====== Start training... epoch 278 ======
+[*] ...... Eval for Epoch: 278, Iter: 1 precision: 0.8753 recall: 0.7231
+[*] Epoch: 278, Iter: 1 current loss: 0.08905369
+[*] ...... Eval for Epoch: 278, Iter: 2 precision: 0.8465 recall: 0.7407
+[*] Epoch: 278, Iter: 2 current loss: 0.09095822
+[*] ...... Eval for Epoch: 278, Iter: 3 precision: 0.7924 recall: 0.7624
+[*] Epoch: 278, Iter: 3 current loss: 0.08913356
+[+] ====== Epoch 278 finished, avg_loss : 0.08971516 ======
+[+] ====== Start training... epoch 279 ======
+[*] ...... Eval for Epoch: 279, Iter: 1 precision: 0.8858 recall: 0.6993
+[*] Epoch: 279, Iter: 1 current loss: 0.09023893
+[*] ...... Eval for Epoch: 279, Iter: 2 precision: 0.8186 recall: 0.7716
+[*] Epoch: 279, Iter: 2 current loss: 0.08831782
+[*] ...... Eval for Epoch: 279, Iter: 3 precision: 0.8683 recall: 0.6894
+[*] Epoch: 279, Iter: 3 current loss: 0.09769052
+[+] ====== Epoch 279 finished, avg_loss : 0.09208242 ======
+[+] ====== Start training... epoch 280 ======
+[*] ...... Eval for Epoch: 280, Iter: 1 precision: 0.8314 recall: 0.7491
+[*] Epoch: 280, Iter: 1 current loss: 0.09224156
+[*] ...... Eval for Epoch: 280, Iter: 2 precision: 0.8459 recall: 0.7408
+[*] Epoch: 280, Iter: 2 current loss: 0.08554333
+[*] ...... Eval for Epoch: 280, Iter: 3 precision: 0.8808 recall: 0.7205
+[*] Epoch: 280, Iter: 3 current loss: 0.09389677
+[+] ====== Epoch 280 finished, avg_loss : 0.09056055 ======
+[+] ====== Start training... epoch 281 ======
+[*] ...... Eval for Epoch: 281, Iter: 1 precision: 0.8253 recall: 0.7672
+[*] Epoch: 281, Iter: 1 current loss: 0.08801481
+[*] ...... Eval for Epoch: 281, Iter: 2 precision: 0.8608 recall: 0.7091
+[*] Epoch: 281, Iter: 2 current loss: 0.09735929
+[*] ...... Eval for Epoch: 281, Iter: 3 precision: 0.8269 recall: 0.7546
+[*] Epoch: 281, Iter: 3 current loss: 0.09010562
+[+] ====== Epoch 281 finished, avg_loss : 0.09182657 ======
+[+] ====== Start training... epoch 282 ======
+[*] ...... Eval for Epoch: 282, Iter: 1 precision: 0.8761 recall: 0.7162
+[*] Epoch: 282, Iter: 1 current loss: 0.09339681
+[*] ...... Eval for Epoch: 282, Iter: 2 precision: 0.8141 recall: 0.7581
+[*] Epoch: 282, Iter: 2 current loss: 0.09063439
+[*] ...... Eval for Epoch: 282, Iter: 3 precision: 0.8441 recall: 0.7229
+[*] Epoch: 282, Iter: 3 current loss: 0.09378424
+[+] ====== Epoch 282 finished, avg_loss : 0.09260515 ======
+[+] ====== Start training... epoch 283 ======
+[*] ...... Eval for Epoch: 283, Iter: 1 precision: 0.8310 recall: 0.7666
+[*] Epoch: 283, Iter: 1 current loss: 0.08414250
+[*] ...... Eval for Epoch: 283, Iter: 2 precision: 0.8787 recall: 0.7086
+[*] Epoch: 283, Iter: 2 current loss: 0.09117596
+[*] ...... Eval for Epoch: 283, Iter: 3 precision: 0.8371 recall: 0.7447
+[*] Epoch: 283, Iter: 3 current loss: 0.09332868
+[+] ====== Epoch 283 finished, avg_loss : 0.08954904 ======
+[+] ====== Start training... epoch 284 ======
+[*] ...... Eval for Epoch: 284, Iter: 1 precision: 0.8549 recall: 0.7134
+[*] Epoch: 284, Iter: 1 current loss: 0.09849373
+[*] ...... Eval for Epoch: 284, Iter: 2 precision: 0.8260 recall: 0.7602
+[*] Epoch: 284, Iter: 2 current loss: 0.08920990
+[*] ...... Eval for Epoch: 284, Iter: 3 precision: 0.8342 recall: 0.7585
+[*] Epoch: 284, Iter: 3 current loss: 0.08549244
+[+] ====== Epoch 284 finished, avg_loss : 0.09106535 ======
+[+] ====== Start training... epoch 285 ======
+[*] ...... Eval for Epoch: 285, Iter: 1 precision: 0.8530 recall: 0.7220
+[*] Epoch: 285, Iter: 1 current loss: 0.09133250
+[*] ...... Eval for Epoch: 285, Iter: 2 precision: 0.8420 recall: 0.7363
+[*] Epoch: 285, Iter: 2 current loss: 0.09084826
+[*] ...... Eval for Epoch: 285, Iter: 3 precision: 0.8428 recall: 0.7378
+[*] Epoch: 285, Iter: 3 current loss: 0.09366795
+[+] ====== Epoch 285 finished, avg_loss : 0.09194957 ======
+[+] ====== Start training... epoch 286 ======
+[*] ...... Eval for Epoch: 286, Iter: 1 precision: 0.8473 recall: 0.7236
+[*] Epoch: 286, Iter: 1 current loss: 0.09260329
+[*] ...... Eval for Epoch: 286, Iter: 2 precision: 0.8345 recall: 0.7542
+[*] Epoch: 286, Iter: 2 current loss: 0.08633001
+[*] ...... Eval for Epoch: 286, Iter: 3 precision: 0.8996 recall: 0.6927
+[*] Epoch: 286, Iter: 3 current loss: 0.09888579
+[+] ====== Epoch 286 finished, avg_loss : 0.09260636 ======
+[+] ====== Start training... epoch 287 ======
+[*] ...... Eval for Epoch: 287, Iter: 1 precision: 0.8114 recall: 0.7657
+[*] Epoch: 287, Iter: 1 current loss: 0.09476168
+[*] ...... Eval for Epoch: 287, Iter: 2 precision: 0.8598 recall: 0.7281
+[*] Epoch: 287, Iter: 2 current loss: 0.08938658
+[*] ...... Eval for Epoch: 287, Iter: 3 precision: 0.8536 recall: 0.7311
+[*] Epoch: 287, Iter: 3 current loss: 0.09269896
+[+] ====== Epoch 287 finished, avg_loss : 0.09228241 ======
+[+] ====== Start training... epoch 288 ======
+[*] ...... Eval for Epoch: 288, Iter: 1 precision: 0.8450 recall: 0.7492
+[*] Epoch: 288, Iter: 1 current loss: 0.08808231
+[*] ...... Eval for Epoch: 288, Iter: 2 precision: 0.8412 recall: 0.7550
+[*] Epoch: 288, Iter: 2 current loss: 0.08541323
+[*] ...... Eval for Epoch: 288, Iter: 3 precision: 0.8698 recall: 0.7374
+[*] Epoch: 288, Iter: 3 current loss: 0.09098087
+[+] ====== Epoch 288 finished, avg_loss : 0.08815880 ======
+[+] ====== Start training... epoch 289 ======
+[*] ...... Eval for Epoch: 289, Iter: 1 precision: 0.8673 recall: 0.7437
+[*] Epoch: 289, Iter: 1 current loss: 0.09080098
+[*] ...... Eval for Epoch: 289, Iter: 2 precision: 0.8161 recall: 0.7925
+[*] Epoch: 289, Iter: 2 current loss: 0.07950620
+[*] ...... Eval for Epoch: 289, Iter: 3 precision: 0.8448 recall: 0.7015
+[*] Epoch: 289, Iter: 3 current loss: 0.09909070
+[+] ====== Epoch 289 finished, avg_loss : 0.08979929 ======
+[+] ====== Start training... epoch 290 ======
+[*] ...... Eval for Epoch: 290, Iter: 1 precision: 0.8329 recall: 0.7517
+[*] Epoch: 290, Iter: 1 current loss: 0.08927787
+[*] ...... Eval for Epoch: 290, Iter: 2 precision: 0.8447 recall: 0.7444
+[*] Epoch: 290, Iter: 2 current loss: 0.08640262
+[*] ...... Eval for Epoch: 290, Iter: 3 precision: 0.8855 recall: 0.7161
+[*] Epoch: 290, Iter: 3 current loss: 0.09261429
+[+] ====== Epoch 290 finished, avg_loss : 0.08943159 ======
+[+] ====== Start training... epoch 291 ======
+[*] ...... Eval for Epoch: 291, Iter: 1 precision: 0.7963 recall: 0.8043
+[*] Epoch: 291, Iter: 1 current loss: 0.08298021
+[*] ...... Eval for Epoch: 291, Iter: 2 precision: 0.8676 recall: 0.6998
+[*] Epoch: 291, Iter: 2 current loss: 0.09447911
+[*] ...... Eval for Epoch: 291, Iter: 3 precision: 0.8670 recall: 0.7197
+[*] Epoch: 291, Iter: 3 current loss: 0.10003681
+[+] ====== Epoch 291 finished, avg_loss : 0.09249871 ======
+[+] ====== Start training... epoch 292 ======
