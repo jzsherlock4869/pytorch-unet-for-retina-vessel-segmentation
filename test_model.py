@@ -14,7 +14,7 @@ import os
 from glob import glob
 os.environ['KMP_DUPLICATE_LIB_OK']='True'
 from unet_model import Unet
-from utils import paste_and_save
+from utils import paste_and_save, eval_print_metrics
 from data_loader import load_dataset
 
 
@@ -29,17 +29,18 @@ def model_test(net, batch_size=2):
         if not ite == num_iters - 1:
             start_id, end_id = ite * batch_size, (ite + 1) * batch_size
             bat_img = torch.Tensor(x_tensor[start_id : end_id, :, :, :])
-            bat_label = torch.Tensor(y_tensor[start_id : end_id, :, :, :])
+            bat_label = torch.Tensor(y_tensor[start_id : end_id, 0: 1, :, :])
             #bat_mask_2ch = torch.Tensor(m_tensor[start_id : end_id, :, :, :])
             bat_mask = torch.Tensor(m_tensor[start_id : end_id, 0: 1, :, :])
         else:
             start_id = ite * batch_size
             bat_img = torch.Tensor(x_tensor[start_id : , :, :, :])
-            bat_label = torch.Tensor(y_tensor[start_id : , :, :, :])
+            bat_label = torch.Tensor(y_tensor[start_id : , 0: 1, :, :])
             #bat_mask_2ch = torch.Tensor(m_tensor[start_id : end_id, :, :, :])
             bat_mask = torch.Tensor(m_tensor[start_id : , 0: 1, :, :])
         bat_pred = net(bat_img)
         bat_pred_class = (bat_pred > 0.5).float() * bat_mask
+        eval_print_metrics(bat_label, bat_pred, bat_mask)
         # plt.imshow(bat_pred[0,0,:,:].detach().numpy(), cmap='jet')#, vmin=0, vmax=1)
         # plt.colorbar()
         # plt.show()

@@ -18,12 +18,13 @@ from utils import eval_print_metrics
 import warnings
 warnings.filterwarnings('ignore')
 
-def model_train(net, epochs=500, batch_size=2, lr=1e-2, save_every=5, is_eval=True):
+def model_train(net, epochs=500, batch_size=2, lr=1e-2, save_every=5, eval_every=10, is_eval=True):
     #optimizer = torch.optim.RMSprop(net.parameters(), lr=lr, weight_decay=1e-8, momentum=0.9)
     optimizer = torch.optim.SGD(net.parameters(), lr=lr)
     #optimizer = torch.optim.Adam(net.parameters(), lr=lr)
     #loss_func = nn.CrossEntropyLoss()
-    loss_func = nn.BCELoss()
+    class_weights = torch.Tensor([1.0, 10.0])
+    loss_func = nn.BCELoss(weight=class_weights)
     x_tensor, y_tensor, m_tensor = load_dataset(mode="training", resize=True, resize_shape=(256, 256))
     #x_tensor, y_tensor, m_tensor = rim_padding(x_tensor), rim_padding(y_tensor), rim_padding(m_tensor)
     num_samples = x_tensor.shape[0]
@@ -50,15 +51,17 @@ def model_train(net, epochs=500, batch_size=2, lr=1e-2, save_every=5, is_eval=Tr
                 bat_mask = torch.Tensor(m_tensor[start_id : , 0: 1, :, :])
             optimizer.zero_grad()
             bat_pred = net(bat_img)
-            #print(bat_pred.size(), bat_mask.size(), bat_label.size())
+            # print(bat_pred.size(), bat_mask.size(), bat_label.size())
             # masked_pred = bat_pred * bat_mask
             # masked_label = bat_label * bat_mask
             loss = loss_func(bat_pred, bat_label.float())
+            # loss = loss_func(masked_pred, masked_label.float())
             print("[*] Epoch: {}, Iter: {} current loss: {:.8f}"\
                   .format(epoch + 1, ite + 1, loss.item()))
             if is_eval:
-                print("[*] ...... Eval for Epoch: {}, Iter: {} ....... ".format(epoch + 1, ite + 1))
-                eval_print_metrics(bat_label, bat_pred, bat_mask)
+                if epoch % eval_every == 0:
+                    print("[*] ...... Eval for Epoch: {}, Iter: {} ....... ".format(epoch + 1, ite + 1))
+                    eval_print_metrics(bat_label, bat_pred, bat_mask)
 
             if not ite == num_iters - 1:
                 epoch_tot_loss += loss.item()
@@ -87,8 +90,14 @@ if __name__ == "__main__":
     EPOCHS = 500
     BATCH_SIZE = 8
     SAVE_EVERY = 20
+    EVAL_EVERY = 30
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     unet_ins = Unet(img_ch=3, isDeconv=True, isBN=True)
     unet_ins.to(device)
-    trained_unet = model_train(unet_ins, batch_size=BATCH_SIZE, lr=LR, epochs=EPOCHS, save_every=SAVE_EVERY)
+    trained_unet = model_train(unet_ins, 
+                            batch_size=BATCH_SIZE, 
+                            lr=LR, 
+                            epochs=EPOCHS, 
+                            save_every=SAVE_EVERY, 
+                            eval_every=EVAL_EVERY)

@@ -22,10 +22,10 @@ def eval_print_metrics(bat_label, bat_pred, bat_mask):
     
     precision = float(torch.sum(masked_pred_class * masked_label)) / (float(torch.sum(masked_pred_class)) + 1)
     recall = float(torch.sum(masked_pred_class * masked_label)) / (float(torch.sum(masked_label.float())) + 1)
-    f1_score = 2.0 * precision * recall / (precision + recall)
+    f1_score = 2.0 * precision * recall / (precision + recall + 1e-8)
     
-    pred_ls = np.array(bat_pred[bat_mask > 0])
-    label_ls = np.array(bat_label[bat_mask > 0], dtype=np.int)
+    pred_ls = np.array(bat_pred[bat_mask > 0].detach())
+    label_ls = np.array(bat_label[bat_mask > 0].detach(), dtype=np.int)
     bat_auc = roc_auc_score(label_ls, pred_ls)
 
     print("[*] ...... Evaluation ...... ")
