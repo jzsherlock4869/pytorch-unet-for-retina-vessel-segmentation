@@ -6,6 +6,7 @@ Reference for U-net: [U-Net: Convolutional Networks for Biomedical Image Segment
 
 Reference for DRIVE dataset and introduction: [DRIVE: Digital Retinal Images for Vessel Extraction](https://drive.grand-challenge.org/)
 
+![jzsherlock4869's GitHub stats](https://github-readme-stats.vercel.app/api?username=jzsherlock4869&show_icons=true&theme=radical)
 
 ## Dataset Overview
 
