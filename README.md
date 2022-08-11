@@ -6,9 +6,13 @@ Reference for U-net: [U-Net: Convolutional Networks for Biomedical Image Segment
 
 Reference for DRIVE dataset and introduction: [DRIVE: Digital Retinal Images for Vessel Extraction](https://drive.grand-challenge.org/)
 
+## Network Achitecture
+
+![unet_arch](./repo_pics/unet_arch.png)
+
 ## Dataset Overview
 
-![channels_drive](https://github.com/jzsherlock4869/PyTorch_Unet_for_RetinaVessel_Segmentation/blob/master/repo_pics/channels_drive.png "RGB channels for a sample image in DRIVE")
+![channels_drive](./repo_pics/channels_drive.png)
 
 ![mask_label_drive](https://github.com/jzsherlock4869/PyTorch_Unet_for_RetinaVessel_Segmentation/blob/master/repo_pics/mask_label_drive.png "a. Original Image; b. Mask; c. Mannual Label")
 
