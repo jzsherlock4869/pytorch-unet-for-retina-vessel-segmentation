@@ -19,11 +19,12 @@ import warnings
 warnings.filterwarnings('ignore')
 
 def model_train(net, epochs=500, batch_size=2, lr=1e-2, save_every=5, eval_every=10, is_eval=True):
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     #optimizer = torch.optim.RMSprop(net.parameters(), lr=lr, weight_decay=1e-8, momentum=0.9)
     optimizer = torch.optim.SGD(net.parameters(), lr=lr)
     #optimizer = torch.optim.Adam(net.parameters(), lr=lr)
     #loss_func = nn.CrossEntropyLoss()
-    x_tensor, y_tensor, m_tensor = load_dataset(mode="training", resize=True, resize_shape=(256, 256))
+    x_tensor, y_tensor, m_tensor = load_dataset(mode="training")
     #x_tensor, y_tensor, m_tensor = rim_padding(x_tensor), rim_padding(y_tensor), rim_padding(m_tensor)
     num_samples = x_tensor.shape[0]
     for epoch in range(epochs):
@@ -37,16 +38,16 @@ def model_train(net, epochs=500, batch_size=2, lr=1e-2, save_every=5, eval_every
         for ite in range(num_iters):
             if not ite == num_iters - 1:
                 start_id, end_id = ite * batch_size, (ite + 1) * batch_size
-                bat_img = torch.Tensor(x_tensor[start_id : end_id, :, :, :])
-                bat_label = torch.Tensor(y_tensor[start_id : end_id, 0: 1, :, :])
-                # bat_mask_2ch = torch.Tensor(m_tensor[start_id : end_id, :, :, :])
-                bat_mask = torch.Tensor(m_tensor[start_id : end_id, 0: 1, :, :])
+                bat_img = torch.Tensor(x_tensor[start_id : end_id, :, :, :]).to(device)
+                bat_label = torch.Tensor(y_tensor[start_id : end_id, 0: 1, :, :]).to(device)
+                # bat_mask_2ch = torch.Tensor(m_tensor[start_id : end_id, :, :, :]).to(device)
+                bat_mask = torch.Tensor(m_tensor[start_id : end_id, 0: 1, :, :]).to(device)
             else:
                 start_id = ite * batch_size
-                bat_img = torch.Tensor(x_tensor[start_id : , :, :, :])
-                bat_label = torch.Tensor(y_tensor[start_id : , 0: 1, :, :])
-                # bat_mask_2ch = torch.Tensor(m_tensor[start_id : , :, :, :])
-                bat_mask = torch.Tensor(m_tensor[start_id : , 0: 1, :, :])
+                bat_img = torch.Tensor(x_tensor[start_id : , :, :, :]).to(device)
+                bat_label = torch.Tensor(y_tensor[start_id : , 0: 1, :, :]).to(device)
+                # bat_mask_2ch = torch.Tensor(m_tensor[start_id : , :, :, :]).to(device)
+                bat_mask = torch.Tensor(m_tensor[start_id : , 0: 1, :, :]).to(device)
             criterion = nn.BCELoss()
             optimizer.zero_grad()
             bat_pred = net(bat_img)

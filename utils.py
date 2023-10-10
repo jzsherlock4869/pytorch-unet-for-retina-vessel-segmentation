@@ -24,8 +24,8 @@ def eval_print_metrics(bat_label, bat_pred, bat_mask):
     recall = float(torch.sum(masked_pred_class * masked_label)) / (float(torch.sum(masked_label.float())) + 1)
     f1_score = 2.0 * precision * recall / (precision + recall + 1e-8)
     
-    pred_ls = np.array(bat_pred[bat_mask > 0].detach())
-    label_ls = np.array(bat_label[bat_mask > 0].detach(), dtype=np.int)
+    pred_ls = np.array(bat_pred[bat_mask > 0].detach().cpu())
+    label_ls = np.array(bat_label[bat_mask > 0].detach().cpu(), dtype=np.int)
     bat_auc = roc_auc_score(label_ls, pred_ls)
 
     print("[*] ...... Evaluation ...... ")
@@ -37,9 +37,9 @@ def paste_and_save(bat_img, bat_label, bat_pred_class, batch_size, cur_bat_num, 
     w, h = bat_img.size()[2:4]
     for bat_id in range(bat_img.size()[0]):
         # img = Image.fromarray(np.moveaxis(np.array((bat_img + 1) / 2 * 255.0, dtype=np.uint8)[bat_id, :, :, :], 0, 2))
-        img = Image.fromarray(np.moveaxis(np.array(bat_img * 255.0, dtype=np.uint8)[bat_id, :, :, :], 0, 2))
-        label = Image.fromarray(np.array(bat_label * 255.0, dtype=np.uint8)[bat_id, 0, :, :])
-        pred_class = Image.fromarray(np.array(bat_pred_class * 255.0, dtype=np.uint8)[bat_id, 0, :, :])
+        img = Image.fromarray(np.moveaxis(np.array(bat_img.cpu() * 255.0, dtype=np.uint8)[bat_id, :, :, :], 0, 2))
+        label = Image.fromarray(np.array(bat_label.cpu() * 255.0, dtype=np.uint8)[bat_id, 0, :, :])
+        pred_class = Image.fromarray(np.array(bat_pred_class.cpu() * 255.0, dtype=np.uint8)[bat_id, 0, :, :])
         
         res_id = (cur_bat_num - 1) * batch_size + bat_id
         target = Image.new('RGB', (3 * w, h))

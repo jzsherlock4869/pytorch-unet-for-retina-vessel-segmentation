@@ -19,8 +19,8 @@ from data_loader import load_dataset
 
 
 def model_test(net, batch_size=2):
-    
-    x_tensor, y_tensor, m_tensor = load_dataset(mode='test', resize=True, resize_shape=(256, 256))
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    x_tensor, y_tensor, m_tensor = load_dataset(mode='test')
     num_samples = x_tensor.shape[0]
     print("[+] ====== Start test... ======")
     num_iters = int(np.ceil(num_samples / batch_size))
@@ -28,16 +28,16 @@ def model_test(net, batch_size=2):
         print("[*] predicting on the {}th batch".format(ite + 1))
         if not ite == num_iters - 1:
             start_id, end_id = ite * batch_size, (ite + 1) * batch_size
-            bat_img = torch.Tensor(x_tensor[start_id : end_id, :, :, :])
-            bat_label = torch.Tensor(y_tensor[start_id : end_id, 0: 1, :, :])
-            #bat_mask_2ch = torch.Tensor(m_tensor[start_id : end_id, :, :, :])
-            bat_mask = torch.Tensor(m_tensor[start_id : end_id, 0: 1, :, :])
+            bat_img = torch.Tensor(x_tensor[start_id : end_id, :, :, :]).to(device)
+            bat_label = torch.Tensor(y_tensor[start_id : end_id, 0: 1, :, :]).to(device)
+            #bat_mask_2ch = torch.Tensor(m_tensor[start_id : end_id, :, :, :]).to(device)
+            bat_mask = torch.Tensor(m_tensor[start_id : end_id, 0: 1, :, :]).to(device)
         else:
             start_id = ite * batch_size
-            bat_img = torch.Tensor(x_tensor[start_id : , :, :, :])
-            bat_label = torch.Tensor(y_tensor[start_id : , 0: 1, :, :])
-            #bat_mask_2ch = torch.Tensor(m_tensor[start_id : end_id, :, :, :])
-            bat_mask = torch.Tensor(m_tensor[start_id : , 0: 1, :, :])
+            bat_img = torch.Tensor(x_tensor[start_id : , :, :, :]).to(device)
+            bat_label = torch.Tensor(y_tensor[start_id : , 0: 1, :, :]).to(device)
+            #bat_mask_2ch = torch.Tensor(m_tensor[start_id : end_id, :, :, :]).to(device)
+            bat_mask = torch.Tensor(m_tensor[start_id : , 0: 1, :, :]).to(device)
         bat_pred = net(bat_img)
         bat_pred_class = (bat_pred > 0.5).float() * bat_mask
         eval_print_metrics(bat_label, bat_pred, bat_mask)
