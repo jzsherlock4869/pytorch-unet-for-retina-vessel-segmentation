@@ -56,7 +56,9 @@ def load_dataset(rel_path='.', mode="training", resize=False, resize_shape=(256,
         else:
             tmp = np.expand_dims(label, axis=0)
             label_tensor = np.concatenate((label_tensor, tmp), axis=0)
-    new_label_tensor = np.stack((label_tensor[:,:,:], 1 - label_tensor[:,:,:]), axis=1)
+    new_label_tensor = None
+    if mode == "training":
+        new_label_tensor = np.stack((label_tensor[:,:,:], 1 - label_tensor[:,:,:]), axis=1)
     
     for i, filename in enumerate(train_mask_files):
         print('[*] adding {}th {} mask : {}'.format(i+1, mode, filename))
