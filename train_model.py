@@ -7,7 +7,6 @@
 from PIL import Image
 import numpy as np
 import torch
-import matplotlib.pyplot as plt
 from torch import nn
 import torch.nn.functional as F
 import os
@@ -16,6 +15,9 @@ from data_loader import load_dataset
 from unet_model import Unet
 from utils import eval_print_metrics
 import warnings
+from tensorboardX import SummaryWriter
+from torchvision.utils import make_grid
+
 warnings.filterwarnings('ignore')
 
 def model_train(net, epochs=500, batch_size=2, lr=1e-2, save_every=5, eval_every=10, is_eval=True):
@@ -27,6 +29,8 @@ def model_train(net, epochs=500, batch_size=2, lr=1e-2, save_every=5, eval_every
     x_tensor, y_tensor, m_tensor = load_dataset(mode="training")
     #x_tensor, y_tensor, m_tensor = rim_padding(x_tensor), rim_padding(y_tensor), rim_padding(m_tensor)
     num_samples = x_tensor.shape[0]
+    writer = SummaryWriter()
+
     for epoch in range(epochs):
         epoch_tot_loss = 0
         print("[+] ====== Start training... epoch {} ======".format(epoch + 1))
@@ -56,6 +60,7 @@ def model_train(net, epochs=500, batch_size=2, lr=1e-2, save_every=5, eval_every
             # masked_label = bat_label * bat_mask
             loss = criterion(bat_pred, bat_label.float())
             # loss = loss_func(masked_pred, masked_label.float())
+            writer.add_scalar("Loss/train", loss, epoch)
             print("[*] Epoch: {}, Iter: {} current loss: {:.8f}"\
                   .format(epoch + 1, ite + 1, loss.item()))
             if is_eval:
@@ -70,10 +75,30 @@ def model_train(net, epochs=500, batch_size=2, lr=1e-2, save_every=5, eval_every
                 epoch_avg_loss = epoch_tot_loss / (ite + 1)
                 print("[+] ====== Epoch {} finished, avg_loss : {:.8f} ======"\
                       .format(epoch + 1, epoch_avg_loss))
+                writer.add_scalar("Average_loss/train", epoch_avg_loss, epoch)
             loss.backward()
             optimizer.step()
+            
+            image = bat_img[0, :, :, :]
+            grid_image = make_grid(image, 1, normalize=True)
+            writer.add_image('train/Image', grid_image, ite)
+
+            image = bat_pred[0, :, :, :]
+            grid_image = make_grid(image, 1, normalize=False)
+            writer.add_image('train/Predicted_label', grid_image, ite)
+
+            image = bat_label[0, :, :]
+            grid_image = make_grid(image, 1, normalize=False)
+            writer.add_image('train/Groundtruth_label',
+                                grid_image, ite)
+            
+            image = bat_mask[0, :, :]
+            grid_image = make_grid(image, 1, normalize=False)
+            writer.add_image('train/Mask', grid_image, ite)
+                
         if epoch % save_every == 0:
             torch.save(net.state_dict(), "./checkpoint/Unet_epoch{}_loss{:.4f}_retina.model".format(str(epoch + 1).zfill(5), epoch_avg_loss))
+
     return net
 
 if __name__ == "__main__":

@@ -13,7 +13,7 @@ import torch.nn.functional as F
 import os
 from glob import glob
 
-def load_dataset(rel_path='.', mode="training", resize=False, resize_shape=(256, 256)):
+def load_dataset(rel_path='.', mode="training", resize=False, resize_shape=(256, 256), labelnum=20):
     
     if os.path.exists("datasets/{}/image.npy".format(mode)) and \
         os.path.exists("datasets/{}/label.npy".format(mode)) and \

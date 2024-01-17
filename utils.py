@@ -8,7 +8,7 @@ from PIL import Image
 import os
 import numpy as np
 import torch
-from sklearn.metrics import roc_auc_score
+from sklearn.metrics import roc_auc_score, roc_curve
 
 def eval_print_metrics(bat_label, bat_pred, bat_mask):
     assert len(bat_label.size()) == 4 \
@@ -25,13 +25,14 @@ def eval_print_metrics(bat_label, bat_pred, bat_mask):
     f1_score = 2.0 * precision * recall / (precision + recall + 1e-8)
     
     pred_ls = np.array(bat_pred[bat_mask > 0].detach().cpu())
-    label_ls = np.array(bat_label[bat_mask > 0].detach().cpu(), dtype=np.int)
+    label_ls = np.array(bat_label[bat_mask > 0].detach().cpu(), dtype=int)
     bat_auc = roc_auc_score(label_ls, pred_ls)
+    bat_roc = roc_curve(label_ls, pred_ls)
 
     print("[*] ...... Evaluation ...... ")
     print(" >>> precision: {:.4f} recall: {:.4f} f1_score: {:.4f} auc: {:.4f}".format(precision, recall, f1_score, bat_auc))
 
-    return precision, recall, f1_score, bat_auc
+    return precision, recall, f1_score, bat_auc, bat_roc
 
 def paste_and_save(bat_img, bat_label, bat_pred_class, batch_size, cur_bat_num, save_img='pred_imgs'):
     w, h = bat_img.size()[2:4]
